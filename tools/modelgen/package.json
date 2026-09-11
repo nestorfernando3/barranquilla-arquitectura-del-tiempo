@@ -1,0 +1,15 @@
+{
+  "name": "bq-modelgen",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Generador procedural de modelos GLB para el atlas Barranquilla: Arquitectura del tiempo",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build:all": "node build-all.mjs",
+    "validate:all": "node build-all.mjs --validate-only"
+  },
+  "dependencies": {
+    "@gltf-transform/core": "^4.1.0"
+  }
+}

@@ -1,0 +1,6306 @@
+{
+  "slug": "estacion-montoya",
+  "name": "Estación Montoya",
+  "frontAxis": "+z",
+  "parts": [
+    {
+      "type": "box",
+      "name": "Cuerpo principal de ladrillo",
+      "material": "#b88968",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        3.9,
+        0
+      ],
+      "s": [
+        14,
+        7.8,
+        8
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Mirador octogonal",
+      "material": "#b88968",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        5.8,
+        3.9,
+        3.05
+      ],
+      "rad": [
+        2.05,
+        2.05
+      ],
+      "s": [
+        1,
+        7.8,
+        1
+      ],
+      "seg": 8
+    },
+    {
+      "type": "hipRoof",
+      "name": "Cubierta principal a cuatro aguas",
+      "material": "#8f4439",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -0.25,
+        8.45,
+        -0.1
+      ],
+      "s": [
+        14.9,
+        2.1,
+        8.9
+      ],
+      "ridge": 0.52
+    },
+    {
+      "type": "cyl",
+      "name": "Cubierta cónica del mirador",
+      "material": "#8f4439",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        5.8,
+        8.8,
+        3.05
+      ],
+      "rad": [
+        0.05,
+        2.4
+      ],
+      "s": [
+        1,
+        2.15,
+        1
+      ],
+      "seg": 8
+    },
+    {
+      "type": "windowGrid",
+      "name": "Quicios claros",
+      "material": "#e8dcae",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -1.55,
+        4,
+        4.46
+      ],
+      "cell": [
+        2.25,
+        2.8,
+        0.16
+      ],
+      "count": [
+        3,
+        2
+      ],
+      "gap": [
+        1.1,
+        0.85
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Carpinterías verdes",
+      "material": "#2e8879",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -1.55,
+        4,
+        4.58
+      ],
+      "cell": [
+        1.62,
+        2.18,
+        0.12
+      ],
+      "count": [
+        3,
+        2
+      ],
+      "gap": [
+        1.73,
+        1.47
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Quicio claro del mirador",
+      "material": "#e8dcae",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        5.8,
+        4.05,
+        5.08
+      ],
+      "s": [
+        1.75,
+        5.9,
+        0.16
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Carpinterías verdes del mirador",
+      "material": "#2e8879",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        5.8,
+        4.05,
+        5.18
+      ],
+      "cell": [
+        1.18,
+        2.25,
+        0.12
+      ],
+      "count": [
+        1,
+        2
+      ],
+      "gap": [
+        0,
+        1.4
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Marquesinas rojas",
+      "material": "#a94134",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -1.55,
+        3.18,
+        4.72
+      ],
+      "s": [
+        10.35,
+        0.14,
+        1.35
+      ],
+      "r": [
+        0.18,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Marquesinas rojas superiores",
+      "material": "#a94134",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -1.55,
+        6.6,
+        4.55
+      ],
+      "cell": [
+        2.6,
+        0.12,
+        0.9
+      ],
+      "count": [
+        3,
+        1
+      ],
+      "gap": [
+        0.75,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Balcones de hierro",
+      "material": "#252b2c",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -1.55,
+        5.12,
+        4.62
+      ],
+      "cell": [
+        2.45,
+        0.12,
+        0.72
+      ],
+      "count": [
+        3,
+        1
+      ],
+      "gap": [
+        0.9,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Plataforma somera",
+      "material": "#b8ae9c",
+      "role": "context",
+      "evidence": "inferred",
+      "p": [
+        0,
+        0.075,
+        0.8
+      ],
+      "s": [
+        17,
+        0.15,
+        11
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Cumbrera de Cubierta principal a cuatro aguas",
+      "p": [
+        -0.25,
+        9.555,
+        -0.1
+      ],
+      "s": [
+        7.748,
+        0.13,
+        0.18
+      ],
+      "material": "#984d3a",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        7.645,
+        -4.1049999999999995
+      ],
+      "s": [
+        14.184800000000001,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        7.645,
+        3.905
+      ],
+      "s": [
+        14.184800000000001,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        7.8549999999999995,
+        -3.6600000000000006
+      ],
+      "s": [
+        13.469600000000002,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        7.8549999999999995,
+        3.4600000000000004
+      ],
+      "s": [
+        13.469600000000002,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        8.065,
+        -3.215
+      ],
+      "s": [
+        12.7544,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        8.065,
+        3.0149999999999997
+      ],
+      "s": [
+        12.7544,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        8.275,
+        -2.77
+      ],
+      "s": [
+        12.0392,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        8.275,
+        2.57
+      ],
+      "s": [
+        12.0392,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        8.485,
+        -2.325
+      ],
+      "s": [
+        11.324,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        8.485,
+        2.125
+      ],
+      "s": [
+        11.324,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        8.695,
+        -1.8800000000000003
+      ],
+      "s": [
+        10.6088,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        8.695,
+        1.6800000000000002
+      ],
+      "s": [
+        10.6088,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        8.905,
+        -1.4350000000000003
+      ],
+      "s": [
+        9.8936,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        8.905,
+        1.235
+      ],
+      "s": [
+        9.8936,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        9.115,
+        -0.9899999999999998
+      ],
+      "s": [
+        9.1784,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        9.115,
+        0.7899999999999998
+      ],
+      "s": [
+        9.1784,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        9.325,
+        -0.5449999999999999
+      ],
+      "s": [
+        8.4632,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -0.25,
+        9.325,
+        0.34499999999999986
+      ],
+      "s": [
+        8.4632,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · jamba",
+      "p": [
+        -5.710000000000001,
+        2.175,
+        4.696999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · jamba",
+      "p": [
+        -4.09,
+        2.175,
+        4.696999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · dintel",
+      "p": [
+        -4.9,
+        1.0849999999999997,
+        4.696999999999999
+      ],
+      "s": [
+        1.7400000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · dintel",
+      "p": [
+        -4.9,
+        3.2649999999999997,
+        4.696999999999999
+      ],
+      "s": [
+        1.7400000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · montante",
+      "p": [
+        -4.9,
+        2.175,
+        4.701999999999999
+      ],
+      "s": [
+        0.063,
+        2.18,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · travesaño",
+      "p": [
+        -4.9,
+        2.393,
+        4.701999999999999
+      ],
+      "s": [
+        1.62,
+        0.063,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · alféizar",
+      "p": [
+        -4.9,
+        0.9849999999999997,
+        4.731999999999999
+      ],
+      "s": [
+        1.9000000000000001,
+        0.13,
+        0.28
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · jamba",
+      "p": [
+        -2.3600000000000003,
+        2.175,
+        4.696999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · jamba",
+      "p": [
+        -0.74,
+        2.175,
+        4.696999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · dintel",
+      "p": [
+        -1.55,
+        1.0849999999999997,
+        4.696999999999999
+      ],
+      "s": [
+        1.7400000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · dintel",
+      "p": [
+        -1.55,
+        3.2649999999999997,
+        4.696999999999999
+      ],
+      "s": [
+        1.7400000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · montante",
+      "p": [
+        -1.55,
+        2.175,
+        4.701999999999999
+      ],
+      "s": [
+        0.063,
+        2.18,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · travesaño",
+      "p": [
+        -1.55,
+        2.393,
+        4.701999999999999
+      ],
+      "s": [
+        1.62,
+        0.063,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · alféizar",
+      "p": [
+        -1.55,
+        0.9849999999999997,
+        4.731999999999999
+      ],
+      "s": [
+        1.9000000000000001,
+        0.13,
+        0.28
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · jamba",
+      "p": [
+        0.99,
+        2.175,
+        4.696999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · jamba",
+      "p": [
+        2.6100000000000003,
+        2.175,
+        4.696999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · dintel",
+      "p": [
+        1.8,
+        1.0849999999999997,
+        4.696999999999999
+      ],
+      "s": [
+        1.7400000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · dintel",
+      "p": [
+        1.8,
+        3.2649999999999997,
+        4.696999999999999
+      ],
+      "s": [
+        1.7400000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · montante",
+      "p": [
+        1.8,
+        2.175,
+        4.701999999999999
+      ],
+      "s": [
+        0.063,
+        2.18,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · travesaño",
+      "p": [
+        1.8,
+        2.393,
+        4.701999999999999
+      ],
+      "s": [
+        1.62,
+        0.063,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · alféizar",
+      "p": [
+        1.8,
+        0.9849999999999997,
+        4.731999999999999
+      ],
+      "s": [
+        1.9000000000000001,
+        0.13,
+        0.28
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · jamba",
+      "p": [
+        -5.710000000000001,
+        5.825,
+        4.696999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · jamba",
+      "p": [
+        -4.09,
+        5.825,
+        4.696999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · dintel",
+      "p": [
+        -4.9,
+        4.735,
+        4.696999999999999
+      ],
+      "s": [
+        1.7400000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · dintel",
+      "p": [
+        -4.9,
+        6.915,
+        4.696999999999999
+      ],
+      "s": [
+        1.7400000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · montante",
+      "p": [
+        -4.9,
+        5.825,
+        4.701999999999999
+      ],
+      "s": [
+        0.063,
+        2.18,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · travesaño",
+      "p": [
+        -4.9,
+        6.043,
+        4.701999999999999
+      ],
+      "s": [
+        1.62,
+        0.063,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · alféizar",
+      "p": [
+        -4.9,
+        4.635,
+        4.731999999999999
+      ],
+      "s": [
+        1.9000000000000001,
+        0.13,
+        0.28
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · jamba",
+      "p": [
+        -2.3600000000000003,
+        5.825,
+        4.696999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · jamba",
+      "p": [
+        -0.74,
+        5.825,
+        4.696999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · dintel",
+      "p": [
+        -1.55,
+        4.735,
+        4.696999999999999
+      ],
+      "s": [
+        1.7400000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · dintel",
+      "p": [
+        -1.55,
+        6.915,
+        4.696999999999999
+      ],
+      "s": [
+        1.7400000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · montante",
+      "p": [
+        -1.55,
+        5.825,
+        4.701999999999999
+      ],
+      "s": [
+        0.063,
+        2.18,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · travesaño",
+      "p": [
+        -1.55,
+        6.043,
+        4.701999999999999
+      ],
+      "s": [
+        1.62,
+        0.063,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · alféizar",
+      "p": [
+        -1.55,
+        4.635,
+        4.731999999999999
+      ],
+      "s": [
+        1.9000000000000001,
+        0.13,
+        0.28
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · jamba",
+      "p": [
+        0.99,
+        5.825,
+        4.696999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · jamba",
+      "p": [
+        2.6100000000000003,
+        5.825,
+        4.696999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · dintel",
+      "p": [
+        1.8,
+        4.735,
+        4.696999999999999
+      ],
+      "s": [
+        1.7400000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · dintel",
+      "p": [
+        1.8,
+        6.915,
+        4.696999999999999
+      ],
+      "s": [
+        1.7400000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · montante",
+      "p": [
+        1.8,
+        5.825,
+        4.701999999999999
+      ],
+      "s": [
+        0.063,
+        2.18,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · travesaño",
+      "p": [
+        1.8,
+        6.043,
+        4.701999999999999
+      ],
+      "s": [
+        1.62,
+        0.063,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes · alféizar",
+      "p": [
+        1.8,
+        4.635,
+        4.731999999999999
+      ],
+      "s": [
+        1.9000000000000001,
+        0.13,
+        0.28
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · jamba",
+      "p": [
+        5.21,
+        2.2249999999999996,
+        5.296999999999999
+      ],
+      "s": [
+        0.09,
+        2.37,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · jamba",
+      "p": [
+        6.39,
+        2.2249999999999996,
+        5.296999999999999
+      ],
+      "s": [
+        0.09,
+        2.37,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · dintel",
+      "p": [
+        5.8,
+        1.0999999999999996,
+        5.296999999999999
+      ],
+      "s": [
+        1.2999999999999998,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · dintel",
+      "p": [
+        5.8,
+        3.3499999999999996,
+        5.296999999999999
+      ],
+      "s": [
+        1.2999999999999998,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · montante",
+      "p": [
+        5.8,
+        2.2249999999999996,
+        5.301999999999999
+      ],
+      "s": [
+        0.063,
+        2.25,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · travesaño",
+      "p": [
+        5.8,
+        2.4499999999999997,
+        5.301999999999999
+      ],
+      "s": [
+        1.18,
+        0.063,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · alféizar",
+      "p": [
+        5.8,
+        0.9999999999999996,
+        5.331999999999999
+      ],
+      "s": [
+        1.46,
+        0.13,
+        0.28
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · jamba",
+      "p": [
+        5.21,
+        5.875,
+        5.296999999999999
+      ],
+      "s": [
+        0.09,
+        2.37,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · jamba",
+      "p": [
+        6.39,
+        5.875,
+        5.296999999999999
+      ],
+      "s": [
+        0.09,
+        2.37,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · dintel",
+      "p": [
+        5.8,
+        4.75,
+        5.296999999999999
+      ],
+      "s": [
+        1.2999999999999998,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · dintel",
+      "p": [
+        5.8,
+        7,
+        5.296999999999999
+      ],
+      "s": [
+        1.2999999999999998,
+        0.09,
+        0.1
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · montante",
+      "p": [
+        5.8,
+        5.875,
+        5.301999999999999
+      ],
+      "s": [
+        0.063,
+        2.25,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · travesaño",
+      "p": [
+        5.8,
+        6.1,
+        5.301999999999999
+      ],
+      "s": [
+        1.18,
+        0.063,
+        0.07
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpinterías verdes del mirador · alféizar",
+      "p": [
+        5.8,
+        4.65,
+        5.331999999999999
+      ],
+      "s": [
+        1.46,
+        0.13,
+        0.28
+      ],
+      "material": "#87b4a0",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · pasamanos",
+      "p": [
+        -4.9,
+        5.935,
+        5.15
+      ],
+      "s": [
+        2.45,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · travesaño inferior",
+      "p": [
+        -4.9,
+        5.185,
+        5.15
+      ],
+      "s": [
+        2.45,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -6.125,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -5.920833333333334,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -5.716666666666667,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -5.5125,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -5.308333333333334,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -5.104166666666667,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -4.9,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -4.695833333333334,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -4.491666666666667,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -4.2875000000000005,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -4.083333333333334,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -3.879166666666667,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -3.6750000000000003,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · pasamanos",
+      "p": [
+        -1.55,
+        5.935,
+        5.15
+      ],
+      "s": [
+        2.45,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · travesaño inferior",
+      "p": [
+        -1.55,
+        5.185,
+        5.15
+      ],
+      "s": [
+        2.45,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -2.7750000000000004,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -2.5708333333333337,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -2.3666666666666667,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -2.1625,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -1.9583333333333335,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -1.7541666666666669,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -1.55,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -1.3458333333333332,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -1.1416666666666666,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -0.9375,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -0.7333333333333336,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -0.5291666666666666,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        -0.32499999999999996,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · pasamanos",
+      "p": [
+        1.8,
+        5.935,
+        5.15
+      ],
+      "s": [
+        2.45,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · travesaño inferior",
+      "p": [
+        1.8,
+        5.185,
+        5.15
+      ],
+      "s": [
+        2.45,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        0.575,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        0.7791666666666666,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        0.9833333333333334,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        1.1875,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        1.3916666666666666,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        1.5958333333333332,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        1.8,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        2.004166666666667,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        2.2083333333333335,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        2.4125,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        2.6166666666666663,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        2.8208333333333337,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balcones de hierro · barrote",
+      "p": [
+        3.0250000000000004,
+        5.56,
+        5.15
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        0.35,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        0.83,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        1.31,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        1.79,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        2.27,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        2.75,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        3.23,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        3.71,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        4.1899999999999995,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        4.67,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        5.15,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        5.630000000000001,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        6.110000000000001,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        6.590000000000002,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        -6.85,
+        7.070000000000002,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        0.35,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        0.83,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        1.31,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        1.79,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        2.27,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        2.75,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        3.23,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        3.71,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        4.1899999999999995,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        4.67,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        5.15,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        5.630000000000001,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        6.110000000000001,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        6.590000000000002,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Sillar de esquina",
+      "p": [
+        3.7,
+        7.070000000000002,
+        4.13
+      ],
+      "s": [
+        0.5,
+        0.28,
+        0.24
+      ],
+      "material": "#e6d6b0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Faja de entrepiso",
+      "p": [
+        0,
+        3.92,
+        4.06
+      ],
+      "s": [
+        14,
+        0.15,
+        0.2
+      ],
+      "material": "#d8c49e",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        0.24,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        0.52,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        0.8,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        1.08,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        1.36,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        1.6400000000000001,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        1.9200000000000002,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        2.2,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        2.4800000000000004,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        2.7600000000000007,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        3.040000000000001,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        3.320000000000001,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        3.6000000000000014,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        3.8800000000000017,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        4.160000000000002,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        4.440000000000002,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        4.720000000000002,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        5.000000000000003,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        5.280000000000003,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        5.560000000000003,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        5.840000000000003,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        6.120000000000004,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        6.400000000000004,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        6.680000000000004,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        6.960000000000004,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        7.240000000000005,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Junta horizontal de ladrillo",
+      "p": [
+        0,
+        7.520000000000005,
+        4.014
+      ],
+      "s": [
+        14,
+        0.012,
+        0.012
+      ],
+      "material": "#a77f62",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · vidrio",
+      "p": [
+        5.8,
+        2.1,
+        5.119999999999999
+      ],
+      "s": [
+        1.05,
+        2.18,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · jamba",
+      "p": [
+        5.2749999999999995,
+        2.1,
+        5.174999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · jamba",
+      "p": [
+        6.325,
+        2.1,
+        5.174999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · dintel",
+      "p": [
+        5.8,
+        1.01,
+        5.174999999999999
+      ],
+      "s": [
+        1.17,
+        0.09,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · dintel",
+      "p": [
+        5.8,
+        3.1900000000000004,
+        5.174999999999999
+      ],
+      "s": [
+        1.17,
+        0.09,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · montante",
+      "p": [
+        5.8,
+        2.1,
+        5.179999999999999
+      ],
+      "s": [
+        0.063,
+        2.18,
+        0.07
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · travesaño",
+      "p": [
+        5.8,
+        2.318,
+        5.179999999999999
+      ],
+      "s": [
+        1.05,
+        0.063,
+        0.07
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · alféizar",
+      "p": [
+        5.8,
+        0.9099999999999999,
+        5.209999999999999
+      ],
+      "s": [
+        1.33,
+        0.13,
+        0.28
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · vidrio",
+      "p": [
+        5.8,
+        5.7,
+        5.119999999999999
+      ],
+      "s": [
+        1.05,
+        2.18,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · jamba",
+      "p": [
+        5.2749999999999995,
+        5.7,
+        5.174999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · jamba",
+      "p": [
+        6.325,
+        5.7,
+        5.174999999999999
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · dintel",
+      "p": [
+        5.8,
+        4.61,
+        5.174999999999999
+      ],
+      "s": [
+        1.17,
+        0.09,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · dintel",
+      "p": [
+        5.8,
+        6.79,
+        5.174999999999999
+      ],
+      "s": [
+        1.17,
+        0.09,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · montante",
+      "p": [
+        5.8,
+        5.7,
+        5.179999999999999
+      ],
+      "s": [
+        0.063,
+        2.18,
+        0.07
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · travesaño",
+      "p": [
+        5.8,
+        5.918,
+        5.179999999999999
+      ],
+      "s": [
+        1.05,
+        0.063,
+        0.07
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · alféizar",
+      "p": [
+        5.8,
+        4.51,
+        5.209999999999999
+      ],
+      "s": [
+        1.33,
+        0.13,
+        0.28
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · vidrio",
+      "p": [
+        7.263711037056153,
+        2.1,
+        4.5137110370561535
+      ],
+      "s": [
+        1.05,
+        2.18,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · jamba",
+      "p": [
+        6.931370849898475,
+        2.1,
+        4.9238329701443515
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · jamba",
+      "p": [
+        7.673832970144351,
+        2.1,
+        4.181370849898476
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · dintel",
+      "p": [
+        7.302601910021413,
+        1.01,
+        4.552601910021414
+      ],
+      "s": [
+        1.17,
+        0.09,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · dintel",
+      "p": [
+        7.302601910021413,
+        3.1900000000000004,
+        4.552601910021414
+      ],
+      "s": [
+        1.17,
+        0.09,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · montante",
+      "p": [
+        7.306137443927345,
+        2.1,
+        4.556137443927346
+      ],
+      "s": [
+        0.063,
+        2.18,
+        0.07
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · travesaño",
+      "p": [
+        7.306137443927345,
+        2.318,
+        4.556137443927346
+      ],
+      "s": [
+        1.05,
+        0.063,
+        0.07
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · alféizar",
+      "p": [
+        7.327350647362942,
+        0.9099999999999999,
+        4.577350647362943
+      ],
+      "s": [
+        1.33,
+        0.13,
+        0.28
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · vidrio",
+      "p": [
+        7.263711037056153,
+        5.7,
+        4.5137110370561535
+      ],
+      "s": [
+        1.05,
+        2.18,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · jamba",
+      "p": [
+        6.931370849898475,
+        5.7,
+        4.9238329701443515
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · jamba",
+      "p": [
+        7.673832970144351,
+        5.7,
+        4.181370849898476
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · dintel",
+      "p": [
+        7.302601910021413,
+        4.61,
+        4.552601910021414
+      ],
+      "s": [
+        1.17,
+        0.09,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · dintel",
+      "p": [
+        7.302601910021413,
+        6.79,
+        4.552601910021414
+      ],
+      "s": [
+        1.17,
+        0.09,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · montante",
+      "p": [
+        7.306137443927345,
+        5.7,
+        4.556137443927346
+      ],
+      "s": [
+        0.063,
+        2.18,
+        0.07
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · travesaño",
+      "p": [
+        7.306137443927345,
+        5.918,
+        4.556137443927346
+      ],
+      "s": [
+        1.05,
+        0.063,
+        0.07
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · alféizar",
+      "p": [
+        7.327350647362942,
+        4.51,
+        4.577350647362943
+      ],
+      "s": [
+        1.33,
+        0.13,
+        0.28
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0.7853981633974483,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · vidrio",
+      "p": [
+        7.869999999999999,
+        2.1,
+        3.05
+      ],
+      "s": [
+        1.05,
+        2.18,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · jamba",
+      "p": [
+        7.924999999999999,
+        2.1,
+        3.5749999999999997
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · jamba",
+      "p": [
+        7.924999999999999,
+        2.1,
+        2.525
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · dintel",
+      "p": [
+        7.924999999999999,
+        1.01,
+        3.05
+      ],
+      "s": [
+        1.17,
+        0.09,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · dintel",
+      "p": [
+        7.924999999999999,
+        3.1900000000000004,
+        3.05
+      ],
+      "s": [
+        1.17,
+        0.09,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · montante",
+      "p": [
+        7.929999999999999,
+        2.1,
+        3.05
+      ],
+      "s": [
+        0.063,
+        2.18,
+        0.07
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · travesaño",
+      "p": [
+        7.929999999999999,
+        2.318,
+        3.05
+      ],
+      "s": [
+        1.05,
+        0.063,
+        0.07
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · alféizar",
+      "p": [
+        7.959999999999999,
+        0.9099999999999999,
+        3.05
+      ],
+      "s": [
+        1.33,
+        0.13,
+        0.28
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · vidrio",
+      "p": [
+        7.869999999999999,
+        5.7,
+        3.05
+      ],
+      "s": [
+        1.05,
+        2.18,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · jamba",
+      "p": [
+        7.924999999999999,
+        5.7,
+        3.5749999999999997
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · jamba",
+      "p": [
+        7.924999999999999,
+        5.7,
+        2.525
+      ],
+      "s": [
+        0.09,
+        2.3000000000000003,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · dintel",
+      "p": [
+        7.924999999999999,
+        4.61,
+        3.05
+      ],
+      "s": [
+        1.17,
+        0.09,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · dintel",
+      "p": [
+        7.924999999999999,
+        6.79,
+        3.05
+      ],
+      "s": [
+        1.17,
+        0.09,
+        0.1
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · montante",
+      "p": [
+        7.929999999999999,
+        5.7,
+        3.05
+      ],
+      "s": [
+        0.063,
+        2.18,
+        0.07
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · travesaño",
+      "p": [
+        7.929999999999999,
+        5.918,
+        3.05
+      ],
+      "s": [
+        1.05,
+        0.063,
+        0.07
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Carpintería del mirador · alféizar",
+      "p": [
+        7.959999999999999,
+        4.51,
+        3.05
+      ],
+      "s": [
+        1.33,
+        0.13,
+        0.28
+      ],
+      "material": "#72ad95",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · pasamanos",
+      "p": [
+        0,
+        9.74,
+        -0.1
+      ],
+      "s": [
+        4.5,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · travesaño inferior",
+      "p": [
+        0,
+        9.360000000000001,
+        -0.1
+      ],
+      "s": [
+        4.5,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        -2.25,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        -2.0357142857142856,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        -1.8214285714285714,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        -1.6071428571428572,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        -1.3928571428571428,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        -1.1785714285714286,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        -0.9642857142857142,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        -0.75,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        -0.5357142857142858,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        -0.3214285714285714,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        -0.1071428571428572,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        0.1071428571428572,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        0.3214285714285716,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        0.5357142857142856,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        0.75,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        0.9642857142857144,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        1.1785714285714284,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        1.3928571428571428,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        1.6071428571428572,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        1.8214285714285712,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        2.0357142857142856,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de azotea · barrote",
+      "p": [
+        2.25,
+        9.55,
+        -0.1
+      ],
+      "s": [
+        0.035,
+        0.38,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · pasamanos",
+      "p": [
+        -6.35,
+        5.975,
+        4.62
+      ],
+      "s": [
+        0.72,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · travesaño inferior",
+      "p": [
+        -6.35,
+        5.225,
+        4.62
+      ],
+      "s": [
+        0.72,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -6.35,
+        5.6,
+        4.98
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -6.35,
+        5.6,
+        4.8
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -6.35,
+        5.6,
+        4.62
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -6.35,
+        5.6,
+        4.44
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -6.35,
+        5.6,
+        4.26
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · pasamanos",
+      "p": [
+        -4.050000000000001,
+        5.975,
+        4.62
+      ],
+      "s": [
+        0.72,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · travesaño inferior",
+      "p": [
+        -4.050000000000001,
+        5.225,
+        4.62
+      ],
+      "s": [
+        0.72,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -4.050000000000001,
+        5.6,
+        4.98
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -4.050000000000001,
+        5.6,
+        4.8
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -4.050000000000001,
+        5.6,
+        4.62
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -4.050000000000001,
+        5.6,
+        4.44
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -4.050000000000001,
+        5.6,
+        4.26
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · pasamanos",
+      "p": [
+        -2.7,
+        5.975,
+        4.62
+      ],
+      "s": [
+        0.72,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · travesaño inferior",
+      "p": [
+        -2.7,
+        5.225,
+        4.62
+      ],
+      "s": [
+        0.72,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -2.7,
+        5.6,
+        4.98
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -2.7,
+        5.6,
+        4.8
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -2.7,
+        5.6,
+        4.62
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -2.7,
+        5.6,
+        4.44
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -2.7,
+        5.6,
+        4.26
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · pasamanos",
+      "p": [
+        -0.40000000000000013,
+        5.975,
+        4.62
+      ],
+      "s": [
+        0.72,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · travesaño inferior",
+      "p": [
+        -0.40000000000000013,
+        5.225,
+        4.62
+      ],
+      "s": [
+        0.72,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -0.40000000000000013,
+        5.6,
+        4.98
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -0.40000000000000013,
+        5.6,
+        4.8
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -0.40000000000000013,
+        5.6,
+        4.62
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -0.40000000000000013,
+        5.6,
+        4.44
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        -0.40000000000000013,
+        5.6,
+        4.26
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · pasamanos",
+      "p": [
+        0.6500000000000001,
+        5.975,
+        4.62
+      ],
+      "s": [
+        0.72,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · travesaño inferior",
+      "p": [
+        0.6500000000000001,
+        5.225,
+        4.62
+      ],
+      "s": [
+        0.72,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        0.6500000000000001,
+        5.6,
+        4.98
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        0.6500000000000001,
+        5.6,
+        4.8
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        0.6500000000000001,
+        5.6,
+        4.62
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        0.6500000000000001,
+        5.6,
+        4.44
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        0.6500000000000001,
+        5.6,
+        4.26
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · pasamanos",
+      "p": [
+        2.95,
+        5.975,
+        4.62
+      ],
+      "s": [
+        0.72,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · travesaño inferior",
+      "p": [
+        2.95,
+        5.225,
+        4.62
+      ],
+      "s": [
+        0.72,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        2.95,
+        5.6,
+        4.98
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        2.95,
+        5.6,
+        4.8
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        2.95,
+        5.6,
+        4.62
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        2.95,
+        5.6,
+        4.44
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno de balcón · barrote",
+      "p": [
+        2.95,
+        5.6,
+        4.26
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    }
+  ]
+}

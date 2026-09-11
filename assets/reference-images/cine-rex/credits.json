@@ -1,0 +1,33 @@
+{
+  "slug": "cine-rex",
+  "files": [
+    {
+      "file": "photo-1.jpg",
+      "title": "File:2020 Barranquilla (Colombia) - Teatro Rex.jpg",
+      "author": "Felipe Restrepo Acosta",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020_Barranquilla_(Colombia)_-_Teatro_Rex.jpg",
+      "accessedAt": "2026-08-21",
+      "note": "esquina déco con emblema RX"
+    },
+    {
+      "file": "photo-2.jpg",
+      "title": "File:Bquilla - 17 ago 2007 046.jpg",
+      "author": "Jdvillalobos",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bquilla_-_17_ago_2007_046.jpg",
+      "accessedAt": "2026-08-21",
+      "note": "vista histórica 2007"
+    },
+    {
+      "file": "photo-3.jpg",
+      "title": "File:Ex-teatro Rex - Wikipaseo fotográfico Concepción 2019 - (28).jpg",
+      "author": "LuisCG11",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ex-teatro_Rex_-_Wikipaseo_fotogr%C3%A1fico_Concepci%C3%B3n_2019_-_(28).jpg",
+      "accessedAt": "2026-08-21",
+      "note": "vista lateral 2019"
+    }
+  ],
+  "notes": "Descargado vía API de Wikimedia Commons con metadatos de licencia verificados."
+}

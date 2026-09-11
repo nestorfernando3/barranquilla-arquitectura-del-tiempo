@@ -1,0 +1,42 @@
+{
+  "slug": "teatro-colon",
+  "files": [
+    {
+      "file": "photo-1.jpg",
+      "title": "File:2019 Barranquilla (Colombia) - Fachada del Teatro Colón.jpg",
+      "author": "Felipe Restrepo Acosta",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019_Barranquilla_(Colombia)_-_Fachada_del_Teatro_Colón.jpg",
+      "accessedAt": "2026-08-21",
+      "note": "fachada déco con muro de bloques de vidrio"
+    },
+    {
+      "file": "photo-2.jpg",
+      "title": "File:2019 Barranquilla (Colombia) - Teatro Colón.jpg",
+      "author": "Felipe Restrepo Acosta",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019_Barranquilla_(Colombia)_-_Teatro_Colón.jpg",
+      "accessedAt": "2026-08-21",
+      "note": "vista general"
+    },
+    {
+      "file": "photo-3.jpg",
+      "title": "File:BqTeatroColon.jpg",
+      "author": "José David Villalobos",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BqTeatroColon.jpg",
+      "accessedAt": "2026-08-21",
+      "note": "vista alternativa"
+    },
+    {
+      "file": "photo-4.jpg",
+      "title": "File:BqTeatroColon.jpg",
+      "author": "José David Villalobos",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BqTeatroColon.jpg",
+      "accessedAt": "2026-08-21",
+      "note": "duplicado local byte-idéntico de photo-3.jpg; conserva la misma fuente y licencia"
+    }
+  ],
+  "notes": "Descargado vía API de Wikimedia Commons con metadatos de licencia verificados. photo-4.jpg duplica byte a byte photo-3.jpg y se conserva deliberadamente."
+}

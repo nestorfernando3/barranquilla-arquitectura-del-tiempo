@@ -1,0 +1,31 @@
+{
+  "slug": "bellas-artes",
+  "name": "Facultad de Bellas Artes",
+  "frontAxis": "+z",
+  "parts": [
+    { "type": "box", "name": "Cuerpo principal simétrico de dos plantas", "material": "#eadfca", "role": "building", "evidence": "documented", "p": [0, 4, -1], "s": [23, 8, 8.5] },
+    { "type": "box", "name": "Retorno lateral occidental simple", "material": "#eadfca", "role": "building", "evidence": "inferred", "p": [-13.5, 3.5, -1.5], "s": [4, 7, 9.5] },
+    { "type": "box", "name": "Retorno lateral oriental simple", "material": "#eadfca", "role": "building", "evidence": "inferred", "p": [13.5, 3.5, -1.5], "s": [4, 7, 9.5] },
+    { "type": "hipRoof", "name": "Cubierta central de teja a cuatro aguas", "material": "#a6533d", "role": "building", "evidence": "documented", "p": [0, 9, -1], "s": [24, 2, 9.5], "ridge": 0.6 },
+    { "type": "hipRoof", "name": "Cubierta simple del retorno occidental", "material": "#a6533d", "role": "building", "evidence": "inferred", "p": [-13.5, 7.9, -1.5], "s": [5, 1.8, 10.5], "axis": "z", "ridge": 0.55 },
+    { "type": "hipRoof", "name": "Cubierta simple del retorno oriental", "material": "#a6533d", "role": "building", "evidence": "inferred", "p": [13.5, 7.9, -1.5], "s": [5, 1.8, 10.5], "axis": "z", "ridge": 0.55 },
+    { "type": "arcade", "name": "Loggia lateral occidental profunda", "material": "#f5efe1", "role": "building", "evidence": "documented", "p": [-8, 4.35, 4.15], "len": 6, "n": 3, "h": 3.2, "dep": 1.8, "pw": 0.32, "arch": "round", "seg": 16 },
+    { "type": "arcade", "name": "Loggia lateral oriental profunda", "material": "#f5efe1", "role": "building", "evidence": "documented", "p": [8, 4.35, 4.15], "len": 6, "n": 3, "h": 3.2, "dep": 1.8, "pw": 0.32, "arch": "round", "seg": 16 },
+    { "type": "classicalColumn", "name": "Columna del pórtico central · 1", "material": "#f5efe1", "role": "building", "evidence": "documented", "p": [-4.5, 2.25, 4.15], "s": [0.58, 4.5, 0.58], "seg": 14 },
+    { "type": "classicalColumn", "name": "Columna del pórtico central · 2", "material": "#f5efe1", "role": "building", "evidence": "documented", "p": [-2.7, 2.25, 4.15], "s": [0.58, 4.5, 0.58], "seg": 14 },
+    { "type": "classicalColumn", "name": "Columna del pórtico central · 3", "material": "#f5efe1", "role": "building", "evidence": "documented", "p": [-0.9, 2.25, 4.15], "s": [0.58, 4.5, 0.58], "seg": 14 },
+    { "type": "classicalColumn", "name": "Columna del pórtico central · 4", "material": "#f5efe1", "role": "building", "evidence": "documented", "p": [0.9, 2.25, 4.15], "s": [0.58, 4.5, 0.58], "seg": 14 },
+    { "type": "classicalColumn", "name": "Columna del pórtico central · 5", "material": "#f5efe1", "role": "building", "evidence": "documented", "p": [2.7, 2.25, 4.15], "s": [0.58, 4.5, 0.58], "seg": 14 },
+    { "type": "classicalColumn", "name": "Columna del pórtico central · 6", "material": "#f5efe1", "role": "building", "evidence": "documented", "p": [4.5, 2.25, 4.15], "s": [0.58, 4.5, 0.58], "seg": 14 },
+    { "type": "box", "name": "Entablamento del pórtico central", "material": "#f5efe1", "role": "building", "evidence": "documented", "p": [0, 4.65, 4.15], "s": [10.8, 0.7, 1.75] },
+    { "type": "box", "name": "Losa del balcón central", "material": "#f5efe1", "role": "building", "evidence": "documented", "p": [0, 4.85, 4.55], "s": [11, 0.35, 1.65] },
+    { "type": "colonnade", "name": "Balaustrada abierta del balcón central", "material": "#f5efe1", "role": "building", "evidence": "documented", "p": [0, 5.02, 5.2], "len": 10.2, "n": 17, "h": 0.72, "dep": 0.22, "pw": 0.15, "archH": 0.12 },
+    { "type": "arch", "name": "Vano superior de arco redondo · 1", "material": "#4e453b", "role": "building", "evidence": "documented", "p": [-4.8, 6.45, 3.35], "s": [1.55, 2.35, 0.18], "arch": "round", "seg": 16 },
+    { "type": "arch", "name": "Vano superior de arco redondo · 2", "material": "#4e453b", "role": "building", "evidence": "documented", "p": [-2.4, 6.45, 3.35], "s": [1.55, 2.35, 0.18], "arch": "round", "seg": 16 },
+    { "type": "arch", "name": "Vano superior de arco redondo · 3", "material": "#4e453b", "role": "building", "evidence": "documented", "p": [0, 6.45, 3.35], "s": [1.55, 2.35, 0.18], "arch": "round", "seg": 16 },
+    { "type": "arch", "name": "Vano superior de arco redondo · 4", "material": "#4e453b", "role": "building", "evidence": "documented", "p": [2.4, 6.45, 3.35], "s": [1.55, 2.35, 0.18], "arch": "round", "seg": 16 },
+    { "type": "arch", "name": "Vano superior de arco redondo · 5", "material": "#4e453b", "role": "building", "evidence": "documented", "p": [4.8, 6.45, 3.35], "s": [1.55, 2.35, 0.18], "arch": "round", "seg": 16 },
+    { "type": "box", "name": "Cornisa continua de la fachada", "material": "#f5efe1", "role": "building", "evidence": "documented", "p": [0, 7.75, 3.35], "s": [23.4, 0.42, 0.5] },
+    { "type": "box", "name": "Jardín frontal de la facultad", "material": "pasto", "role": "context", "evidence": "documented", "p": [0, 0.1, 9.25], "s": [32, 0.2, 12] }
+  ]
+}

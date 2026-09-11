@@ -1,0 +1,22 @@
+{
+  "slug": "hotel-el-prado",
+  "name": "Hotel El Prado",
+  "frontAxis": "+z",
+  "parts": [
+    { "type": "box", "name": "Ala posterior baja de la U", "material": "#eadfca", "role": "building", "evidence": "documented", "p": [0, 3.2, -6], "s": [23, 6.4, 5] },
+    { "type": "box", "name": "Ala occidental baja de la U", "material": "#eadfca", "role": "building", "evidence": "documented", "p": [-9.25, 3.2, 2.5], "s": [4.5, 6.4, 20] },
+    { "type": "box", "name": "Ala oriental baja de la U", "material": "#eadfca", "role": "building", "evidence": "documented", "p": [9.25, 3.2, 2.5], "s": [4.5, 6.4, 20] },
+    { "type": "hipRoof", "name": "Cubierta de teja del ala posterior", "material": "#a6533d", "role": "building", "evidence": "documented", "p": [0, 7.4, -6], "s": [24, 2, 6], "ridge": 0.56 },
+    { "type": "hipRoof", "name": "Cubierta de teja del ala occidental", "material": "#a6533d", "role": "building", "evidence": "documented", "p": [-9.25, 7.4, 2.5], "s": [5.5, 2, 21], "axis": "z", "ridge": 0.72 },
+    { "type": "hipRoof", "name": "Cubierta de teja del ala oriental", "material": "#a6533d", "role": "building", "evidence": "documented", "p": [9.25, 7.4, 2.5], "s": [5.5, 2, 21], "axis": "z", "ridge": 0.72 },
+    { "type": "arcade", "name": "Loggia abierta del ala posterior", "material": "#f6efdf", "role": "building", "evidence": "documented", "p": [0, 0, -2.85], "len": 20, "n": 9, "h": 5.2, "dep": 1.3, "pw": 0.38, "arch": "round", "seg": 14 },
+    { "type": "arcade", "name": "Loggia abierta del ala occidental", "material": "#f6efdf", "role": "building", "evidence": "documented", "p": [-6.35, 0, 2.5], "len": 18, "n": 8, "h": 5.2, "dep": 1.3, "pw": 0.38, "arch": "round", "seg": 14, "axis": "z" },
+    { "type": "arcade", "name": "Loggia abierta del ala oriental", "material": "#f6efdf", "role": "building", "evidence": "documented", "p": [6.35, 0, 2.5], "len": 18, "n": 8, "h": 5.2, "dep": 1.3, "pw": 0.38, "arch": "round", "seg": 14, "axis": "z" },
+    { "type": "box", "name": "Torre central de una planta adicional", "material": "#eadfca", "role": "building", "evidence": "documented", "p": [0, 4.9, -4.8], "s": [8.8, 9.8, 5.5] },
+    { "type": "box", "name": "Cornisa clara de la torre", "material": "#f6efdf", "role": "building", "evidence": "documented", "p": [0, 9.45, -4.8], "s": [9.25, 0.7, 5.95] },
+    { "type": "hipRoof", "name": "Cubierta inclinada de teja de la torre", "material": "#a6533d", "role": "building", "evidence": "documented", "p": [0, 10.9, -4.8], "s": [9.8, 2.2, 6.5], "ridge": 0.42 },
+    { "type": "arch", "name": "Hueco profundo del portal documentado", "material": "#4a3b31", "role": "building", "evidence": "documented", "p": [0, 2.35, -1.98], "s": [3.5, 4.2, 0.18], "arch": "round", "seg": 16 },
+    { "type": "arcade", "name": "Arco moldurado del portal documentado", "material": "#f6efdf", "role": "building", "evidence": "documented", "p": [0, 0.18, -1.7], "len": 4.5, "n": 1, "h": 4.75, "dep": 0.65, "pw": 0.52, "arch": "round", "seg": 16 },
+    { "type": "box", "name": "Piscina del patio central", "material": "vidrio", "role": "context", "evidence": "documented", "p": [0, 0.12, 5.2], "s": [10.5, 0.24, 6.5] }
+  ]
+}

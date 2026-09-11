@@ -1,0 +1,24 @@
+{
+  "slug": "edificio-garcia",
+  "files": [
+    {
+      "file": "photo-1.jpg",
+      "title": "File:Barranquilla Edificio García.jpg",
+      "author": "Jdvillalobos",
+      "license": "Public domain (PD-self)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barranquilla_Edificio_Garc%C3%ADa.jpg",
+      "accessedAt": "2026-08-23",
+      "note": "referencia principal de la esquina, balcones curvos y cuerpos retranqueados"
+    },
+    {
+      "file": "photo-2.jpg",
+      "title": "File:BqEdGarcia.jpg",
+      "author": "José David Villalobos",
+      "license": "Public domain (PD-self)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BqEdGarcia.jpg",
+      "accessedAt": "2026-08-23",
+      "note": "vista alternativa de la misma colección para laterales y torre"
+    }
+  ],
+  "notes": "Dos obras propias liberadas al dominio público por sus autores mediante PD-self; las fichas de Wikimedia Commons enlazadas son los registros autoritativos de fuente y licencia."
+}

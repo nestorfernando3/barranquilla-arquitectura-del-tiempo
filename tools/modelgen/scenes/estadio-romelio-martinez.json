@@ -1,0 +1,4252 @@
+{
+  "slug": "estadio-romelio-martinez",
+  "name": "Estadio Romelio Martínez",
+  "frontAxis": "+z",
+  "parts": [
+    {
+      "type": "bleacher",
+      "name": "Gradería histórica escalonada de la tribuna",
+      "material": "#a9a6a0",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -2,
+        2.8,
+        1.25
+      ],
+      "s": [
+        34,
+        5.6,
+        6.5
+      ],
+      "steps": 9
+    },
+    {
+      "type": "windowGrid",
+      "name": "Hileras rojas de asientos de hormigón",
+      "material": "#a64f48",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -3,
+        1.3,
+        4.58
+      ],
+      "cell": [
+        3.2,
+        0.32,
+        0.18
+      ],
+      "count": [
+        8,
+        1
+      ],
+      "gap": [
+        0.65,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Hileras ocres de asientos de hormigón",
+      "material": "#cfaa45",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -3,
+        2.55,
+        4.08
+      ],
+      "cell": [
+        3.05,
+        0.32,
+        0.18
+      ],
+      "count": [
+        8,
+        1
+      ],
+      "gap": [
+        0.8,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Hileras verdes de asientos de hormigón",
+      "material": "#477163",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -3,
+        3.82,
+        3.25
+      ],
+      "cell": [
+        2.9,
+        0.32,
+        0.18
+      ],
+      "count": [
+        8,
+        1
+      ],
+      "gap": [
+        0.95,
+        0
+      ]
+    },
+    {
+      "type": "colonnade",
+      "name": "Estructura repetida bajo la cubierta histórica",
+      "material": "#8d9292",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -2,
+        5.1,
+        0.7
+      ],
+      "len": 34,
+      "n": 10,
+      "h": 3.3,
+      "dep": 0.7,
+      "pw": 0.52,
+      "archH": 0.3
+    },
+    {
+      "type": "curvedRoof",
+      "name": "Cubierta curva continua de la tribuna",
+      "material": "#7f8587",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -2,
+        9.52,
+        0.7
+      ],
+      "s": [
+        36,
+        2.2,
+        12
+      ],
+      "rise": 0.3,
+      "seg": 24
+    },
+    {
+      "type": "box",
+      "name": "Pabellón histórico de acceso",
+      "material": "#eee9db",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        14.2,
+        4.3,
+        3.25
+      ],
+      "s": [
+        6.8,
+        8.6,
+        5.2
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Torre lateral escalonada",
+      "material": "#eee9db",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        15.15,
+        8.25,
+        3.25
+      ],
+      "s": [
+        4.35,
+        7.1,
+        4.6
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Primer retroceso del coronamiento déco",
+      "material": "#eee9db",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        14.2,
+        9.55,
+        3.25
+      ],
+      "s": [
+        6.1,
+        2,
+        4.65
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Segundo retroceso del coronamiento déco",
+      "material": "#ddd0ab",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        14.2,
+        11.05,
+        3.25
+      ],
+      "s": [
+        4.9,
+        1.4,
+        4.05
+      ],
+      "taper": 0.84
+    },
+    {
+      "type": "box",
+      "name": "Cresta central escalonada del acceso",
+      "material": "#eee9db",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        14.2,
+        12.25,
+        3.25
+      ],
+      "s": [
+        2.25,
+        1.1,
+        3.6
+      ],
+      "taper": 0.72
+    },
+    {
+      "type": "box",
+      "name": "Aleta vertical izquierda del acceso",
+      "material": "#f4f0e5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        12.05,
+        4.65,
+        5.93
+      ],
+      "s": [
+        0.62,
+        9.3,
+        0.5
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Aleta vertical derecha del acceso",
+      "material": "#f4f0e5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        16.35,
+        4.65,
+        5.93
+      ],
+      "s": [
+        0.62,
+        9.3,
+        0.5
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano profundo del acceso monumental",
+      "material": "#494943",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        14.2,
+        2.65,
+        5.92
+      ],
+      "s": [
+        3.2,
+        5.3,
+        0.2
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balcón del pabellón de acceso",
+      "material": "#f4f0e5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        14.2,
+        5.45,
+        6.25
+      ],
+      "s": [
+        4.25,
+        0.42,
+        1
+      ]
+    },
+    {
+      "type": "lattice",
+      "name": "Celosía perforada del balcón déco",
+      "material": "#f4f0e5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        14.2,
+        6.15,
+        6.62
+      ],
+      "s": [
+        4.1,
+        1.25,
+        0.18
+      ],
+      "count": [
+        7,
+        2
+      ],
+      "bar": 0.15
+    },
+    {
+      "type": "lattice",
+      "name": "Celosía alta de la torre",
+      "material": "#e8e3d5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        15.15,
+        9.3,
+        5.6
+      ],
+      "s": [
+        2.15,
+        1.75,
+        0.18
+      ],
+      "count": [
+        4,
+        3
+      ],
+      "bar": 0.13
+    },
+    {
+      "type": "box",
+      "name": "Franja ocre documentada del pabellón",
+      "material": "#c8a766",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        14.2,
+        8.25,
+        5.88
+      ],
+      "s": [
+        6.95,
+        0.52,
+        0.2
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Cancha abreviada de orientación",
+      "material": "pasto",
+      "role": "context",
+      "evidence": "inferred",
+      "p": [
+        -3,
+        0.06,
+        -3.4
+      ],
+      "s": [
+        24,
+        0.12,
+        3
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tramo corto del perímetro exterior",
+      "material": "#b9b5aa",
+      "role": "context",
+      "evidence": "inferred",
+      "p": [
+        -1,
+        0.32,
+        5.15
+      ],
+      "s": [
+        28,
+        0.64,
+        0.5
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Paño ocre de la tribuna",
+      "p": [
+        -3.3,
+        4.2,
+        4.75
+      ],
+      "s": [
+        28.6,
+        3.7,
+        0.22
+      ],
+      "material": "#cfb071",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastra exterior de tribuna",
+      "p": [
+        -16.8,
+        4.8,
+        4.95
+      ],
+      "s": [
+        0.26,
+        5.9,
+        0.32
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastra exterior de tribuna",
+      "p": [
+        -13.450000000000001,
+        4.8,
+        4.95
+      ],
+      "s": [
+        0.26,
+        5.9,
+        0.32
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastra exterior de tribuna",
+      "p": [
+        -10.100000000000001,
+        4.8,
+        4.95
+      ],
+      "s": [
+        0.26,
+        5.9,
+        0.32
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastra exterior de tribuna",
+      "p": [
+        -6.750000000000002,
+        4.8,
+        4.95
+      ],
+      "s": [
+        0.26,
+        5.9,
+        0.32
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastra exterior de tribuna",
+      "p": [
+        -3.4000000000000017,
+        4.8,
+        4.95
+      ],
+      "s": [
+        0.26,
+        5.9,
+        0.32
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastra exterior de tribuna",
+      "p": [
+        -0.0500000000000016,
+        4.8,
+        4.95
+      ],
+      "s": [
+        0.26,
+        5.9,
+        0.32
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastra exterior de tribuna",
+      "p": [
+        3.2999999999999985,
+        4.8,
+        4.95
+      ],
+      "s": [
+        0.26,
+        5.9,
+        0.32
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastra exterior de tribuna",
+      "p": [
+        6.649999999999999,
+        4.8,
+        4.95
+      ],
+      "s": [
+        0.26,
+        5.9,
+        0.32
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastra exterior de tribuna",
+      "p": [
+        9.999999999999998,
+        4.8,
+        4.95
+      ],
+      "s": [
+        0.26,
+        5.9,
+        0.32
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "arcade",
+      "name": "Arcada exterior de tribuna",
+      "p": [
+        -3.3,
+        0.25,
+        4.95
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "len": 28.6,
+      "n": 9,
+      "h": 2.3,
+      "dep": 0.35,
+      "pw": 0.3,
+      "seg": 24
+    },
+    {
+      "type": "lattice",
+      "name": "Celosía continua de tribuna",
+      "p": [
+        -3.3,
+        6.65,
+        5.02
+      ],
+      "s": [
+        28.6,
+        0.7,
+        0.18
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "count": [
+        64,
+        2
+      ],
+      "bar": 0.05
+    },
+    {
+      "type": "box",
+      "name": "Cornisa exterior de tribuna",
+      "p": [
+        -3.3,
+        6.15,
+        5
+      ],
+      "s": [
+        28.8,
+        0.2,
+        0.42
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · pasamanos",
+      "p": [
+        -2,
+        7.5249999999999995,
+        -2.1
+      ],
+      "s": [
+        33,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · travesaño inferior",
+      "p": [
+        -2,
+        6.675,
+        -2.1
+      ],
+      "s": [
+        33,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -18.5,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -18.28,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -18.06,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -17.84,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -17.619999999999997,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -17.4,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -17.18,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -16.96,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -16.740000000000002,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -16.52,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -16.3,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -16.08,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -15.86,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -15.64,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -15.42,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -15.2,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -14.98,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -14.76,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -14.54,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -14.32,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -14.1,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -13.879999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -13.66,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -13.440000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -13.219999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -13,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -12.780000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -12.559999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -12.34,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -12.120000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -11.9,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -11.68,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -11.46,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -11.24,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -11.02,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -10.8,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -10.58,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -10.36,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -10.14,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -9.92,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -9.7,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -9.48,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -9.26,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -9.04,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -8.82,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -8.6,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -8.38,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -8.16,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -7.9399999999999995,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -7.720000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -7.5,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -7.279999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -7.0600000000000005,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -6.84,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -6.619999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -6.4,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -6.18,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -5.960000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -5.74,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -5.52,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -5.300000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -5.08,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -4.859999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -4.640000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -4.42,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -4.199999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -3.9800000000000004,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -3.76,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -3.539999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -3.3200000000000003,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -3.0999999999999996,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -2.880000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -2.66,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -2.4400000000000013,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -2.219999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -2,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -1.7800000000000011,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -1.5599999999999987,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -1.3399999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -1.120000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -0.8999999999999986,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -0.6799999999999997,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -0.46000000000000085,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -0.23999999999999844,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        -0.019999999999999574,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        0.1999999999999993,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        0.4200000000000017,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        0.6400000000000006,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        0.8599999999999994,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        1.0799999999999983,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        1.3000000000000007,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        1.5199999999999996,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        1.7399999999999984,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        1.9600000000000009,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        2.1799999999999997,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        2.3999999999999986,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        2.620000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        2.84,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        3.0599999999999987,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        3.280000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        3.5,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        3.719999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        3.9400000000000013,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        4.16,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        4.379999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        4.600000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        4.82,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        5.039999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        5.260000000000002,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        5.48,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        5.699999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        5.920000000000002,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        6.140000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        6.359999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        6.579999999999998,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        6.800000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        7.02,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        7.239999999999998,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        7.460000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        7.68,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        7.899999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        8.120000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        8.34,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        8.559999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        8.780000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        9,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        9.219999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        9.440000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        9.66,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        9.879999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        10.100000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        10.32,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        10.54,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        10.760000000000002,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        10.98,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        11.2,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        11.420000000000002,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        11.64,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        11.86,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        12.079999999999998,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        12.3,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        12.52,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        12.739999999999998,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        12.96,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        13.18,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        13.399999999999999,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        13.619999999999997,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        13.840000000000003,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        14.060000000000002,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        14.280000000000001,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Protección de grada superior · barrote",
+      "p": [
+        14.5,
+        7.1,
+        -2.1
+      ],
+      "s": [
+        0.035,
+        0.85,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Perfil de coronamiento déco",
+      "p": [
+        14.2,
+        9.5,
+        5.35
+      ],
+      "s": [
+        6.3,
+        0.12,
+        0.2
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Perfil de coronamiento déco",
+      "p": [
+        14.2,
+        10.45,
+        5.35
+      ],
+      "s": [
+        6.3,
+        0.12,
+        0.2
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Perfil de coronamiento déco",
+      "p": [
+        14.2,
+        11.7,
+        5.35
+      ],
+      "s": [
+        5,
+        0.12,
+        0.2
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Perfil de coronamiento déco",
+      "p": [
+        14.2,
+        12.85,
+        5.35
+      ],
+      "s": [
+        2.4,
+        0.12,
+        0.2
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Reja del acceso",
+      "p": [
+        13,
+        2.4,
+        6.07
+      ],
+      "s": [
+        0.045,
+        4.5,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Reja del acceso",
+      "p": [
+        13.22,
+        2.4,
+        6.07
+      ],
+      "s": [
+        0.045,
+        4.5,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Reja del acceso",
+      "p": [
+        13.440000000000001,
+        2.4,
+        6.07
+      ],
+      "s": [
+        0.045,
+        4.5,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Reja del acceso",
+      "p": [
+        13.660000000000002,
+        2.4,
+        6.07
+      ],
+      "s": [
+        0.045,
+        4.5,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Reja del acceso",
+      "p": [
+        13.880000000000003,
+        2.4,
+        6.07
+      ],
+      "s": [
+        0.045,
+        4.5,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Reja del acceso",
+      "p": [
+        14.100000000000003,
+        2.4,
+        6.07
+      ],
+      "s": [
+        0.045,
+        4.5,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Reja del acceso",
+      "p": [
+        14.320000000000004,
+        2.4,
+        6.07
+      ],
+      "s": [
+        0.045,
+        4.5,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Reja del acceso",
+      "p": [
+        14.540000000000004,
+        2.4,
+        6.07
+      ],
+      "s": [
+        0.045,
+        4.5,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Reja del acceso",
+      "p": [
+        14.760000000000005,
+        2.4,
+        6.07
+      ],
+      "s": [
+        0.045,
+        4.5,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Reja del acceso",
+      "p": [
+        14.980000000000006,
+        2.4,
+        6.07
+      ],
+      "s": [
+        0.045,
+        4.5,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Reja del acceso",
+      "p": [
+        15.200000000000006,
+        2.4,
+        6.07
+      ],
+      "s": [
+        0.045,
+        4.5,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Reja del acceso",
+      "p": [
+        15.420000000000007,
+        2.4,
+        6.07
+      ],
+      "s": [
+        0.045,
+        4.5,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred"
+    }
+  ]
+}

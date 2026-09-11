@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Barranquilla · Arquitectura del tiempo — El recorrido</title>
+<meta name="description" content="Un recorrido narrativo en trece edificios por la historia arquitectónica de Barranquilla: del riel ferroviario al modernismo institucional, con modelos 3D interactivos.">
+<meta name="theme-color" content="#0e1319">
+<meta property="og:title" content="Barranquilla · Arquitectura del tiempo — El recorrido">
+<meta property="og:description" content="Trece edificios, cuatro actos, una sola orilla. Un recorrido narrativo y 3D por la memoria arquitectónica de Barranquilla.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+
+<canvas id="stage" aria-hidden="true"></canvas>
+<div id="scrim" aria-hidden="true"></div>
+<div id="grain" aria-hidden="true"></div>
+
+<header class="top">
+  <a class="brand" href="#" id="brand-home">
+    <span class="brand-mark">◆</span>
+    <span class="brand-text">Barranquilla <em>· Arquitectura del tiempo</em></span>
+  </a>
+  <button class="ghost-btn" id="btn-about" type="button">Sobre el recorrido</button>
+</header>
+
+<main id="ui">
+
+  <!-- Panel narrativo -->
+  <section id="panel" aria-live="polite">
+    <div class="stop-meta-top">
+      <span class="kicker" id="stop-act"></span>
+      <span class="counter" id="stop-counter">01 / 13</span>
+    </div>
+    <p class="year" id="stop-year"></p>
+    <h1 class="name" id="stop-name"></h1>
+    <div class="body" id="stop-body"></div>
+    <div class="chips" id="stop-chips"></div>
+    <div class="hint" id="hint-drag">Arrastra para girar el modelo · rueda para acercar</div>
+  </section>
+
+  <!-- Flechas -->
+  <nav class="arrows" aria-label="Navegación entre paradas">
+    <button class="arrow" id="btn-prev" type="button" aria-label="Parada anterior">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <button class="arrow" id="btn-next" type="button" aria-label="Parada siguiente">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </nav>
+
+  <!-- Línea de tiempo -->
+  <footer class="timeline-wrap">
+    <div class="transport">
+      <button class="ghost-btn small" id="btn-play" type="button" aria-pressed="false">
+        <span id="play-icon">▶</span><span id="play-label">Recorrido automático</span>
+      </button>
+      <button class="ghost-btn small mobile-mode-btn" id="btn-mobile-mode" type="button" aria-pressed="false">Ver modelo</button>
+      <span class="loader" id="loader" role="status" aria-live="polite" hidden>Cargando modelo…</span>
+    </div>
+    <div class="timeline" id="timeline" role="tablist" aria-label="Paradas del recorrido"></div>
+  </footer>
+
+</main>
+
+<!-- Portada -->
+<div id="intro" role="dialog" aria-modal="true" aria-labelledby="intro-title">
+  <div class="intro-inner">
+    <p class="intro-kicker">Un recorrido en trece edificios · cuatro actos · una sola orilla</p>
+    <h1 id="intro-title">Barranquilla<br><span>Arquitectura del tiempo</span></h1>
+    <p class="intro-lede">
+      Barranquilla no nació de un acta de fundación: nació de un muelle.
+      Durante un siglo, todo lo que la ciudad fue —el café y el avión, el déco
+      y la piscina, el silbato del tren— llegó por el Magdalena o se inventó
+      mirándolo. Este recorrido sigue esa historia, edificio por edificio,
+      del riel de 1871 al concreto de 1961.
+    </p>
+    <button id="btn-start" type="button">Comenzar el recorrido</button>
+    <p class="intro-foot">≈ 12 minutos · con flechas ← → también funciona · modelos 3D interactivos</p>
+  </div>
+</div>
+
+<!-- Tarjeta final -->
+<div id="endcard" role="dialog" aria-modal="false" aria-labelledby="end-title" hidden>
+  <div class="end-inner">
+    <p class="kicker">Epílogo</p>
+    <h2 id="end-title">La tesis cabe en una frase</h2>
+    <p class="end-lede">
+      Barranquilla se construyó mirando el agua. Cada edificio de este recorrido
+      es una manera distinta de responderle al río: temiéndolo, administrándolo,
+      celebrándolo, olvidándolo — y volviendo a él.
+    </p>
+    <p class="end-note">
+      Los modelos que acabaste de ver son reconstrucciones interpretativas hechas
+      desde fotografía pública: no son levantamientos arquitectónicos. Cada uno
+      declara hasta dónde llega su evidencia.
+    </p>
+    <div class="end-actions">
+      <button id="btn-restart" type="button">Volver al comienzo</button>
+      <button class="ghost-btn" id="btn-about-end" type="button">Fuentes y créditos</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal metodología -->
+<dialog id="about">
+  <article>
+    <h2>Sobre este recorrido</h2>
+    <p>
+      <strong>El recorrido</strong> es la versión narrativa de
+      <em>Barranquilla: Arquitectura del tiempo</em>. Reduce la experiencia a lo
+      esencial: un edificio, su historia y su volumen en 3D, en orden cronológico.
+      Los textos resumen investigación documental verificada contra fuentes del
+      Banco de la República, el Ministerio de Cultura, la Alcaldía de Barranquilla
+      y referencias enciclopédicas.
+    </p>
+    <h3>Los modelos 3D</h3>
+    <p>
+      Los trece modelos son reconstrucciones interpretativas L2 construidas a
+      partir de fotografía con licencia libre o de dominio público. No son
+      levantamientos arquitectónicos ni afirman precisión métrica: las geometrías
+      ocultas, los interiores y los remates sin vista suficiente se mantienen
+      simplificados, neutros o declarados como inferidos en el proyecto fuente.
+      Una malla anterior del Edificio García, generada con IA, se conserva sólo
+      como archivo del proceso y no se muestra en este recorrido.
+    </p>
+    <h3>Fotografías de referencia — créditos</h3>
+    <p class="credits">
+      Felipe Restrepo Acosta · Jdvillalobos / José David Villalobos · Tecsie ·
+      Fvengoechea · Hdedea · LuisCG11 — Wikimedia Commons
+      (licencias CC BY, CC BY-SA y dominio público / PD-self).
+    </p>
+    <h3>Advertencia curatorial</h3>
+    <p>
+      El Palacio de Bellas Artes conserva un registro parcialmente abierto
+      (año exacto y autoría). Las fechas del resto de paradas están verificadas
+      en las fuentes citadas por el atlas completo.
+    </p>
+    <form method="dialog"><button class="primary">Cerrar</button></form>
+  </article>
+</dialog>
+
+<noscript>
+  <p style="position:fixed;inset:auto 1rem 1rem;color:#ece4d4;font-family:sans-serif;">
+    Este recorrido necesita JavaScript.
+  </p>
+</noscript>
+
+<script type="module" src="./main.js?v=20260909-all"></script>
+</body>
+</html>

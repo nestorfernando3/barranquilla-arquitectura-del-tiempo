@@ -1,0 +1,7 @@
+.DS_Store
+**/__pycache__/
+
+# Dependencias y salidas generadas
+**/node_modules/
+interactive-3d-temporal-map/dist/
+*.log

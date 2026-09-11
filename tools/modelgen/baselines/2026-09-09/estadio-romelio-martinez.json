@@ -1,0 +1,27 @@
+{
+  "slug": "estadio-romelio-martinez",
+  "name": "Estadio Romelio Martínez",
+  "frontAxis": "+z",
+  "parts": [
+    { "type": "bleacher", "name": "Gradería histórica escalonada de la tribuna", "material": "#a9a6a0", "role": "building", "evidence": "documented", "p": [-2, 2.8, 1.25], "s": [34, 5.6, 6.5], "steps": 9 },
+    { "type": "windowGrid", "name": "Hileras rojas de asientos de hormigón", "material": "#a64f48", "role": "building", "evidence": "documented", "p": [-3, 1.3, 4.58], "cell": [3.2, 0.32, 0.18], "count": [8, 1], "gap": [0.65, 0] },
+    { "type": "windowGrid", "name": "Hileras ocres de asientos de hormigón", "material": "#cfaa45", "role": "building", "evidence": "documented", "p": [-3, 2.55, 4.08], "cell": [3.05, 0.32, 0.18], "count": [8, 1], "gap": [0.8, 0] },
+    { "type": "windowGrid", "name": "Hileras verdes de asientos de hormigón", "material": "#477163", "role": "building", "evidence": "documented", "p": [-3, 3.82, 3.25], "cell": [2.9, 0.32, 0.18], "count": [8, 1], "gap": [0.95, 0] },
+    { "type": "colonnade", "name": "Estructura repetida bajo la cubierta histórica", "material": "#8d9292", "role": "building", "evidence": "documented", "p": [-2, 5.1, 0.7], "len": 34, "n": 10, "h": 3.3, "dep": 0.7, "pw": 0.52, "archH": 0.3 },
+    { "type": "curvedRoof", "name": "Cubierta curva continua de la tribuna", "material": "#7f8587", "role": "building", "evidence": "documented", "p": [-2, 9.52, 0.7], "s": [36, 2.2, 12], "rise": 0.3, "seg": 24 },
+    { "type": "box", "name": "Pabellón histórico de acceso", "material": "#eee9db", "role": "building", "evidence": "documented", "p": [14.2, 4.3, 3.25], "s": [6.8, 8.6, 5.2] },
+    { "type": "box", "name": "Torre lateral escalonada", "material": "#eee9db", "role": "building", "evidence": "documented", "p": [15.15, 8.25, 3.25], "s": [4.35, 7.1, 4.6] },
+    { "type": "box", "name": "Primer retroceso del coronamiento déco", "material": "#eee9db", "role": "building", "evidence": "documented", "p": [14.2, 9.55, 3.25], "s": [6.1, 2.0, 4.65] },
+    { "type": "box", "name": "Segundo retroceso del coronamiento déco", "material": "#ddd0ab", "role": "building", "evidence": "documented", "p": [14.2, 11.05, 3.25], "s": [4.9, 1.4, 4.05], "taper": 0.84 },
+    { "type": "box", "name": "Cresta central escalonada del acceso", "material": "#eee9db", "role": "building", "evidence": "documented", "p": [14.2, 12.25, 3.25], "s": [2.25, 1.1, 3.6], "taper": 0.72 },
+    { "type": "box", "name": "Aleta vertical izquierda del acceso", "material": "#f4f0e5", "role": "building", "evidence": "documented", "p": [12.05, 4.65, 5.93], "s": [0.62, 9.3, 0.5] },
+    { "type": "box", "name": "Aleta vertical derecha del acceso", "material": "#f4f0e5", "role": "building", "evidence": "documented", "p": [16.35, 4.65, 5.93], "s": [0.62, 9.3, 0.5] },
+    { "type": "box", "name": "Vano profundo del acceso monumental", "material": "#494943", "role": "building", "evidence": "documented", "p": [14.2, 2.65, 5.92], "s": [3.2, 5.3, 0.2] },
+    { "type": "box", "name": "Balcón del pabellón de acceso", "material": "#f4f0e5", "role": "building", "evidence": "documented", "p": [14.2, 5.45, 6.25], "s": [4.25, 0.42, 1.0] },
+    { "type": "lattice", "name": "Celosía perforada del balcón déco", "material": "#f4f0e5", "role": "building", "evidence": "documented", "p": [14.2, 6.15, 6.62], "s": [4.1, 1.25, 0.18], "count": [7, 2], "bar": 0.15 },
+    { "type": "lattice", "name": "Celosía alta de la torre", "material": "#e8e3d5", "role": "building", "evidence": "documented", "p": [15.15, 9.3, 5.6], "s": [2.15, 1.75, 0.18], "count": [4, 3], "bar": 0.13 },
+    { "type": "box", "name": "Franja ocre documentada del pabellón", "material": "#c8a766", "role": "building", "evidence": "documented", "p": [14.2, 8.25, 5.88], "s": [6.95, 0.52, 0.2] },
+    { "type": "box", "name": "Cancha abreviada de orientación", "material": "pasto", "role": "context", "evidence": "inferred", "p": [-3, 0.06, -3.4], "s": [24, 0.12, 3.0] },
+    { "type": "box", "name": "Tramo corto del perímetro exterior", "material": "#b9b5aa", "role": "context", "evidence": "inferred", "p": [-1, 0.32, 5.15], "s": [28, 0.64, 0.5] }
+  ]
+}

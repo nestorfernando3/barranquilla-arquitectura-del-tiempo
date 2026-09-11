@@ -1,0 +1,24 @@
+{
+  "slug": "banco-dugand",
+  "files": [
+    {
+      "file": "photo-1.jpg",
+      "title": "File:Antiguo Banco Dugand Barranquilla 2026-02-18.jpg",
+      "author": "Jdvillalobos",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antiguo_Banco_Dugand_Barranquilla_2026-02-18.jpg",
+      "accessedAt": "2026-08-21",
+      "note": "fachada-templo corintio"
+    },
+    {
+      "file": "photo-2.jpg",
+      "title": "File:Interior Banco Dugand Barranquilla 22-ago-2025.jpg",
+      "author": "Jdvillalobos",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_Banco_Dugand_Barranquilla_22-ago-2025.jpg",
+      "accessedAt": "2026-08-21",
+      "note": "interior"
+    }
+  ],
+  "notes": "Descargado vía API de Wikimedia Commons con metadatos de licencia verificados."
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "bellas-artes",
+  "files": [
+    {
+      "file": "photo-1.jpg",
+      "title": "Bellas Artes Universidad del Atlántico 13-jul-2025",
+      "author": "Jdvillalobos",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bellas_Artes_Universidad_del_Atl%C3%A1ntico_13-jul-2025.jpg",
+      "accessedAt": "2026-08-21"
+    },
+    {
+      "file": "photo-2.jpg",
+      "title": "Facultad de Bellas Artes - Universidad del Atlántico (Bquilla - BellasArtes.jpg, 2007)",
+      "author": "José David Villalobos",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bquilla_-_BellasArtes.jpg",
+      "accessedAt": "2026-08-21"
+    }
+  ],
+  "notes": "Both verified as the Facultad de Bellas Artes de la Universidad del Atlántico, Barranquilla (historic sede in the El Prado heritage complex; inscription 'UNIVERSIDAD DEL ATLÁNTICO / FACULTAD DE BELLAS ARTES' visible on façade). photo-1: frontal garden view of the restored main façade (July 2025, just after the 2025 restoration reopening) — symmetrical two-storey front with central portico of columns, arched upper windows with balustraded balcony. photo-2: oblique 2007 view from the gardens showing the arched loggia with blue awnings along the side elevation and hipped tile roof. IMPORTANT FLAG for atlas editors: the building is neocolonial-revival in character (arcades, hip roofs), NOT 'mid-20th-century modernist concrete' as stated in the task brief — identification by institution is certain, but parent-session description may need review or may refer to a different structure on the campus.",
+  "rejected": [
+    {
+      "title": "Sede Bellas Artes.jpg",
+      "reason": "Shows a different white Republican-style mansion with Universidad Metropolitana/Americana signage — not the Facultad de Bellas Artes of Universidad del Atlántico despite its Commons title/description."
+    }
+  ]
+}

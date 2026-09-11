@@ -1,0 +1,5569 @@
+{
+  "slug": "banco-dugand",
+  "name": "Edificio Banco Dugand",
+  "frontAxis": "+z",
+  "parts": [
+    {
+      "type": "box",
+      "name": "Primer peldaño de la escalinata",
+      "material": "#c9c3b7",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        0.15,
+        1.8
+      ],
+      "s": [
+        29,
+        0.3,
+        18.5
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Segundo peldaño de la escalinata",
+      "material": "#d4cec1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        0.48,
+        1.3
+      ],
+      "s": [
+        27.5,
+        0.36,
+        17
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tercer peldaño de la escalinata",
+      "material": "#ded8ca",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        0.85,
+        0.8
+      ],
+      "s": [
+        26,
+        0.38,
+        15.5
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Cuerpo principal del banco",
+      "material": "#ddd8ca",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        6.1,
+        0
+      ],
+      "s": [
+        24,
+        10.5,
+        12
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ala lateral izquierda",
+      "material": "#d5d0c4",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -14,
+        5,
+        -0.6
+      ],
+      "s": [
+        4,
+        10,
+        10.5
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ala lateral derecha",
+      "material": "#d5d0c4",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        14,
+        5,
+        -0.6
+      ],
+      "s": [
+        4,
+        10,
+        10.5
+      ]
+    },
+    {
+      "type": "arch",
+      "name": "Portal profundo",
+      "material": "#352f2b",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        4.25,
+        6.18
+      ],
+      "s": [
+        3.3,
+        6.8,
+        0.2
+      ],
+      "arch": "round",
+      "seg": 28
+    },
+    {
+      "type": "windowGrid",
+      "name": "Huecos altos oscuros",
+      "material": "#303438",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        7.1,
+        6.16
+      ],
+      "cell": [
+        2.15,
+        5.65,
+        0.16
+      ],
+      "count": [
+        3,
+        1
+      ],
+      "gap": [
+        1.75,
+        0
+      ]
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica gigante · 1",
+      "material": "#eee9de",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -10.4,
+        6.55,
+        7.15
+      ],
+      "s": [
+        1.25,
+        10.9,
+        1.25
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica gigante · 2",
+      "material": "#eee9de",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -7.45,
+        6.55,
+        7.15
+      ],
+      "s": [
+        1.25,
+        10.9,
+        1.25
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica gigante · 3",
+      "material": "#eee9de",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -4.5,
+        6.55,
+        7.15
+      ],
+      "s": [
+        1.25,
+        10.9,
+        1.25
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica gigante · 4",
+      "material": "#eee9de",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -1.52,
+        6.55,
+        7.15
+      ],
+      "s": [
+        1.25,
+        10.9,
+        1.25
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica gigante · 5",
+      "material": "#eee9de",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        1.52,
+        6.55,
+        7.15
+      ],
+      "s": [
+        1.25,
+        10.9,
+        1.25
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica gigante · 6",
+      "material": "#eee9de",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        4.5,
+        6.55,
+        7.15
+      ],
+      "s": [
+        1.25,
+        10.9,
+        1.25
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica gigante · 7",
+      "material": "#eee9de",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        7.45,
+        6.55,
+        7.15
+      ],
+      "s": [
+        1.25,
+        10.9,
+        1.25
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica gigante · 8",
+      "material": "#eee9de",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        10.4,
+        6.55,
+        7.15
+      ],
+      "s": [
+        1.25,
+        10.9,
+        1.25
+      ],
+      "seg": 28
+    },
+    {
+      "type": "box",
+      "name": "Entablamento monumental",
+      "material": "#eee9de",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        12.45,
+        6.25
+      ],
+      "s": [
+        24.2,
+        1.55,
+        3.2
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Dentículos del entablamento",
+      "material": "#c6bfb1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        13.05,
+        7.9
+      ],
+      "cell": [
+        0.48,
+        0.34,
+        0.34
+      ],
+      "count": [
+        30,
+        1
+      ],
+      "gap": [
+        0.31,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ático posterior",
+      "material": "#ddd8ca",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        13.7,
+        0
+      ],
+      "s": [
+        23.8,
+        1.2,
+        11.5
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Cornisa del ático",
+      "material": "#eee9de",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        14.38,
+        0
+      ],
+      "s": [
+        24.6,
+        0.28,
+        12.3
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · jamba",
+      "p": [
+        -4.975,
+        7.1,
+        6.297
+      ],
+      "s": [
+        0.09,
+        5.7700000000000005,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · jamba",
+      "p": [
+        -2.825,
+        7.1,
+        6.297
+      ],
+      "s": [
+        0.09,
+        5.7700000000000005,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · dintel",
+      "p": [
+        -3.9,
+        4.2749999999999995,
+        6.297
+      ],
+      "s": [
+        2.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · dintel",
+      "p": [
+        -3.9,
+        9.925,
+        6.297
+      ],
+      "s": [
+        2.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · montante",
+      "p": [
+        -3.9,
+        7.1,
+        6.302
+      ],
+      "s": [
+        0.063,
+        5.65,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · travesaño",
+      "p": [
+        -3.9,
+        7.665,
+        6.302
+      ],
+      "s": [
+        2.15,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · alféizar",
+      "p": [
+        -3.9,
+        4.174999999999999,
+        6.332
+      ],
+      "s": [
+        2.4299999999999997,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · jamba",
+      "p": [
+        -1.075,
+        7.1,
+        6.297
+      ],
+      "s": [
+        0.09,
+        5.7700000000000005,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · jamba",
+      "p": [
+        1.075,
+        7.1,
+        6.297
+      ],
+      "s": [
+        0.09,
+        5.7700000000000005,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · dintel",
+      "p": [
+        0,
+        4.2749999999999995,
+        6.297
+      ],
+      "s": [
+        2.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · dintel",
+      "p": [
+        0,
+        9.925,
+        6.297
+      ],
+      "s": [
+        2.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · montante",
+      "p": [
+        0,
+        7.1,
+        6.302
+      ],
+      "s": [
+        0.063,
+        5.65,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · travesaño",
+      "p": [
+        0,
+        7.665,
+        6.302
+      ],
+      "s": [
+        2.15,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · alféizar",
+      "p": [
+        0,
+        4.174999999999999,
+        6.332
+      ],
+      "s": [
+        2.4299999999999997,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · jamba",
+      "p": [
+        2.825,
+        7.1,
+        6.297
+      ],
+      "s": [
+        0.09,
+        5.7700000000000005,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · jamba",
+      "p": [
+        4.975,
+        7.1,
+        6.297
+      ],
+      "s": [
+        0.09,
+        5.7700000000000005,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · dintel",
+      "p": [
+        3.9,
+        4.2749999999999995,
+        6.297
+      ],
+      "s": [
+        2.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · dintel",
+      "p": [
+        3.9,
+        9.925,
+        6.297
+      ],
+      "s": [
+        2.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · montante",
+      "p": [
+        3.9,
+        7.1,
+        6.302
+      ],
+      "s": [
+        0.063,
+        5.65,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · travesaño",
+      "p": [
+        3.9,
+        7.665,
+        6.302
+      ],
+      "s": [
+        2.15,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Huecos altos oscuros · alféizar",
+      "p": [
+        3.9,
+        4.174999999999999,
+        6.332
+      ],
+      "s": [
+        2.4299999999999997,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Friso superior horizontal",
+      "p": [
+        0,
+        13.6,
+        7.33
+      ],
+      "s": [
+        24.4,
+        0.52,
+        1.3
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Cornisa saliente superior",
+      "p": [
+        0,
+        14.02,
+        7.35
+      ],
+      "s": [
+        25,
+        0.24,
+        1.6
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -9.925,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -9.961157222057139,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -10.06412427893639,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -10.218225369626582,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -10.4,
+        6.7,
+        7.625
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -10.581774630373419,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -10.73587572106361,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -10.838842777942862,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -10.875,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -10.838842777942862,
+        6.7,
+        6.968225369626583
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -10.73587572106361,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -10.581774630373419,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -10.4,
+        6.7,
+        6.675000000000001
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -10.218225369626582,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -10.06412427893639,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -9.961157222057139,
+        6.7,
+        6.968225369626582
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        -10.88,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        -9.92,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -6.9750000000000005,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.011157222057139,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.11412427893639,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.268225369626583,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.45,
+        6.7,
+        7.625
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.6317746303734175,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.7858757210636105,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.888842777942862,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.925,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.888842777942862,
+        6.7,
+        6.968225369626583
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.7858757210636105,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.631774630373418,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.45,
+        6.7,
+        6.675000000000001
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.268225369626583,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.11412427893639,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -7.011157222057139,
+        6.7,
+        6.968225369626582
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        -7.93,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        -6.970000000000001,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.025,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.061157222057139,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.16412427893639,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.318225369626583,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.5,
+        6.7,
+        7.625
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.681774630373417,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.83587572106361,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.938842777942861,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.975,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.938842777942861,
+        6.7,
+        6.968225369626583
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.83587572106361,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.681774630373418,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.5,
+        6.7,
+        6.675000000000001
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.318225369626583,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.16412427893639,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -4.061157222057139,
+        6.7,
+        6.968225369626582
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        -4.98,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        -4.02,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.045,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.0811572220571388,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.18412427893639,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.3382253696265825,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.52,
+        6.7,
+        7.625
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.7017746303734176,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.85587572106361,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.9588427779428612,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.995,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.9588427779428612,
+        6.7,
+        6.968225369626583
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.85587572106361,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.7017746303734178,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.52,
+        6.7,
+        6.675000000000001
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.3382253696265822,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.1841242789363902,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        -1.081157222057139,
+        6.7,
+        6.968225369626582
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        -2,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        -1.04,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.995,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.9588427779428612,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.85587572106361,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.7017746303734176,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.52,
+        6.7,
+        7.625
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.3382253696265825,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.18412427893639,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.0811572220571388,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.045,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.0811572220571388,
+        6.7,
+        6.968225369626583
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.18412427893639,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.3382253696265822,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.52,
+        6.7,
+        6.675000000000001
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.7017746303734178,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.8558757210636099,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        1.958842777942861,
+        6.7,
+        6.968225369626582
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        1.04,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        2,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.975,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.938842777942861,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.83587572106361,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.681774630373417,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.5,
+        6.7,
+        7.625
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.318225369626583,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.16412427893639,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.061157222057139,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.025,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.061157222057139,
+        6.7,
+        6.968225369626583
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.16412427893639,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.318225369626582,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.5,
+        6.7,
+        6.675000000000001
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.681774630373417,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.83587572106361,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        4.938842777942861,
+        6.7,
+        6.968225369626582
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        4.02,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        4.98,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.925,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.888842777942862,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.7858757210636105,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.6317746303734175,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.45,
+        6.7,
+        7.625
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.268225369626583,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.11412427893639,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.011157222057139,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        6.9750000000000005,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.011157222057139,
+        6.7,
+        6.968225369626583
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.11412427893639,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.268225369626582,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.45,
+        6.7,
+        6.675000000000001
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.6317746303734175,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.7858757210636105,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        7.888842777942862,
+        6.7,
+        6.968225369626582
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        6.970000000000001,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        7.93,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        10.875,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        10.838842777942862,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        10.73587572106361,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        10.581774630373419,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        10.4,
+        6.7,
+        7.625
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        10.218225369626582,
+        6.7,
+        7.588842777942862
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        10.06412427893639,
+        6.7,
+        7.485875721063611
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        9.961157222057139,
+        6.7,
+        7.331774630373418
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        9.925,
+        6.7,
+        7.15
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        9.961157222057139,
+        6.7,
+        6.968225369626583
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        10.06412427893639,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        10.218225369626582,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        10.4,
+        6.7,
+        6.675000000000001
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        10.581774630373419,
+        6.7,
+        6.711157222057139
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        10.73587572106361,
+        6.7,
+        6.81412427893639
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Estría del fuste",
+      "p": [
+        10.838842777942862,
+        6.7,
+        6.968225369626582
+      ],
+      "s": [
+        1,
+        7.2,
+        1
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.022,
+        0.022
+      ],
+      "seg": 6
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        9.92,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Voluta del capitel",
+      "p": [
+        10.88,
+        11.3,
+        7.72
+      ],
+      "s": [
+        1,
+        0.15,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.19,
+        0.19
+      ],
+      "seg": 16,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -11.5,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -10.95,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -10.399999999999999,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -9.849999999999998,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -9.299999999999997,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -8.749999999999996,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -8.199999999999996,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -7.649999999999996,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -7.099999999999996,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -6.549999999999996,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -5.9999999999999964,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -5.449999999999997,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -4.899999999999997,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -4.349999999999997,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -3.799999999999997,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -3.2499999999999973,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -2.6999999999999975,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -2.1499999999999977,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -1.5999999999999976,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -1.0499999999999976,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        -0.49999999999999756,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        0.05000000000000249,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        0.6000000000000025,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        1.1500000000000026,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        1.7000000000000026,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        2.2500000000000027,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        2.8000000000000025,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        3.3500000000000023,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        3.900000000000002,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        4.450000000000002,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        5.000000000000002,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        5.550000000000002,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        6.100000000000001,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        6.650000000000001,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        7.200000000000001,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        7.750000000000001,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        8.3,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        8.850000000000001,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        9.400000000000002,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        9.950000000000003,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        10.500000000000004,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        11.050000000000004,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Ovas del friso",
+      "p": [
+        11.600000000000005,
+        13.65,
+        8.02
+      ],
+      "s": [
+        0.16,
+        0.19,
+        0.11
+      ],
+      "material": "#c5beb0",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dintel ornamental del portal",
+      "p": [
+        0,
+        6.2,
+        6.55
+      ],
+      "s": [
+        3.9,
+        0.3,
+        0.42
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · vidrio",
+      "p": [
+        -14,
+        2.8,
+        4.71
+      ],
+      "s": [
+        1.35,
+        2.5,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · jamba",
+      "p": [
+        -14.675,
+        2.8,
+        4.765
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · jamba",
+      "p": [
+        -13.325,
+        2.8,
+        4.765
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · dintel",
+      "p": [
+        -14,
+        1.5499999999999998,
+        4.765
+      ],
+      "s": [
+        1.4700000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · dintel",
+      "p": [
+        -14,
+        4.05,
+        4.765
+      ],
+      "s": [
+        1.4700000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · montante",
+      "p": [
+        -14,
+        2.8,
+        4.77
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · travesaño",
+      "p": [
+        -14,
+        3.05,
+        4.77
+      ],
+      "s": [
+        1.35,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · alféizar",
+      "p": [
+        -14,
+        1.4499999999999997,
+        4.8
+      ],
+      "s": [
+        1.6300000000000001,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · vidrio",
+      "p": [
+        -14,
+        6.5,
+        4.71
+      ],
+      "s": [
+        1.35,
+        2.5,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · jamba",
+      "p": [
+        -14.675,
+        6.5,
+        4.765
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · jamba",
+      "p": [
+        -13.325,
+        6.5,
+        4.765
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · dintel",
+      "p": [
+        -14,
+        5.25,
+        4.765
+      ],
+      "s": [
+        1.4700000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · dintel",
+      "p": [
+        -14,
+        7.75,
+        4.765
+      ],
+      "s": [
+        1.4700000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · montante",
+      "p": [
+        -14,
+        6.5,
+        4.77
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · travesaño",
+      "p": [
+        -14,
+        6.75,
+        4.77
+      ],
+      "s": [
+        1.35,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · alféizar",
+      "p": [
+        -14,
+        5.15,
+        4.8
+      ],
+      "s": [
+        1.6300000000000001,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · vidrio",
+      "p": [
+        14,
+        2.8,
+        4.71
+      ],
+      "s": [
+        1.35,
+        2.5,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · jamba",
+      "p": [
+        13.325,
+        2.8,
+        4.765
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · jamba",
+      "p": [
+        14.675,
+        2.8,
+        4.765
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · dintel",
+      "p": [
+        14,
+        1.5499999999999998,
+        4.765
+      ],
+      "s": [
+        1.4700000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · dintel",
+      "p": [
+        14,
+        4.05,
+        4.765
+      ],
+      "s": [
+        1.4700000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · montante",
+      "p": [
+        14,
+        2.8,
+        4.77
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · travesaño",
+      "p": [
+        14,
+        3.05,
+        4.77
+      ],
+      "s": [
+        1.35,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · alféizar",
+      "p": [
+        14,
+        1.4499999999999997,
+        4.8
+      ],
+      "s": [
+        1.6300000000000001,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · vidrio",
+      "p": [
+        14,
+        6.5,
+        4.71
+      ],
+      "s": [
+        1.35,
+        2.5,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · jamba",
+      "p": [
+        13.325,
+        6.5,
+        4.765
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · jamba",
+      "p": [
+        14.675,
+        6.5,
+        4.765
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · dintel",
+      "p": [
+        14,
+        5.25,
+        4.765
+      ],
+      "s": [
+        1.4700000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · dintel",
+      "p": [
+        14,
+        7.75,
+        4.765
+      ],
+      "s": [
+        1.4700000000000002,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · montante",
+      "p": [
+        14,
+        6.5,
+        4.77
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · travesaño",
+      "p": [
+        14,
+        6.75,
+        4.77
+      ],
+      "s": [
+        1.35,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano lateral del frente · alféizar",
+      "p": [
+        14,
+        5.15,
+        4.8
+      ],
+      "s": [
+        1.6300000000000001,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

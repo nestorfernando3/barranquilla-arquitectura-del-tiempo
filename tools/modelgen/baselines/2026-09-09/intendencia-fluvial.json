@@ -1,0 +1,26 @@
+{
+  "slug": "intendencia-fluvial",
+  "name": "Intendencia Fluvial",
+  "frontAxis": "+z",
+  "parts": [
+    { "type": "box", "name": "Bloque azul de dos plantas", "material": "#9fc5e4", "role": "building", "evidence": "documented", "p": [0, 4.5, 0], "s": [20, 9, 13] },
+    { "type": "hipRoof", "name": "Cubierta oculta a cuatro aguas", "material": "#945345", "role": "building", "evidence": "inferred", "p": [0, 9.38, -0.2], "s": [18.2, 0.72, 11.1], "ridge": 0.55 },
+    { "type": "windowGrid", "name": "Esquineros blancos de la fachada", "material": "#f3f0e7", "role": "building", "evidence": "documented", "p": [0, 4.45, 6.9], "cell": [0.62, 0.72, 0.28], "count": [2, 10], "gap": [18.88, 0.17] },
+    { "type": "windowGrid", "name": "Recercos de ventanas frontales", "material": "#f3f0e7", "role": "building", "evidence": "documented", "p": [0, 4.45, 6.82], "cell": [1.95, 3.05, 0.18], "count": [5, 2], "gap": [1.25, 1.4] },
+    { "type": "windowGrid", "name": "Ventanas altas y bajas del frente", "material": "#33434c", "role": "building", "evidence": "documented", "p": [0, 4.45, 6.95], "cell": [1.3, 2.5, 0.13], "count": [5, 2], "gap": [1.9, 1.95] },
+    { "type": "windowGrid", "name": "Esquineros blancos del costado visible", "material": "#f3f0e7", "role": "building", "evidence": "documented", "p": [10.32, 4.45, 0], "cell": [0.62, 0.72, 0.28], "count": [2, 10], "gap": [11.78, 0.17], "axis": "z" },
+    { "type": "windowGrid", "name": "Recercos del costado visible", "material": "#f3f0e7", "role": "building", "evidence": "documented", "p": [10.28, 4.45, 0], "cell": [1.95, 3.05, 0.18], "count": [4, 2], "gap": [1.15, 1.4], "axis": "z" },
+    { "type": "windowGrid", "name": "Ventanas altas y bajas del costado visible", "material": "#33434c", "role": "building", "evidence": "documented", "p": [10.42, 4.45, 0], "cell": [1.3, 2.5, 0.13], "count": [4, 2], "gap": [1.8, 1.95], "axis": "z" },
+    { "type": "colonnade", "name": "Pórtico de acceso", "material": "#f3f0e7", "role": "building", "evidence": "documented", "p": [0, 0, 6.82], "len": 4.4, "n": 2, "h": 4.6, "dep": 0.85, "pw": 0.6, "archH": 0.6 },
+    { "type": "box", "name": "Puerta principal", "material": "#38424a", "role": "building", "evidence": "documented", "p": [0, 2.05, 6.68], "s": [1.65, 4.1, 0.16] },
+    { "type": "box", "name": "Balcón frontal sobre el pórtico", "material": "#f3f0e7", "role": "building", "evidence": "documented", "p": [0, 5.08, 6.92], "s": [4.6, 0.5, 1.25] },
+    { "type": "box", "name": "Balcón del costado visible", "material": "#f3f0e7", "role": "building", "evidence": "documented", "p": [10.08, 5.5, 2.8], "s": [1.15, 0.55, 3.1] },
+    { "type": "box", "name": "Cornisa blanca", "material": "#f3f0e7", "role": "building", "evidence": "documented", "p": [0, 9.18, 0], "s": [20.8, 0.55, 13.8] },
+    { "type": "box", "name": "Parapeto continuo bajo", "material": "#9fc5e4", "role": "building", "evidence": "documented", "p": [0, 9.62, 0], "s": [20.2, 0.8, 13.2] },
+    { "type": "box", "name": "Remate blanco del parapeto continuo", "material": "#f3f0e7", "role": "building", "evidence": "documented", "p": [0, 10.07, 0], "s": [20.7, 0.16, 13.7] },
+    { "type": "windowGrid", "name": "Tramos elevados del parapeto frontal", "material": "#9fc5e4", "role": "building", "evidence": "documented", "p": [0, 10.18, 6.42], "cell": [1.6, 0.42, 0.5], "count": [5, 1], "gap": [2.5, 0] },
+    { "type": "windowGrid", "name": "Remates de los tramos elevados frontales", "material": "#f3f0e7", "role": "building", "evidence": "documented", "p": [0, 10.44, 6.46], "cell": [1.88, 0.12, 0.58], "count": [5, 1], "gap": [2.22, 0] },
+    { "type": "windowGrid", "name": "Tramos elevados del parapeto lateral", "material": "#9fc5e4", "role": "building", "evidence": "documented", "p": [9.92, 10.18, 0], "cell": [1.6, 0.42, 0.5], "count": [4, 1], "gap": [2.35, 0], "axis": "z" },
+    { "type": "windowGrid", "name": "Remates de los tramos elevados laterales", "material": "#f3f0e7", "role": "building", "evidence": "documented", "p": [9.96, 10.44, 0], "cell": [1.88, 0.12, 0.58], "count": [4, 1], "gap": [2.07, 0], "axis": "z" }
+  ]
+}

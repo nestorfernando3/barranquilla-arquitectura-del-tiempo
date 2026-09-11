@@ -1,0 +1,4380 @@
+{
+  "slug": "bellas-artes",
+  "name": "Facultad de Bellas Artes",
+  "frontAxis": "+z",
+  "parts": [
+    {
+      "type": "box",
+      "name": "Cuerpo principal simétrico de dos plantas",
+      "material": "#eadfca",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        4,
+        -1
+      ],
+      "s": [
+        23,
+        8,
+        8.5
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno lateral occidental simple",
+      "material": "#eadfca",
+      "role": "building",
+      "evidence": "inferred",
+      "p": [
+        -13.5,
+        3.5,
+        -1.5
+      ],
+      "s": [
+        4,
+        7,
+        9.5
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno lateral oriental simple",
+      "material": "#eadfca",
+      "role": "building",
+      "evidence": "inferred",
+      "p": [
+        13.5,
+        3.5,
+        -1.5
+      ],
+      "s": [
+        4,
+        7,
+        9.5
+      ]
+    },
+    {
+      "type": "hipRoof",
+      "name": "Cubierta central de teja a cuatro aguas",
+      "material": "#a6533d",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        9,
+        -1
+      ],
+      "s": [
+        24,
+        2,
+        9.5
+      ],
+      "ridge": 0.6
+    },
+    {
+      "type": "hipRoof",
+      "name": "Cubierta simple del retorno occidental",
+      "material": "#a6533d",
+      "role": "building",
+      "evidence": "inferred",
+      "p": [
+        -13.5,
+        7.9,
+        -1.5
+      ],
+      "s": [
+        5,
+        1.8,
+        10.5
+      ],
+      "axis": "z",
+      "ridge": 0.55
+    },
+    {
+      "type": "hipRoof",
+      "name": "Cubierta simple del retorno oriental",
+      "material": "#a6533d",
+      "role": "building",
+      "evidence": "inferred",
+      "p": [
+        13.5,
+        7.9,
+        -1.5
+      ],
+      "s": [
+        5,
+        1.8,
+        10.5
+      ],
+      "axis": "z",
+      "ridge": 0.55
+    },
+    {
+      "type": "arcade",
+      "name": "Loggia lateral occidental profunda",
+      "material": "#f5efe1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -8,
+        4.35,
+        4.15
+      ],
+      "len": 6,
+      "n": 3,
+      "h": 3.2,
+      "dep": 1.8,
+      "pw": 0.32,
+      "arch": "round",
+      "seg": 28
+    },
+    {
+      "type": "arcade",
+      "name": "Loggia lateral oriental profunda",
+      "material": "#f5efe1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        8,
+        4.35,
+        4.15
+      ],
+      "len": 6,
+      "n": 3,
+      "h": 3.2,
+      "dep": 1.8,
+      "pw": 0.32,
+      "arch": "round",
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna del pórtico central · 1",
+      "material": "#f5efe1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -4.5,
+        2.25,
+        4.15
+      ],
+      "s": [
+        0.58,
+        4.5,
+        0.58
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna del pórtico central · 2",
+      "material": "#f5efe1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -2.7,
+        2.25,
+        4.15
+      ],
+      "s": [
+        0.58,
+        4.5,
+        0.58
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna del pórtico central · 3",
+      "material": "#f5efe1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -0.9,
+        2.25,
+        4.15
+      ],
+      "s": [
+        0.58,
+        4.5,
+        0.58
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna del pórtico central · 4",
+      "material": "#f5efe1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0.9,
+        2.25,
+        4.15
+      ],
+      "s": [
+        0.58,
+        4.5,
+        0.58
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna del pórtico central · 5",
+      "material": "#f5efe1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        2.7,
+        2.25,
+        4.15
+      ],
+      "s": [
+        0.58,
+        4.5,
+        0.58
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna del pórtico central · 6",
+      "material": "#f5efe1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        4.5,
+        2.25,
+        4.15
+      ],
+      "s": [
+        0.58,
+        4.5,
+        0.58
+      ],
+      "seg": 28
+    },
+    {
+      "type": "box",
+      "name": "Entablamento del pórtico central",
+      "material": "#f5efe1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        4.65,
+        4.15
+      ],
+      "s": [
+        10.8,
+        0.7,
+        1.75
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Losa del balcón central",
+      "material": "#f5efe1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        4.85,
+        4.55
+      ],
+      "s": [
+        11,
+        0.35,
+        1.65
+      ]
+    },
+    {
+      "type": "colonnade",
+      "name": "Balaustrada abierta del balcón central",
+      "material": "#f5efe1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        5.02,
+        5.2
+      ],
+      "len": 10.2,
+      "n": 17,
+      "h": 0.72,
+      "dep": 0.22,
+      "pw": 0.15,
+      "archH": 0.12
+    },
+    {
+      "type": "arch",
+      "name": "Vano superior de arco redondo · 1",
+      "material": "#4e453b",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -4.8,
+        6.45,
+        3.35
+      ],
+      "s": [
+        1.55,
+        2.35,
+        0.18
+      ],
+      "arch": "round",
+      "seg": 28
+    },
+    {
+      "type": "arch",
+      "name": "Vano superior de arco redondo · 2",
+      "material": "#4e453b",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -2.4,
+        6.45,
+        3.35
+      ],
+      "s": [
+        1.55,
+        2.35,
+        0.18
+      ],
+      "arch": "round",
+      "seg": 28
+    },
+    {
+      "type": "arch",
+      "name": "Vano superior de arco redondo · 3",
+      "material": "#4e453b",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        6.45,
+        3.35
+      ],
+      "s": [
+        1.55,
+        2.35,
+        0.18
+      ],
+      "arch": "round",
+      "seg": 28
+    },
+    {
+      "type": "arch",
+      "name": "Vano superior de arco redondo · 4",
+      "material": "#4e453b",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        2.4,
+        6.45,
+        3.35
+      ],
+      "s": [
+        1.55,
+        2.35,
+        0.18
+      ],
+      "arch": "round",
+      "seg": 28
+    },
+    {
+      "type": "arch",
+      "name": "Vano superior de arco redondo · 5",
+      "material": "#4e453b",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        4.8,
+        6.45,
+        3.35
+      ],
+      "s": [
+        1.55,
+        2.35,
+        0.18
+      ],
+      "arch": "round",
+      "seg": 28
+    },
+    {
+      "type": "box",
+      "name": "Cornisa continua de la fachada",
+      "material": "#f5efe1",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        7.75,
+        3.35
+      ],
+      "s": [
+        23.4,
+        0.42,
+        0.5
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Jardín frontal de la facultad",
+      "material": "pasto",
+      "role": "context",
+      "evidence": "documented",
+      "p": [
+        0,
+        0.1,
+        9.25
+      ],
+      "s": [
+        32,
+        0.2,
+        12
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Cumbrera de Cubierta central de teja a cuatro aguas",
+      "p": [
+        0,
+        10.055,
+        -1
+      ],
+      "s": [
+        14.399999999999999,
+        0.13,
+        0.18
+      ],
+      "material": "#984d3a",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        8.235,
+        -5.275
+      ],
+      "s": [
+        23.040000000000003,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        8.235,
+        3.2750000000000004
+      ],
+      "s": [
+        23.040000000000003,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        8.435,
+        -4.800000000000001
+      ],
+      "s": [
+        22.080000000000002,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        8.435,
+        2.8000000000000003
+      ],
+      "s": [
+        22.080000000000002,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        8.635,
+        -4.324999999999999
+      ],
+      "s": [
+        21.119999999999997,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        8.635,
+        2.3249999999999997
+      ],
+      "s": [
+        21.119999999999997,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        8.835,
+        -3.85
+      ],
+      "s": [
+        20.159999999999997,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        8.835,
+        1.85
+      ],
+      "s": [
+        20.159999999999997,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        9.035,
+        -3.375
+      ],
+      "s": [
+        19.2,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        9.035,
+        1.375
+      ],
+      "s": [
+        19.2,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        9.235,
+        -2.9000000000000004
+      ],
+      "s": [
+        18.240000000000002,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        9.235,
+        0.9000000000000001
+      ],
+      "s": [
+        18.240000000000002,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        9.435,
+        -2.4250000000000003
+      ],
+      "s": [
+        17.28,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        9.435,
+        0.42500000000000027
+      ],
+      "s": [
+        17.28,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        9.635,
+        -1.9499999999999997
+      ],
+      "s": [
+        16.32,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        9.635,
+        -0.050000000000000266
+      ],
+      "s": [
+        16.32,
+        0.055,
+        0.075
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        9.835,
+        -1.4749999999999999
+      ],
+      "s": [
+        15.36,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        0,
+        9.835,
+        -0.5250000000000001
+      ],
+      "s": [
+        15.36,
+        0.055,
+        0.075
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Cumbrera de Cubierta simple del retorno occidental",
+      "p": [
+        -13.5,
+        8.855,
+        -1.5
+      ],
+      "s": [
+        0.18,
+        0.13,
+        5.775
+      ],
+      "material": "#984d3a",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -15.75,
+        7.215,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        10.027500000000002
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -11.25,
+        7.215,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        10.027500000000002
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -15.5,
+        7.3950000000000005,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        9.555
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -11.5,
+        7.3950000000000005,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        9.555
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -15.25,
+        7.575,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        9.0825
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -11.75,
+        7.575,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        9.0825
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -15,
+        7.755,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        8.61
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -12,
+        7.755,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        8.61
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -14.75,
+        7.9350000000000005,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        8.1375
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -12.25,
+        7.9350000000000005,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        8.1375
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -14.5,
+        8.115,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        7.665000000000001
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -12.5,
+        8.115,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        7.665000000000001
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -14.25,
+        8.295,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        7.192500000000001
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -12.75,
+        8.295,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        7.192500000000001
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -14,
+        8.475,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        6.72
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -13,
+        8.475,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        6.72
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -13.75,
+        8.655000000000001,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        6.2475000000000005
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        -13.25,
+        8.655000000000001,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        6.2475000000000005
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Cumbrera de Cubierta simple del retorno oriental",
+      "p": [
+        13.5,
+        8.855,
+        -1.5
+      ],
+      "s": [
+        0.18,
+        0.13,
+        5.775
+      ],
+      "material": "#984d3a",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        11.25,
+        7.215,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        10.027500000000002
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        15.75,
+        7.215,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        10.027500000000002
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        11.5,
+        7.3950000000000005,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        9.555
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        15.5,
+        7.3950000000000005,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        9.555
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        11.75,
+        7.575,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        9.0825
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        15.25,
+        7.575,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        9.0825
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        12,
+        7.755,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        8.61
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        15,
+        7.755,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        8.61
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        12.25,
+        7.9350000000000005,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        8.1375
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        14.75,
+        7.9350000000000005,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        8.1375
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        12.5,
+        8.115,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        7.665000000000001
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        14.5,
+        8.115,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        7.665000000000001
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        12.75,
+        8.295,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        7.192500000000001
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        14.25,
+        8.295,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        7.192500000000001
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        13,
+        8.475,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        6.72
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        14,
+        8.475,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        6.72
+      ],
+      "material": "#a25640",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        13.25,
+        8.655000000000001,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        6.2475000000000005
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Hilada de teja",
+      "p": [
+        13.75,
+        8.655000000000001,
+        -1.5
+      ],
+      "s": [
+        0.075,
+        0.055,
+        6.2475000000000005
+      ],
+      "material": "#b66449",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "arch",
+      "name": "Puertas bajo el pórtico",
+      "p": [
+        -3.6,
+        2.1,
+        3.29
+      ],
+      "s": [
+        1.2,
+        3.8,
+        0.1
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ],
+      "arch": "round",
+      "seg": 24
+    },
+    {
+      "type": "box",
+      "name": "Puertas bajo el pórtico · montante",
+      "p": [
+        -3.6,
+        1.6440000000000001,
+        3.37
+      ],
+      "s": [
+        0.06,
+        2.584,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Puertas bajo el pórtico · división",
+      "p": [
+        -3.6,
+        1.9100000000000001,
+        3.37
+      ],
+      "s": [
+        1.2,
+        0.06,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "arch",
+      "name": "Puertas bajo el pórtico",
+      "p": [
+        -1.8,
+        2.1,
+        3.29
+      ],
+      "s": [
+        1.2,
+        3.8,
+        0.1
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ],
+      "arch": "round",
+      "seg": 24
+    },
+    {
+      "type": "box",
+      "name": "Puertas bajo el pórtico · montante",
+      "p": [
+        -1.8,
+        1.6440000000000001,
+        3.37
+      ],
+      "s": [
+        0.06,
+        2.584,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Puertas bajo el pórtico · división",
+      "p": [
+        -1.8,
+        1.9100000000000001,
+        3.37
+      ],
+      "s": [
+        1.2,
+        0.06,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "arch",
+      "name": "Puertas bajo el pórtico",
+      "p": [
+        0,
+        2.1,
+        3.29
+      ],
+      "s": [
+        1.2,
+        3.8,
+        0.1
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ],
+      "arch": "round",
+      "seg": 24
+    },
+    {
+      "type": "box",
+      "name": "Puertas bajo el pórtico · montante",
+      "p": [
+        0,
+        1.6440000000000001,
+        3.37
+      ],
+      "s": [
+        0.06,
+        2.584,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Puertas bajo el pórtico · división",
+      "p": [
+        0,
+        1.9100000000000001,
+        3.37
+      ],
+      "s": [
+        1.2,
+        0.06,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "arch",
+      "name": "Puertas bajo el pórtico",
+      "p": [
+        1.8,
+        2.1,
+        3.29
+      ],
+      "s": [
+        1.2,
+        3.8,
+        0.1
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ],
+      "arch": "round",
+      "seg": 24
+    },
+    {
+      "type": "box",
+      "name": "Puertas bajo el pórtico · montante",
+      "p": [
+        1.8,
+        1.6440000000000001,
+        3.37
+      ],
+      "s": [
+        0.06,
+        2.584,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Puertas bajo el pórtico · división",
+      "p": [
+        1.8,
+        1.9100000000000001,
+        3.37
+      ],
+      "s": [
+        1.2,
+        0.06,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "arch",
+      "name": "Puertas bajo el pórtico",
+      "p": [
+        3.6,
+        2.1,
+        3.29
+      ],
+      "s": [
+        1.2,
+        3.8,
+        0.1
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ],
+      "arch": "round",
+      "seg": 24
+    },
+    {
+      "type": "box",
+      "name": "Puertas bajo el pórtico · montante",
+      "p": [
+        3.6,
+        1.6440000000000001,
+        3.37
+      ],
+      "s": [
+        0.06,
+        2.584,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Puertas bajo el pórtico · división",
+      "p": [
+        3.6,
+        1.9100000000000001,
+        3.37
+      ],
+      "s": [
+        1.2,
+        0.06,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · vidrio",
+      "p": [
+        -10,
+        2.15,
+        3.3
+      ],
+      "s": [
+        1.15,
+        2.9,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · jamba",
+      "p": [
+        -10.575,
+        2.15,
+        3.355
+      ],
+      "s": [
+        0.09,
+        3.02,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · jamba",
+      "p": [
+        -9.425,
+        2.15,
+        3.355
+      ],
+      "s": [
+        0.09,
+        3.02,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · dintel",
+      "p": [
+        -10,
+        0.7,
+        3.355
+      ],
+      "s": [
+        1.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · dintel",
+      "p": [
+        -10,
+        3.5999999999999996,
+        3.355
+      ],
+      "s": [
+        1.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · montante",
+      "p": [
+        -10,
+        2.15,
+        3.36
+      ],
+      "s": [
+        0.063,
+        2.9,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · travesaño",
+      "p": [
+        -10,
+        2.44,
+        3.36
+      ],
+      "s": [
+        1.15,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · alféizar",
+      "p": [
+        -10,
+        0.5999999999999999,
+        3.3899999999999997
+      ],
+      "s": [
+        1.43,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · vidrio",
+      "p": [
+        -8,
+        2.15,
+        3.3
+      ],
+      "s": [
+        1.15,
+        2.9,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · jamba",
+      "p": [
+        -8.575,
+        2.15,
+        3.355
+      ],
+      "s": [
+        0.09,
+        3.02,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · jamba",
+      "p": [
+        -7.425,
+        2.15,
+        3.355
+      ],
+      "s": [
+        0.09,
+        3.02,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · dintel",
+      "p": [
+        -8,
+        0.7,
+        3.355
+      ],
+      "s": [
+        1.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · dintel",
+      "p": [
+        -8,
+        3.5999999999999996,
+        3.355
+      ],
+      "s": [
+        1.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · montante",
+      "p": [
+        -8,
+        2.15,
+        3.36
+      ],
+      "s": [
+        0.063,
+        2.9,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · travesaño",
+      "p": [
+        -8,
+        2.44,
+        3.36
+      ],
+      "s": [
+        1.15,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · alféizar",
+      "p": [
+        -8,
+        0.5999999999999999,
+        3.3899999999999997
+      ],
+      "s": [
+        1.43,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · vidrio",
+      "p": [
+        -6,
+        2.15,
+        3.3
+      ],
+      "s": [
+        1.15,
+        2.9,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · jamba",
+      "p": [
+        -6.575,
+        2.15,
+        3.355
+      ],
+      "s": [
+        0.09,
+        3.02,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · jamba",
+      "p": [
+        -5.425,
+        2.15,
+        3.355
+      ],
+      "s": [
+        0.09,
+        3.02,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · dintel",
+      "p": [
+        -6,
+        0.7,
+        3.355
+      ],
+      "s": [
+        1.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · dintel",
+      "p": [
+        -6,
+        3.5999999999999996,
+        3.355
+      ],
+      "s": [
+        1.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · montante",
+      "p": [
+        -6,
+        2.15,
+        3.36
+      ],
+      "s": [
+        0.063,
+        2.9,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · travesaño",
+      "p": [
+        -6,
+        2.44,
+        3.36
+      ],
+      "s": [
+        1.15,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · alféizar",
+      "p": [
+        -6,
+        0.5999999999999999,
+        3.3899999999999997
+      ],
+      "s": [
+        1.43,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · pasamanos",
+      "p": [
+        -8,
+        5.28,
+        5.04
+      ],
+      "s": [
+        5.8,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · travesaño inferior",
+      "p": [
+        -8,
+        4.56,
+        5.04
+      ],
+      "s": [
+        5.8,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -10.9,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -10.685185185185185,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -10.47037037037037,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -10.255555555555556,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -10.040740740740741,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -9.825925925925926,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -9.61111111111111,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -9.396296296296295,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -9.181481481481482,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -8.966666666666667,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -8.751851851851852,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -8.537037037037038,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -8.322222222222223,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -8.107407407407408,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -7.892592592592592,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -7.677777777777777,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -7.462962962962963,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -7.2481481481481485,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -7.033333333333333,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -6.818518518518518,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -6.603703703703703,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -6.388888888888889,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -6.174074074074074,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -5.959259259259259,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -5.744444444444445,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -5.52962962962963,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -5.314814814814815,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        -5.1,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · vidrio",
+      "p": [
+        6,
+        2.15,
+        3.3
+      ],
+      "s": [
+        1.15,
+        2.9,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · jamba",
+      "p": [
+        5.425,
+        2.15,
+        3.355
+      ],
+      "s": [
+        0.09,
+        3.02,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · jamba",
+      "p": [
+        6.575,
+        2.15,
+        3.355
+      ],
+      "s": [
+        0.09,
+        3.02,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · dintel",
+      "p": [
+        6,
+        0.7,
+        3.355
+      ],
+      "s": [
+        1.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · dintel",
+      "p": [
+        6,
+        3.5999999999999996,
+        3.355
+      ],
+      "s": [
+        1.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · montante",
+      "p": [
+        6,
+        2.15,
+        3.36
+      ],
+      "s": [
+        0.063,
+        2.9,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · travesaño",
+      "p": [
+        6,
+        2.44,
+        3.36
+      ],
+      "s": [
+        1.15,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · alféizar",
+      "p": [
+        6,
+        0.5999999999999999,
+        3.3899999999999997
+      ],
+      "s": [
+        1.43,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · vidrio",
+      "p": [
+        8,
+        2.15,
+        3.3
+      ],
+      "s": [
+        1.15,
+        2.9,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · jamba",
+      "p": [
+        7.425,
+        2.15,
+        3.355
+      ],
+      "s": [
+        0.09,
+        3.02,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · jamba",
+      "p": [
+        8.575,
+        2.15,
+        3.355
+      ],
+      "s": [
+        0.09,
+        3.02,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · dintel",
+      "p": [
+        8,
+        0.7,
+        3.355
+      ],
+      "s": [
+        1.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · dintel",
+      "p": [
+        8,
+        3.5999999999999996,
+        3.355
+      ],
+      "s": [
+        1.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · montante",
+      "p": [
+        8,
+        2.15,
+        3.36
+      ],
+      "s": [
+        0.063,
+        2.9,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · travesaño",
+      "p": [
+        8,
+        2.44,
+        3.36
+      ],
+      "s": [
+        1.15,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · alféizar",
+      "p": [
+        8,
+        0.5999999999999999,
+        3.3899999999999997
+      ],
+      "s": [
+        1.43,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · vidrio",
+      "p": [
+        10,
+        2.15,
+        3.3
+      ],
+      "s": [
+        1.15,
+        2.9,
+        0.08
+      ],
+      "material": "#42565b",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · jamba",
+      "p": [
+        9.425,
+        2.15,
+        3.355
+      ],
+      "s": [
+        0.09,
+        3.02,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · jamba",
+      "p": [
+        10.575,
+        2.15,
+        3.355
+      ],
+      "s": [
+        0.09,
+        3.02,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · dintel",
+      "p": [
+        10,
+        0.7,
+        3.355
+      ],
+      "s": [
+        1.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · dintel",
+      "p": [
+        10,
+        3.5999999999999996,
+        3.355
+      ],
+      "s": [
+        1.27,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · montante",
+      "p": [
+        10,
+        2.15,
+        3.36
+      ],
+      "s": [
+        0.063,
+        2.9,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · travesaño",
+      "p": [
+        10,
+        2.44,
+        3.36
+      ],
+      "s": [
+        1.15,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventana inferior de galería · alféizar",
+      "p": [
+        10,
+        0.5999999999999999,
+        3.3899999999999997
+      ],
+      "s": [
+        1.43,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · pasamanos",
+      "p": [
+        8,
+        5.28,
+        5.04
+      ],
+      "s": [
+        5.8,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · travesaño inferior",
+      "p": [
+        8,
+        4.56,
+        5.04
+      ],
+      "s": [
+        5.8,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        5.1,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        5.314814814814815,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        5.52962962962963,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        5.7444444444444445,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        5.959259259259259,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        6.174074074074074,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        6.388888888888889,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        6.603703703703704,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        6.818518518518519,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        7.033333333333333,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        7.2481481481481485,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        7.462962962962963,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        7.677777777777777,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        7.892592592592592,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        8.107407407407408,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        8.322222222222223,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        8.537037037037038,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        8.751851851851852,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        8.966666666666667,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        9.181481481481482,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        9.396296296296297,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        9.61111111111111,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        9.825925925925926,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        10.040740740740741,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        10.255555555555555,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        10.47037037037037,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        10.685185185185185,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada de loggia · barrote",
+      "p": [
+        10.9,
+        4.92,
+        5.04
+      ],
+      "s": [
+        0.035,
+        0.72,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano superior de arco redondo · 1 · carpintería central",
+      "p": [
+        -4.8,
+        6.25,
+        3.47
+      ],
+      "s": [
+        0.065,
+        1.85,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano superior de arco redondo · 1 · travesaño",
+      "p": [
+        -4.8,
+        6.3500000000000005,
+        3.47
+      ],
+      "s": [
+        1.45,
+        0.07,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano superior de arco redondo · 2 · carpintería central",
+      "p": [
+        -2.4,
+        6.25,
+        3.47
+      ],
+      "s": [
+        0.065,
+        1.85,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano superior de arco redondo · 2 · travesaño",
+      "p": [
+        -2.4,
+        6.3500000000000005,
+        3.47
+      ],
+      "s": [
+        1.45,
+        0.07,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano superior de arco redondo · 3 · carpintería central",
+      "p": [
+        0,
+        6.25,
+        3.47
+      ],
+      "s": [
+        0.065,
+        1.85,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano superior de arco redondo · 3 · travesaño",
+      "p": [
+        0,
+        6.3500000000000005,
+        3.47
+      ],
+      "s": [
+        1.45,
+        0.07,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano superior de arco redondo · 4 · carpintería central",
+      "p": [
+        2.4,
+        6.25,
+        3.47
+      ],
+      "s": [
+        0.065,
+        1.85,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano superior de arco redondo · 4 · travesaño",
+      "p": [
+        2.4,
+        6.3500000000000005,
+        3.47
+      ],
+      "s": [
+        1.45,
+        0.07,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano superior de arco redondo · 5 · carpintería central",
+      "p": [
+        4.8,
+        6.25,
+        3.47
+      ],
+      "s": [
+        0.065,
+        1.85,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Vano superior de arco redondo · 5 · travesaño",
+      "p": [
+        4.8,
+        6.3500000000000005,
+        3.47
+      ],
+      "s": [
+        1.45,
+        0.07,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ático central de inscripción",
+      "p": [
+        0,
+        8.3,
+        3.45
+      ],
+      "s": [
+        10.7,
+        1.05,
+        0.42
+      ],
+      "material": "#eadfca",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Remate del ático",
+      "p": [
+        0,
+        8.87,
+        3.48
+      ],
+      "s": [
+        11.1,
+        0.14,
+        0.58
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    }
+  ]
+}

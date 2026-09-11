@@ -1,0 +1,4640 @@
+{
+  "slug": "intendencia-fluvial",
+  "name": "Intendencia Fluvial",
+  "frontAxis": "+z",
+  "parts": [
+    {
+      "type": "box",
+      "name": "Bloque azul de dos plantas",
+      "material": "#9fc5e4",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        4.5,
+        0
+      ],
+      "s": [
+        20,
+        9,
+        13
+      ]
+    },
+    {
+      "type": "hipRoof",
+      "name": "Cubierta oculta a cuatro aguas",
+      "material": "#945345",
+      "role": "building",
+      "evidence": "inferred",
+      "p": [
+        0,
+        9.38,
+        -0.2
+      ],
+      "s": [
+        18.2,
+        0.72,
+        11.1
+      ],
+      "ridge": 0.55
+    },
+    {
+      "type": "windowGrid",
+      "name": "Esquineros blancos de la fachada",
+      "material": "#f3f0e7",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        4.45,
+        6.9
+      ],
+      "cell": [
+        0.62,
+        0.72,
+        0.28
+      ],
+      "count": [
+        2,
+        10
+      ],
+      "gap": [
+        18.88,
+        0.17
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Recercos de ventanas frontales",
+      "material": "#f3f0e7",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        4.45,
+        6.82
+      ],
+      "cell": [
+        1.95,
+        3.05,
+        0.18
+      ],
+      "count": [
+        5,
+        2
+      ],
+      "gap": [
+        1.25,
+        1.4
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Ventanas altas y bajas del frente",
+      "material": "#33434c",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        4.45,
+        6.95
+      ],
+      "cell": [
+        1.3,
+        2.5,
+        0.13
+      ],
+      "count": [
+        5,
+        2
+      ],
+      "gap": [
+        1.9,
+        1.95
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Esquineros blancos del costado visible",
+      "material": "#f3f0e7",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        10.32,
+        4.45,
+        0
+      ],
+      "cell": [
+        0.62,
+        0.72,
+        0.28
+      ],
+      "count": [
+        2,
+        10
+      ],
+      "gap": [
+        11.78,
+        0.17
+      ],
+      "axis": "z"
+    },
+    {
+      "type": "windowGrid",
+      "name": "Recercos del costado visible",
+      "material": "#f3f0e7",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        10.28,
+        4.45,
+        0
+      ],
+      "cell": [
+        1.95,
+        3.05,
+        0.18
+      ],
+      "count": [
+        4,
+        2
+      ],
+      "gap": [
+        1.15,
+        1.4
+      ],
+      "axis": "z"
+    },
+    {
+      "type": "windowGrid",
+      "name": "Ventanas altas y bajas del costado visible",
+      "material": "#33434c",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        10.42,
+        4.45,
+        0
+      ],
+      "cell": [
+        1.3,
+        2.5,
+        0.13
+      ],
+      "count": [
+        4,
+        2
+      ],
+      "gap": [
+        1.8,
+        1.95
+      ],
+      "axis": "z"
+    },
+    {
+      "type": "colonnade",
+      "name": "Pórtico de acceso",
+      "material": "#f3f0e7",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        0,
+        6.82
+      ],
+      "len": 4.4,
+      "n": 2,
+      "h": 4.6,
+      "dep": 0.85,
+      "pw": 0.6,
+      "archH": 0.6
+    },
+    {
+      "type": "box",
+      "name": "Puerta principal",
+      "material": "#38424a",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        2.05,
+        6.68
+      ],
+      "s": [
+        1.65,
+        4.1,
+        0.16
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balcón frontal sobre el pórtico",
+      "material": "#f3f0e7",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        5.08,
+        6.92
+      ],
+      "s": [
+        4.6,
+        0.5,
+        1.25
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balcón del costado visible",
+      "material": "#f3f0e7",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        10.08,
+        5.5,
+        2.8
+      ],
+      "s": [
+        1.15,
+        0.55,
+        3.1
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Cornisa blanca",
+      "material": "#f3f0e7",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        9.18,
+        0
+      ],
+      "s": [
+        20.8,
+        0.55,
+        13.8
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Parapeto continuo bajo",
+      "material": "#a79f8e",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        9.28,
+        0
+      ],
+      "s": [
+        20.2,
+        0.12,
+        13.2
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Tramos elevados del parapeto frontal",
+      "material": "#9fc5e4",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        10.18,
+        6.42
+      ],
+      "cell": [
+        1.6,
+        0.42,
+        0.5
+      ],
+      "count": [
+        5,
+        1
+      ],
+      "gap": [
+        2.5,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Remates de los tramos elevados frontales",
+      "material": "#f3f0e7",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        10.44,
+        6.46
+      ],
+      "cell": [
+        1.88,
+        0.12,
+        0.58
+      ],
+      "count": [
+        5,
+        1
+      ],
+      "gap": [
+        2.22,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Tramos elevados del parapeto lateral",
+      "material": "#9fc5e4",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        9.92,
+        10.18,
+        0
+      ],
+      "cell": [
+        1.6,
+        0.42,
+        0.5
+      ],
+      "count": [
+        4,
+        1
+      ],
+      "gap": [
+        2.35,
+        0
+      ],
+      "axis": "z"
+    },
+    {
+      "type": "windowGrid",
+      "name": "Remates de los tramos elevados laterales",
+      "material": "#f3f0e7",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        9.96,
+        10.44,
+        0
+      ],
+      "cell": [
+        1.88,
+        0.12,
+        0.58
+      ],
+      "count": [
+        4,
+        1
+      ],
+      "gap": [
+        2.07,
+        0
+      ],
+      "axis": "z"
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        -7.050000000000001,
+        2.225,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        -5.75,
+        2.225,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        -6.4,
+        0.9750000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        -6.4,
+        3.475,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · montante",
+      "p": [
+        -6.4,
+        2.225,
+        7.077
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · travesaño",
+      "p": [
+        -6.4,
+        2.475,
+        7.077
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · alféizar",
+      "p": [
+        -6.4,
+        0.875,
+        7.107
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        -3.85,
+        2.225,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        -2.5500000000000003,
+        2.225,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        -3.2,
+        0.9750000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        -3.2,
+        3.475,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · montante",
+      "p": [
+        -3.2,
+        2.225,
+        7.077
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · travesaño",
+      "p": [
+        -3.2,
+        2.475,
+        7.077
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · alféizar",
+      "p": [
+        -3.2,
+        0.875,
+        7.107
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        -0.65,
+        2.225,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        0.65,
+        2.225,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        0,
+        0.9750000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        0,
+        3.475,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · montante",
+      "p": [
+        0,
+        2.225,
+        7.077
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · travesaño",
+      "p": [
+        0,
+        2.475,
+        7.077
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · alféizar",
+      "p": [
+        0,
+        0.875,
+        7.107
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        2.5500000000000003,
+        2.225,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        3.85,
+        2.225,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        3.2,
+        0.9750000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        3.2,
+        3.475,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · montante",
+      "p": [
+        3.2,
+        2.225,
+        7.077
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · travesaño",
+      "p": [
+        3.2,
+        2.475,
+        7.077
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · alféizar",
+      "p": [
+        3.2,
+        0.875,
+        7.107
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        5.75,
+        2.225,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        7.050000000000001,
+        2.225,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        6.4,
+        0.9750000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        6.4,
+        3.475,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · montante",
+      "p": [
+        6.4,
+        2.225,
+        7.077
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · travesaño",
+      "p": [
+        6.4,
+        2.475,
+        7.077
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · alféizar",
+      "p": [
+        6.4,
+        0.875,
+        7.107
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        -7.050000000000001,
+        6.675000000000001,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        -5.75,
+        6.675000000000001,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        -6.4,
+        5.425000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        -6.4,
+        7.925000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · montante",
+      "p": [
+        -6.4,
+        6.675000000000001,
+        7.077
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · travesaño",
+      "p": [
+        -6.4,
+        6.925000000000001,
+        7.077
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · alféizar",
+      "p": [
+        -6.4,
+        5.325000000000001,
+        7.107
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        -3.85,
+        6.675000000000001,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        -2.5500000000000003,
+        6.675000000000001,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        -3.2,
+        5.425000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        -3.2,
+        7.925000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · montante",
+      "p": [
+        -3.2,
+        6.675000000000001,
+        7.077
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · travesaño",
+      "p": [
+        -3.2,
+        6.925000000000001,
+        7.077
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · alféizar",
+      "p": [
+        -3.2,
+        5.325000000000001,
+        7.107
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        -0.65,
+        6.675000000000001,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        0.65,
+        6.675000000000001,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        0,
+        5.425000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        0,
+        7.925000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · montante",
+      "p": [
+        0,
+        6.675000000000001,
+        7.077
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · travesaño",
+      "p": [
+        0,
+        6.925000000000001,
+        7.077
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · alféizar",
+      "p": [
+        0,
+        5.325000000000001,
+        7.107
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        2.5500000000000003,
+        6.675000000000001,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        3.85,
+        6.675000000000001,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        3.2,
+        5.425000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        3.2,
+        7.925000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · montante",
+      "p": [
+        3.2,
+        6.675000000000001,
+        7.077
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · travesaño",
+      "p": [
+        3.2,
+        6.925000000000001,
+        7.077
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · alféizar",
+      "p": [
+        3.2,
+        5.325000000000001,
+        7.107
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        5.75,
+        6.675000000000001,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · jamba",
+      "p": [
+        7.050000000000001,
+        6.675000000000001,
+        7.072
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        6.4,
+        5.425000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · dintel",
+      "p": [
+        6.4,
+        7.925000000000001,
+        7.072
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · montante",
+      "p": [
+        6.4,
+        6.675000000000001,
+        7.077
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · travesaño",
+      "p": [
+        6.4,
+        6.925000000000001,
+        7.077
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del frente · alféizar",
+      "p": [
+        6.4,
+        5.325000000000001,
+        7.107
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        2.225,
+        -4
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        2.225,
+        -5.300000000000001
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        0.9750000000000001,
+        -4.65
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        3.475,
+        -4.65
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · montante",
+      "p": [
+        10.545,
+        2.225,
+        -4.65
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · travesaño",
+      "p": [
+        10.545,
+        2.475,
+        -4.65
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · alféizar",
+      "p": [
+        10.575,
+        0.875,
+        -4.65
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        2.225,
+        -0.9
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        2.225,
+        -2.2
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        0.9750000000000001,
+        -1.55
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        3.475,
+        -1.55
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · montante",
+      "p": [
+        10.545,
+        2.225,
+        -1.55
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · travesaño",
+      "p": [
+        10.545,
+        2.475,
+        -1.55
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · alféizar",
+      "p": [
+        10.575,
+        0.875,
+        -1.55
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        2.225,
+        2.2
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        2.225,
+        0.9
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        0.9750000000000001,
+        1.55
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        3.475,
+        1.55
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · montante",
+      "p": [
+        10.545,
+        2.225,
+        1.55
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · travesaño",
+      "p": [
+        10.545,
+        2.475,
+        1.55
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · alféizar",
+      "p": [
+        10.575,
+        0.875,
+        1.55
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        2.225,
+        5.300000000000001
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        2.225,
+        4
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        0.9750000000000001,
+        4.65
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        3.475,
+        4.65
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · montante",
+      "p": [
+        10.545,
+        2.225,
+        4.65
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · travesaño",
+      "p": [
+        10.545,
+        2.475,
+        4.65
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · alféizar",
+      "p": [
+        10.575,
+        0.875,
+        4.65
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        6.675000000000001,
+        -4
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        6.675000000000001,
+        -5.300000000000001
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        5.425000000000001,
+        -4.65
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        7.925000000000001,
+        -4.65
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · montante",
+      "p": [
+        10.545,
+        6.675000000000001,
+        -4.65
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · travesaño",
+      "p": [
+        10.545,
+        6.925000000000001,
+        -4.65
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · alféizar",
+      "p": [
+        10.575,
+        5.325000000000001,
+        -4.65
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        6.675000000000001,
+        -0.9
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        6.675000000000001,
+        -2.2
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        5.425000000000001,
+        -1.55
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        7.925000000000001,
+        -1.55
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · montante",
+      "p": [
+        10.545,
+        6.675000000000001,
+        -1.55
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · travesaño",
+      "p": [
+        10.545,
+        6.925000000000001,
+        -1.55
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · alféizar",
+      "p": [
+        10.575,
+        5.325000000000001,
+        -1.55
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        6.675000000000001,
+        2.2
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        6.675000000000001,
+        0.9
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        5.425000000000001,
+        1.55
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        7.925000000000001,
+        1.55
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · montante",
+      "p": [
+        10.545,
+        6.675000000000001,
+        1.55
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · travesaño",
+      "p": [
+        10.545,
+        6.925000000000001,
+        1.55
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · alféizar",
+      "p": [
+        10.575,
+        5.325000000000001,
+        1.55
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        6.675000000000001,
+        5.300000000000001
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · jamba",
+      "p": [
+        10.54,
+        6.675000000000001,
+        4
+      ],
+      "s": [
+        0.09,
+        2.62,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        5.425000000000001,
+        4.65
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · dintel",
+      "p": [
+        10.54,
+        7.925000000000001,
+        4.65
+      ],
+      "s": [
+        1.42,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · montante",
+      "p": [
+        10.545,
+        6.675000000000001,
+        4.65
+      ],
+      "s": [
+        0.063,
+        2.5,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · travesaño",
+      "p": [
+        10.545,
+        6.925000000000001,
+        4.65
+      ],
+      "s": [
+        1.3,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas y bajas del costado visible · alféizar",
+      "p": [
+        10.575,
+        5.325000000000001,
+        4.65
+      ],
+      "s": [
+        1.58,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Muro de Parapeto continuo bajo",
+      "p": [
+        0,
+        9.62,
+        -6.51
+      ],
+      "s": [
+        20.2,
+        0.8,
+        0.18
+      ],
+      "material": "#9fc5e4",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Muro de Parapeto continuo bajo",
+      "p": [
+        -10.01,
+        9.62,
+        0
+      ],
+      "s": [
+        0.18,
+        0.8,
+        13.2
+      ],
+      "material": "#9fc5e4",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Muro de Parapeto continuo bajo",
+      "p": [
+        0,
+        9.62,
+        6.51
+      ],
+      "s": [
+        20.2,
+        0.8,
+        0.18
+      ],
+      "material": "#9fc5e4",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Muro de Parapeto continuo bajo",
+      "p": [
+        10.01,
+        9.62,
+        0
+      ],
+      "s": [
+        0.18,
+        0.8,
+        13.2
+      ],
+      "material": "#9fc5e4",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Albardilla longitudinal",
+      "p": [
+        0,
+        10.07,
+        -6.6
+      ],
+      "s": [
+        20.7,
+        0.16,
+        0.3
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Albardilla transversal",
+      "p": [
+        -10.1,
+        10.07,
+        0
+      ],
+      "s": [
+        0.3,
+        0.16,
+        13.2
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Albardilla longitudinal",
+      "p": [
+        0,
+        10.07,
+        6.6
+      ],
+      "s": [
+        20.7,
+        0.16,
+        0.3
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Albardilla transversal",
+      "p": [
+        10.1,
+        10.07,
+        0
+      ],
+      "s": [
+        0.3,
+        0.16,
+        13.2
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · pasamanos",
+      "p": [
+        0,
+        6.115,
+        7.57
+      ],
+      "s": [
+        4.5,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · travesaño inferior",
+      "p": [
+        0,
+        5.345000000000001,
+        7.57
+      ],
+      "s": [
+        4.5,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        -2.25,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        -2.0357142857142856,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        -1.8214285714285714,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        -1.6071428571428572,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        -1.3928571428571428,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        -1.1785714285714286,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        -0.9642857142857142,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        -0.75,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        -0.5357142857142858,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        -0.3214285714285714,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        -0.1071428571428572,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        0.1071428571428572,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        0.3214285714285716,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        0.5357142857142856,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        0.75,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        0.9642857142857144,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        1.1785714285714284,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        1.3928571428571428,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        1.6071428571428572,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        1.8214285714285712,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        2.0357142857142856,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del pórtico · barrote",
+      "p": [
+        2.25,
+        5.73,
+        7.57
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · pasamanos",
+      "p": [
+        -2.22,
+        6.115,
+        6.96
+      ],
+      "s": [
+        1.2,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · travesaño inferior",
+      "p": [
+        -2.22,
+        5.345000000000001,
+        6.96
+      ],
+      "s": [
+        1.2,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        -2.22,
+        5.73,
+        7.56
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        -2.22,
+        5.73,
+        7.36
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        -2.22,
+        5.73,
+        7.16
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        -2.22,
+        5.73,
+        6.96
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        -2.22,
+        5.73,
+        6.76
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        -2.22,
+        5.73,
+        6.56
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        -2.22,
+        5.73,
+        6.36
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · pasamanos",
+      "p": [
+        2.22,
+        6.115,
+        6.96
+      ],
+      "s": [
+        1.2,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · travesaño inferior",
+      "p": [
+        2.22,
+        5.345000000000001,
+        6.96
+      ],
+      "s": [
+        1.2,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        2.22,
+        5.73,
+        7.56
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        2.22,
+        5.73,
+        7.36
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        2.22,
+        5.73,
+        7.16
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        2.22,
+        5.73,
+        6.96
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        2.22,
+        5.73,
+        6.76
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        2.22,
+        5.73,
+        6.56
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Retorno balaustrada · barrote",
+      "p": [
+        2.22,
+        5.73,
+        6.36
+      ],
+      "s": [
+        0.035,
+        0.77,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · pasamanos",
+      "p": [
+        10.66,
+        6.5,
+        2.8
+      ],
+      "s": [
+        3,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · travesaño inferior",
+      "p": [
+        10.66,
+        5.800000000000001,
+        2.8
+      ],
+      "s": [
+        3,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        4.3
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        4.085714285714285
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        3.871428571428571
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        3.657142857142857
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        3.4428571428571426
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        3.2285714285714286
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        3.0142857142857142
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        2.8
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        2.5857142857142854
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        2.371428571428571
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        2.157142857142857
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        1.9428571428571426
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        1.7285714285714282
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        1.5142857142857142
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrada del costado · barrote",
+      "p": [
+        10.66,
+        6.15,
+        1.2999999999999998
+      ],
+      "s": [
+        0.035,
+        0.7,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Cinturón blanco de entrepiso",
+      "p": [
+        0,
+        4.6,
+        6.6
+      ],
+      "s": [
+        20.3,
+        0.2,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Cinturón lateral de entrepiso",
+      "p": [
+        10.1,
+        4.6,
+        0
+      ],
+      "s": [
+        0.28,
+        0.2,
+        13
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    }
+  ]
+}

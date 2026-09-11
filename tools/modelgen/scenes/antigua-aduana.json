@@ -1,0 +1,9077 @@
+{
+  "slug": "antigua-aduana",
+  "name": "Antigua Aduana",
+  "frontAxis": "+z",
+  "parts": [
+    {
+      "type": "box",
+      "name": "Cuerpo largo de dos plantas",
+      "material": "#d6a63d",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        4.5,
+        0
+      ],
+      "s": [
+        48,
+        9,
+        12
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Zócalo corrido",
+      "material": "#bd8733",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        0.55,
+        6.08
+      ],
+      "s": [
+        48,
+        1.1,
+        0.16
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Recercos bajos del ala izquierda",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -15.2,
+        2.5,
+        6.08
+      ],
+      "cell": [
+        2.05,
+        3.15,
+        0.18
+      ],
+      "count": [
+        4,
+        1
+      ],
+      "gap": [
+        1.15,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Recercos bajos del ala derecha",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        15.2,
+        2.5,
+        6.08
+      ],
+      "cell": [
+        2.05,
+        3.15,
+        0.18
+      ],
+      "count": [
+        4,
+        1
+      ],
+      "gap": [
+        1.15,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Ventanas bajas del ala izquierda",
+      "material": "#3c3935",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -15.2,
+        2.5,
+        6.19
+      ],
+      "cell": [
+        1.42,
+        2.55,
+        0.12
+      ],
+      "count": [
+        4,
+        1
+      ],
+      "gap": [
+        1.78,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Ventanas bajas del ala derecha",
+      "material": "#3c3935",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        15.2,
+        2.5,
+        6.19
+      ],
+      "cell": [
+        1.42,
+        2.55,
+        0.12
+      ],
+      "count": [
+        4,
+        1
+      ],
+      "gap": [
+        1.78,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Recercos altos del ala izquierda",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -15.2,
+        6.7,
+        6.08
+      ],
+      "cell": [
+        2.05,
+        2.9,
+        0.18
+      ],
+      "count": [
+        4,
+        1
+      ],
+      "gap": [
+        1.15,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Recercos altos del ala derecha",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        15.2,
+        6.7,
+        6.08
+      ],
+      "cell": [
+        2.05,
+        2.9,
+        0.18
+      ],
+      "count": [
+        4,
+        1
+      ],
+      "gap": [
+        1.15,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Ventanas altas del ala izquierda",
+      "material": "#3c3935",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -15.2,
+        6.7,
+        6.19
+      ],
+      "cell": [
+        1.42,
+        2.35,
+        0.12
+      ],
+      "count": [
+        4,
+        1
+      ],
+      "gap": [
+        1.78,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Ventanas altas del ala derecha",
+      "material": "#3c3935",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        15.2,
+        6.7,
+        6.19
+      ],
+      "cell": [
+        1.42,
+        2.35,
+        0.12
+      ],
+      "count": [
+        4,
+        1
+      ],
+      "gap": [
+        1.78,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Balconcillos del ala izquierda",
+      "material": "#e9e2d2",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -15.2,
+        5.72,
+        6.48
+      ],
+      "cell": [
+        1.85,
+        0.38,
+        0.65
+      ],
+      "count": [
+        4,
+        1
+      ],
+      "gap": [
+        1.35,
+        0
+      ]
+    },
+    {
+      "type": "windowGrid",
+      "name": "Balconcillos del ala derecha",
+      "material": "#e9e2d2",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        15.2,
+        5.72,
+        6.48
+      ],
+      "cell": [
+        1.85,
+        0.38,
+        0.65
+      ],
+      "count": [
+        4,
+        1
+      ],
+      "gap": [
+        1.35,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Pórtico central",
+      "material": "#d6a63d",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        4.7,
+        6.5
+      ],
+      "s": [
+        11.5,
+        8.4,
+        1.4
+      ]
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica del pórtico · 1",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -4.5,
+        4.6,
+        7.15
+      ],
+      "s": [
+        0.72,
+        8.1,
+        0.72
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica del pórtico · 2",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -2.7,
+        4.6,
+        7.15
+      ],
+      "s": [
+        0.72,
+        8.1,
+        0.72
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica del pórtico · 3",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        -0.9,
+        4.6,
+        7.15
+      ],
+      "s": [
+        0.72,
+        8.1,
+        0.72
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica del pórtico · 4",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0.9,
+        4.6,
+        7.15
+      ],
+      "s": [
+        0.72,
+        8.1,
+        0.72
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica del pórtico · 5",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        2.7,
+        4.6,
+        7.15
+      ],
+      "s": [
+        0.72,
+        8.1,
+        0.72
+      ],
+      "seg": 28
+    },
+    {
+      "type": "classicalColumn",
+      "name": "Columna clásica del pórtico · 6",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        4.5,
+        4.6,
+        7.15
+      ],
+      "s": [
+        0.72,
+        8.1,
+        0.72
+      ],
+      "seg": 28
+    },
+    {
+      "type": "box",
+      "name": "Arquitrabe del pórtico",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        8.9,
+        7.05
+      ],
+      "s": [
+        11.6,
+        0.65,
+        1.6
+      ]
+    },
+    {
+      "type": "gable",
+      "name": "Frontón bajo del pórtico",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        9.2,
+        6.55
+      ],
+      "s": [
+        11.8,
+        1.65,
+        1.7
+      ],
+      "axis": "z"
+    },
+    {
+      "type": "box",
+      "name": "Portal profundo central",
+      "material": "#315342",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        2.35,
+        7.26
+      ],
+      "s": [
+        1.65,
+        3.9,
+        0.14
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Cornisa continua",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        9.25,
+        0
+      ],
+      "s": [
+        48.8,
+        0.5,
+        12.8
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Parapeto continuo",
+      "material": "#a79f8e",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        0,
+        9.535,
+        0
+      ],
+      "s": [
+        48.2,
+        0.12,
+        12.2
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Pabellón de esquina",
+      "material": "#d6a63d",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        21.5,
+        5,
+        0
+      ],
+      "s": [
+        5,
+        10,
+        13
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Cornisa del pabellón",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        21.5,
+        10.15,
+        0
+      ],
+      "s": [
+        5.7,
+        0.5,
+        13.7
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Tambor de la cúpula",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        21.5,
+        10.85,
+        0
+      ],
+      "rad": [
+        1.8,
+        1.8
+      ],
+      "s": [
+        1,
+        1.4,
+        1
+      ],
+      "seg": 16
+    },
+    {
+      "type": "dome",
+      "name": "Cúpula documentada",
+      "material": "#8f8a82",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        21.5,
+        11.55,
+        0
+      ],
+      "s": [
+        3.8,
+        1.75,
+        3.8
+      ],
+      "seg": 28,
+      "rings": 10
+    },
+    {
+      "type": "cyl",
+      "name": "Linterna de la cúpula",
+      "material": "#f2ead5",
+      "role": "building",
+      "evidence": "documented",
+      "p": [
+        21.5,
+        13.3,
+        0
+      ],
+      "rad": [
+        0.45,
+        0.45
+      ],
+      "s": [
+        1,
+        0.85,
+        1
+      ],
+      "seg": 10
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · jamba",
+      "p": [
+        -20.71,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · jamba",
+      "p": [
+        -19.29,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · dintel",
+      "p": [
+        -20,
+        1.225,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · dintel",
+      "p": [
+        -20,
+        3.775,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · montante",
+      "p": [
+        -20,
+        2.5,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.55,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · travesaño",
+      "p": [
+        -20,
+        2.755,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · alféizar",
+      "p": [
+        -20,
+        1.125,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · jamba",
+      "p": [
+        -17.51,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · jamba",
+      "p": [
+        -16.09,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · dintel",
+      "p": [
+        -16.8,
+        1.225,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · dintel",
+      "p": [
+        -16.8,
+        3.775,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · montante",
+      "p": [
+        -16.8,
+        2.5,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.55,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · travesaño",
+      "p": [
+        -16.8,
+        2.755,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · alféizar",
+      "p": [
+        -16.8,
+        1.125,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · jamba",
+      "p": [
+        -14.309999999999999,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · jamba",
+      "p": [
+        -12.89,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · dintel",
+      "p": [
+        -13.6,
+        1.225,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · dintel",
+      "p": [
+        -13.6,
+        3.775,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · montante",
+      "p": [
+        -13.6,
+        2.5,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.55,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · travesaño",
+      "p": [
+        -13.6,
+        2.755,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · alféizar",
+      "p": [
+        -13.6,
+        1.125,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · jamba",
+      "p": [
+        -11.11,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · jamba",
+      "p": [
+        -9.689999999999998,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · dintel",
+      "p": [
+        -10.399999999999999,
+        1.225,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · dintel",
+      "p": [
+        -10.399999999999999,
+        3.775,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · montante",
+      "p": [
+        -10.399999999999999,
+        2.5,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.55,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · travesaño",
+      "p": [
+        -10.399999999999999,
+        2.755,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala izquierda · alféizar",
+      "p": [
+        -10.399999999999999,
+        1.125,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · jamba",
+      "p": [
+        9.689999999999998,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · jamba",
+      "p": [
+        11.11,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · dintel",
+      "p": [
+        10.399999999999999,
+        1.225,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · dintel",
+      "p": [
+        10.399999999999999,
+        3.775,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · montante",
+      "p": [
+        10.399999999999999,
+        2.5,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.55,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · travesaño",
+      "p": [
+        10.399999999999999,
+        2.755,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · alféizar",
+      "p": [
+        10.399999999999999,
+        1.125,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · jamba",
+      "p": [
+        12.89,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · jamba",
+      "p": [
+        14.309999999999999,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · dintel",
+      "p": [
+        13.6,
+        1.225,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · dintel",
+      "p": [
+        13.6,
+        3.775,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · montante",
+      "p": [
+        13.6,
+        2.5,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.55,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · travesaño",
+      "p": [
+        13.6,
+        2.755,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · alféizar",
+      "p": [
+        13.6,
+        1.125,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · jamba",
+      "p": [
+        16.09,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · jamba",
+      "p": [
+        17.51,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · dintel",
+      "p": [
+        16.8,
+        1.225,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · dintel",
+      "p": [
+        16.8,
+        3.775,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · montante",
+      "p": [
+        16.8,
+        2.5,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.55,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · travesaño",
+      "p": [
+        16.8,
+        2.755,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · alféizar",
+      "p": [
+        16.8,
+        1.125,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · jamba",
+      "p": [
+        19.29,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · jamba",
+      "p": [
+        20.71,
+        2.5,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.67,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · dintel",
+      "p": [
+        20,
+        1.225,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · dintel",
+      "p": [
+        20,
+        3.775,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · montante",
+      "p": [
+        20,
+        2.5,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.55,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · travesaño",
+      "p": [
+        20,
+        2.755,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas bajas del ala derecha · alféizar",
+      "p": [
+        20,
+        1.125,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · jamba",
+      "p": [
+        -20.71,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · jamba",
+      "p": [
+        -19.29,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · dintel",
+      "p": [
+        -20,
+        5.525,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · dintel",
+      "p": [
+        -20,
+        7.875,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · montante",
+      "p": [
+        -20,
+        6.7,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.35,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · travesaño",
+      "p": [
+        -20,
+        6.9350000000000005,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · alféizar",
+      "p": [
+        -20,
+        5.425,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · jamba",
+      "p": [
+        -17.51,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · jamba",
+      "p": [
+        -16.09,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · dintel",
+      "p": [
+        -16.8,
+        5.525,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · dintel",
+      "p": [
+        -16.8,
+        7.875,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · montante",
+      "p": [
+        -16.8,
+        6.7,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.35,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · travesaño",
+      "p": [
+        -16.8,
+        6.9350000000000005,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · alféizar",
+      "p": [
+        -16.8,
+        5.425,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · jamba",
+      "p": [
+        -14.309999999999999,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · jamba",
+      "p": [
+        -12.89,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · dintel",
+      "p": [
+        -13.6,
+        5.525,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · dintel",
+      "p": [
+        -13.6,
+        7.875,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · montante",
+      "p": [
+        -13.6,
+        6.7,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.35,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · travesaño",
+      "p": [
+        -13.6,
+        6.9350000000000005,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · alféizar",
+      "p": [
+        -13.6,
+        5.425,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · jamba",
+      "p": [
+        -11.11,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · jamba",
+      "p": [
+        -9.689999999999998,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · dintel",
+      "p": [
+        -10.399999999999999,
+        5.525,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · dintel",
+      "p": [
+        -10.399999999999999,
+        7.875,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · montante",
+      "p": [
+        -10.399999999999999,
+        6.7,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.35,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · travesaño",
+      "p": [
+        -10.399999999999999,
+        6.9350000000000005,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala izquierda · alféizar",
+      "p": [
+        -10.399999999999999,
+        5.425,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · jamba",
+      "p": [
+        9.689999999999998,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · jamba",
+      "p": [
+        11.11,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · dintel",
+      "p": [
+        10.399999999999999,
+        5.525,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · dintel",
+      "p": [
+        10.399999999999999,
+        7.875,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · montante",
+      "p": [
+        10.399999999999999,
+        6.7,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.35,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · travesaño",
+      "p": [
+        10.399999999999999,
+        6.9350000000000005,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · alféizar",
+      "p": [
+        10.399999999999999,
+        5.425,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · jamba",
+      "p": [
+        12.89,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · jamba",
+      "p": [
+        14.309999999999999,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · dintel",
+      "p": [
+        13.6,
+        5.525,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · dintel",
+      "p": [
+        13.6,
+        7.875,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · montante",
+      "p": [
+        13.6,
+        6.7,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.35,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · travesaño",
+      "p": [
+        13.6,
+        6.9350000000000005,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · alféizar",
+      "p": [
+        13.6,
+        5.425,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · jamba",
+      "p": [
+        16.09,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · jamba",
+      "p": [
+        17.51,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · dintel",
+      "p": [
+        16.8,
+        5.525,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · dintel",
+      "p": [
+        16.8,
+        7.875,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · montante",
+      "p": [
+        16.8,
+        6.7,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.35,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · travesaño",
+      "p": [
+        16.8,
+        6.9350000000000005,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · alféizar",
+      "p": [
+        16.8,
+        5.425,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · jamba",
+      "p": [
+        19.29,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · jamba",
+      "p": [
+        20.71,
+        6.7,
+        6.3069999999999995
+      ],
+      "s": [
+        0.09,
+        2.47,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · dintel",
+      "p": [
+        20,
+        5.525,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · dintel",
+      "p": [
+        20,
+        7.875,
+        6.3069999999999995
+      ],
+      "s": [
+        1.54,
+        0.09,
+        0.1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · montante",
+      "p": [
+        20,
+        6.7,
+        6.311999999999999
+      ],
+      "s": [
+        0.063,
+        2.35,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · travesaño",
+      "p": [
+        20,
+        6.9350000000000005,
+        6.311999999999999
+      ],
+      "s": [
+        1.42,
+        0.063,
+        0.07
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Ventanas altas del ala derecha · alféizar",
+      "p": [
+        20,
+        5.425,
+        6.342
+      ],
+      "s": [
+        1.7,
+        0.13,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · pasamanos",
+      "p": [
+        -20,
+        6.665,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · travesaño inferior",
+      "p": [
+        -20,
+        5.915,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -20.925,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -20.719444444444445,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -20.51388888888889,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -20.308333333333334,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -20.102777777777778,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -19.897222222222222,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -19.691666666666666,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -19.48611111111111,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -19.280555555555555,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -19.075,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · pasamanos",
+      "p": [
+        -16.8,
+        6.665,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · travesaño inferior",
+      "p": [
+        -16.8,
+        5.915,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -17.725,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -17.519444444444446,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -17.31388888888889,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -17.108333333333334,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -16.90277777777778,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -16.697222222222223,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -16.491666666666667,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -16.28611111111111,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -16.080555555555556,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -15.875,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · pasamanos",
+      "p": [
+        -13.6,
+        6.665,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · travesaño inferior",
+      "p": [
+        -13.6,
+        5.915,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -14.525,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -14.319444444444445,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -14.113888888888889,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -13.908333333333333,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -13.702777777777778,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -13.497222222222222,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -13.291666666666666,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -13.08611111111111,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -12.880555555555555,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -12.674999999999999,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · pasamanos",
+      "p": [
+        -10.399999999999999,
+        6.665,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · travesaño inferior",
+      "p": [
+        -10.399999999999999,
+        5.915,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -11.325,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -11.119444444444444,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -10.913888888888888,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -10.708333333333332,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -10.502777777777776,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -10.29722222222222,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -10.091666666666665,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -9.88611111111111,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -9.680555555555554,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala izquierda · barrote",
+      "p": [
+        -9.474999999999998,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · pasamanos",
+      "p": [
+        10.399999999999999,
+        6.665,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · travesaño inferior",
+      "p": [
+        10.399999999999999,
+        5.915,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        9.474999999999998,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        9.680555555555554,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        9.88611111111111,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        10.091666666666665,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        10.29722222222222,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        10.502777777777776,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        10.708333333333332,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        10.913888888888888,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        11.119444444444444,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        11.325,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · pasamanos",
+      "p": [
+        13.6,
+        6.665,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · travesaño inferior",
+      "p": [
+        13.6,
+        5.915,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        12.674999999999999,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        12.880555555555555,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        13.08611111111111,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        13.291666666666666,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        13.497222222222222,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        13.702777777777778,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        13.908333333333333,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        14.113888888888889,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        14.319444444444445,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        14.525,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · pasamanos",
+      "p": [
+        16.8,
+        6.665,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · travesaño inferior",
+      "p": [
+        16.8,
+        5.915,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        15.875,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        16.080555555555556,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        16.28611111111111,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        16.491666666666667,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        16.697222222222223,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        16.90277777777778,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        17.108333333333334,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        17.31388888888889,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        17.519444444444446,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        17.725,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · pasamanos",
+      "p": [
+        20,
+        6.665,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.065,
+        0.08
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · travesaño inferior",
+      "p": [
+        20,
+        5.915,
+        6.9750000000000005
+      ],
+      "s": [
+        1.85,
+        0.05,
+        0.06
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        19.075,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        19.280555555555555,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        19.48611111111111,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        19.691666666666666,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        19.897222222222222,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        20.102777777777778,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        20.308333333333334,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        20.51388888888889,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        20.719444444444445,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Baranda de Balconcillos del ala derecha · barrote",
+      "p": [
+        20.925,
+        6.29,
+        6.9750000000000005
+      ],
+      "s": [
+        0.035,
+        0.75,
+        0.045
+      ],
+      "material": "#394648",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Muro de Parapeto continuo",
+      "p": [
+        0,
+        10,
+        -6.01
+      ],
+      "s": [
+        48.2,
+        1.05,
+        0.18
+      ],
+      "material": "#d6a63d",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Muro de Parapeto continuo",
+      "p": [
+        -24.01,
+        10,
+        0
+      ],
+      "s": [
+        0.18,
+        1.05,
+        12.2
+      ],
+      "material": "#d6a63d",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Muro de Parapeto continuo",
+      "p": [
+        0,
+        10,
+        6.01
+      ],
+      "s": [
+        48.2,
+        1.05,
+        0.18
+      ],
+      "material": "#d6a63d",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Muro de Parapeto continuo",
+      "p": [
+        24.01,
+        10,
+        0
+      ],
+      "s": [
+        0.18,
+        1.05,
+        12.2
+      ],
+      "material": "#d6a63d",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Albardilla longitudinal",
+      "p": [
+        0,
+        10.58,
+        -6.1
+      ],
+      "s": [
+        48.8,
+        0.2,
+        0.35
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Albardilla transversal",
+      "p": [
+        -24.1,
+        10.58,
+        0
+      ],
+      "s": [
+        0.35,
+        0.2,
+        12.2
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Albardilla longitudinal",
+      "p": [
+        0,
+        10.58,
+        6.1
+      ],
+      "s": [
+        48.8,
+        0.2,
+        0.35
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Albardilla transversal",
+      "p": [
+        24.1,
+        10.58,
+        0
+      ],
+      "s": [
+        0.35,
+        0.2,
+        12.2
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastrilla del ala",
+      "p": [
+        -19.75,
+        4.5,
+        6.14
+      ],
+      "s": [
+        0.2,
+        8.3,
+        0.23
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        -21.2,
+        8.22,
+        6.45
+      ],
+      "s": [
+        2.25,
+        0.18,
+        0.55
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastrilla del ala",
+      "p": [
+        -16.55,
+        4.5,
+        6.14
+      ],
+      "s": [
+        0.2,
+        8.3,
+        0.23
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        -18,
+        8.22,
+        6.45
+      ],
+      "s": [
+        2.25,
+        0.18,
+        0.55
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastrilla del ala",
+      "p": [
+        -13.350000000000001,
+        4.5,
+        6.14
+      ],
+      "s": [
+        0.2,
+        8.3,
+        0.23
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        -14.8,
+        8.22,
+        6.45
+      ],
+      "s": [
+        2.25,
+        0.18,
+        0.55
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastrilla del ala",
+      "p": [
+        -10.15,
+        4.5,
+        6.14
+      ],
+      "s": [
+        0.2,
+        8.3,
+        0.23
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        -11.6,
+        8.22,
+        6.45
+      ],
+      "s": [
+        2.25,
+        0.18,
+        0.55
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastrilla del ala",
+      "p": [
+        13.049999999999999,
+        4.5,
+        6.14
+      ],
+      "s": [
+        0.2,
+        8.3,
+        0.23
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        11.6,
+        8.22,
+        6.45
+      ],
+      "s": [
+        2.25,
+        0.18,
+        0.55
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastrilla del ala",
+      "p": [
+        16.25,
+        4.5,
+        6.14
+      ],
+      "s": [
+        0.2,
+        8.3,
+        0.23
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        14.8,
+        8.22,
+        6.45
+      ],
+      "s": [
+        2.25,
+        0.18,
+        0.55
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastrilla del ala",
+      "p": [
+        19.45,
+        4.5,
+        6.14
+      ],
+      "s": [
+        0.2,
+        8.3,
+        0.23
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        18,
+        8.22,
+        6.45
+      ],
+      "s": [
+        2.25,
+        0.18,
+        0.55
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastrilla del ala",
+      "p": [
+        22.65,
+        4.5,
+        6.14
+      ],
+      "s": [
+        0.2,
+        8.3,
+        0.23
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        21.2,
+        8.22,
+        6.45
+      ],
+      "s": [
+        2.25,
+        0.18,
+        0.55
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Imposta continua de entrepiso",
+      "p": [
+        0,
+        4.7,
+        6.25
+      ],
+      "s": [
+        48,
+        0.21,
+        0.3
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -23,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -22.32,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -21.64,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -20.96,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -20.28,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -19.6,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -18.92,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -18.240000000000002,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -17.560000000000002,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -16.880000000000003,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -16.200000000000003,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -15.520000000000003,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -14.840000000000003,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -14.160000000000004,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -13.480000000000004,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -12.800000000000004,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -12.120000000000005,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -11.440000000000005,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -10.760000000000005,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -10.080000000000005,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -9.400000000000006,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -8.720000000000006,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -8.040000000000006,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -7.3600000000000065,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -6.680000000000007,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -6.000000000000007,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -5.320000000000007,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -4.640000000000008,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -3.9600000000000075,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -3.2800000000000074,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -2.600000000000007,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -1.920000000000007,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -1.2400000000000069,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        -0.5600000000000068,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        0.11999999999999322,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        0.7999999999999933,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        1.4799999999999933,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        2.1599999999999935,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        2.8399999999999936,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        3.519999999999994,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        4.199999999999994,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        4.879999999999994,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        5.559999999999993,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        6.239999999999993,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        6.919999999999993,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        7.5999999999999925,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        8.279999999999992,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        8.959999999999992,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        9.639999999999992,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        10.319999999999991,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        10.999999999999991,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        11.67999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        12.35999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        13.03999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        13.71999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        14.39999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        15.07999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        15.75999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        16.43999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        17.11999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        17.79999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        18.47999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        19.15999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        19.83999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        20.51999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        21.19999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        21.87999999999999,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        22.559999999999988,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        23.239999999999988,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Dentículo de cornisa",
+      "p": [
+        23.919999999999987,
+        8.92,
+        6.34
+      ],
+      "s": [
+        0.26,
+        0.24,
+        0.28
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "cyl",
+      "name": "Medallón circular",
+      "p": [
+        -19.38,
+        8.45,
+        6.239999999999999
+      ],
+      "s": [
+        1,
+        0.14,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.24,
+        0.24
+      ],
+      "seg": 24,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Medallón circular",
+      "p": [
+        -16.15,
+        8.45,
+        6.239999999999999
+      ],
+      "s": [
+        1,
+        0.14,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.24,
+        0.24
+      ],
+      "seg": 24,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Medallón circular",
+      "p": [
+        -12.92,
+        8.45,
+        6.239999999999999
+      ],
+      "s": [
+        1,
+        0.14,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.24,
+        0.24
+      ],
+      "seg": 24,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Medallón circular",
+      "p": [
+        -9.69,
+        8.45,
+        6.239999999999999
+      ],
+      "s": [
+        1,
+        0.14,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.24,
+        0.24
+      ],
+      "seg": 24,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Medallón circular",
+      "p": [
+        -6.46,
+        8.45,
+        6.239999999999999
+      ],
+      "s": [
+        1,
+        0.14,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.24,
+        0.24
+      ],
+      "seg": 24,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Medallón circular",
+      "p": [
+        -3.23,
+        8.45,
+        6.239999999999999
+      ],
+      "s": [
+        1,
+        0.14,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.24,
+        0.24
+      ],
+      "seg": 24,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Medallón circular",
+      "p": [
+        0,
+        8.45,
+        6.239999999999999
+      ],
+      "s": [
+        1,
+        0.14,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.24,
+        0.24
+      ],
+      "seg": 24,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Medallón circular",
+      "p": [
+        3.23,
+        8.45,
+        6.239999999999999
+      ],
+      "s": [
+        1,
+        0.14,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.24,
+        0.24
+      ],
+      "seg": 24,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Medallón circular",
+      "p": [
+        6.46,
+        8.45,
+        6.239999999999999
+      ],
+      "s": [
+        1,
+        0.14,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.24,
+        0.24
+      ],
+      "seg": 24,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Medallón circular",
+      "p": [
+        9.69,
+        8.45,
+        6.239999999999999
+      ],
+      "s": [
+        1,
+        0.14,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.24,
+        0.24
+      ],
+      "seg": 24,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Medallón circular",
+      "p": [
+        12.92,
+        8.45,
+        6.239999999999999
+      ],
+      "s": [
+        1,
+        0.14,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.24,
+        0.24
+      ],
+      "seg": 24,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Medallón circular",
+      "p": [
+        16.15,
+        8.45,
+        6.239999999999999
+      ],
+      "s": [
+        1,
+        0.14,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.24,
+        0.24
+      ],
+      "seg": 24,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "cyl",
+      "name": "Medallón circular",
+      "p": [
+        19.38,
+        8.45,
+        6.239999999999999
+      ],
+      "s": [
+        1,
+        0.14,
+        1
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "rad": [
+        0.24,
+        0.24
+      ],
+      "seg": 24,
+      "r": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · pasamanos",
+      "p": [
+        -20,
+        6.325,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · travesaño inferior",
+      "p": [
+        -20,
+        5.7749999999999995,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -20.875,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -20.65625,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -20.4375,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -20.21875,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -20,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -19.78125,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -19.5625,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -19.34375,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -19.125,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · pasamanos",
+      "p": [
+        -16.8,
+        6.325,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · travesaño inferior",
+      "p": [
+        -16.8,
+        5.7749999999999995,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -17.675,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -17.45625,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -17.2375,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -17.01875,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -16.8,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -16.58125,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -16.3625,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -16.14375,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -15.925,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · pasamanos",
+      "p": [
+        -13.6,
+        6.325,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · travesaño inferior",
+      "p": [
+        -13.6,
+        5.7749999999999995,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -14.475,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -14.25625,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -14.0375,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -13.81875,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -13.6,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -13.38125,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -13.1625,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -12.94375,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -12.725,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · pasamanos",
+      "p": [
+        -10.399999999999999,
+        6.325,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · travesaño inferior",
+      "p": [
+        -10.399999999999999,
+        5.7749999999999995,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -11.274999999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -11.056249999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -10.837499999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -10.618749999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -10.399999999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -10.181249999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -9.962499999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -9.743749999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        -9.524999999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · pasamanos",
+      "p": [
+        10.399999999999999,
+        6.325,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · travesaño inferior",
+      "p": [
+        10.399999999999999,
+        5.7749999999999995,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        9.524999999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        9.743749999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        9.962499999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        10.181249999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        10.399999999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        10.618749999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        10.837499999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        11.056249999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        11.274999999999999,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · pasamanos",
+      "p": [
+        13.6,
+        6.325,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · travesaño inferior",
+      "p": [
+        13.6,
+        5.7749999999999995,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        12.725,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        12.94375,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        13.1625,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        13.38125,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        13.6,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        13.81875,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        14.0375,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        14.25625,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        14.475,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · pasamanos",
+      "p": [
+        16.8,
+        6.325,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · travesaño inferior",
+      "p": [
+        16.8,
+        5.7749999999999995,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        15.925,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        16.14375,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        16.3625,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        16.58125,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        16.8,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        17.01875,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        17.2375,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        17.45625,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        17.675,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · pasamanos",
+      "p": [
+        20,
+        6.325,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.065,
+        0.08
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · travesaño inferior",
+      "p": [
+        20,
+        5.7749999999999995,
+        6.84
+      ],
+      "s": [
+        1.75,
+        0.05,
+        0.06
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        19.125,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        19.34375,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        19.5625,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        19.78125,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        20,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        20.21875,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        20.4375,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        20.65625,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Balaustrilla de ventana · barrote",
+      "p": [
+        20.875,
+        6.05,
+        6.84
+      ],
+      "s": [
+        0.035,
+        0.55,
+        0.045
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}
