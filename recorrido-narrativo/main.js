@@ -8,6 +8,8 @@
 let THREE = null;
 let GLTFLoaderClass = null;
 let OrbitControlsClass = null;
+let MeshoptDecoderLib = null;     // descompresión de las copias web
+let RoomEnvironmentClass = null;  // luz ambiental suave (opcional)
 
 /* ------------------------------------------------------------
    DATOS — 13 paradas en orden cronológico
@@ -238,7 +240,10 @@ function buildTimeline() {
     b.type = "button";
     b.setAttribute("role", "tab");
     b.setAttribute("aria-label", `${i + 1}. ${s.name}, ${s.year}`);
-    b.innerHTML = `<span class="tl-year">${s.short}</span>`;
+    if (i > 0 && STOPS[i - 1].act !== s.act) b.classList.add("act-start");
+    b.innerHTML =
+      `<span class="tl-year">${s.short}</span>` +
+      `<span class="tl-tip" aria-hidden="true"><b>${s.short}</b> ${s.name}</span>`;
     b.addEventListener("click", () => go(i));
     tl.appendChild(b);
   });
@@ -288,7 +293,18 @@ function go(i, opts = {}) {
   }
 
   history.replaceState(null, "", "#parada=" + encodeURIComponent(STOPS[i].slug));
-  showModel(STOPS[i].slug);
+  showModel(STOPS[i].slug).then(() => preloadNeighbors(i));
+}
+
+/** Precarga la parada siguiente (y la anterior) cuando la actual ya está en pantalla. */
+function preloadNeighbors(i) {
+  if (!webglOK || !GLTFLoaderClass) return;
+  const idle = window.requestIdleCallback || ((fn) => setTimeout(fn, 400));
+  idle(() => {
+    for (const j of [i + 1, i - 1]) {
+      if (STOPS[j]) loadModel(STOPS[j].slug).catch(() => {});
+    }
+  });
 }
 
 const next = () => {
@@ -357,6 +373,16 @@ $("btn-restart").addEventListener("click", () => {
 $("btn-about-end").addEventListener("click", () => $("about").showModal());
 $("btn-about").addEventListener("click", () => $("about").showModal());
 
+// Enlaces #parada=<slug> abiertos con la página ya cargada (p. ej. desde otra parada).
+window.addEventListener("hashchange", () => {
+  const slug = decodeURIComponent((location.hash.match(/parada=([^&]+)/) || [])[1] || "");
+  const target = STOPS.findIndex((s) => s.slug === slug);
+  if (target < 0 || target === index) return;
+  intro.classList.add("gone");
+  ui.inert = false;
+  go(target);
+});
+
 document.addEventListener("keydown", (e) => {
   if ($("about").open) return;
   if (e.key === "ArrowRight") { next(); }
@@ -372,21 +398,22 @@ document.addEventListener("keydown", (e) => {
 
 const TARGET_SIZE = 3.2;          // dimensión máxima normalizada del modelo
 const BG = 0x10151c;
-// Versionado por contenido para que cada GLB nuevo invalide copias antiguas en caché.
+// Versionado por contenido de las copias web (models/web/). La prueba estática
+// recalcula los hashes, así que este mapa no puede quedar desfasado.
 const MODEL_VERSIONS = Object.freeze({
-  "antigua-aduana": "46d87f0e",
-  "banco-dugand": "915cb76d",
-  "bellas-artes": "1963d0e2",
-  "caja-agraria": "9f3aabab",
-  "cine-rex": "rex-20260909-v3",
-  "edificio-garcia": "35e88d83",
-  "edificio-scadta": "1d9b4b36",
-  "estacion-montoya": "47b813f9",
-  "estadio-romelio-martinez": "edd4501e",
-  "hotel-el-prado": "7552a39e",
-  "iglesia-san-nicolas": "bd823415",
-  "intendencia-fluvial": "775eba46",
-  "teatro-colon": "8eadec27",
+  "antigua-aduana": "41873ca9",
+  "banco-dugand": "980a86b4",
+  "bellas-artes": "ed8eb09f",
+  "caja-agraria": "269d58ab",
+  "cine-rex": "7582bac4",
+  "edificio-garcia": "5f287ace",
+  "edificio-scadta": "6aa38838",
+  "estacion-montoya": "567c00e6",
+  "estadio-romelio-martinez": "637353a5",
+  "hotel-el-prado": "e1081efb",
+  "iglesia-san-nicolas": "b104dca9",
+  "intendencia-fluvial": "b02729e6",
+  "teatro-colon": "33a69ad1",
 });
 
 let renderer = null;
@@ -417,7 +444,19 @@ function applyFraming() {
     const halfHFov = Math.atan(Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * camera.aspect);
     dist = Math.max(dist, (TARGET_SIZE * 0.72) / Math.tan(halfHFov));
   }
-  camGoal.dist = Math.max(4.6, Math.min(15, dist));
+  const area = camera && freeArea();
+  if (area) {
+    // escritorio: el modelo (≈ 1,2 × TARGET_SIZE de ancho aparente) cabe en la franja libre
+    const halfHFov = Math.atan(Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * camera.aspect);
+    const fraction = area.width / window.innerWidth;
+    dist = Math.max(dist, (TARGET_SIZE * 0.6) / (fraction * Math.tan(halfHFov)));
+  }
+  camGoal.dist = Math.max(4.6, Math.min(18, dist));
+  // la niebla sólo debe disolver el suelo lejano, nunca el edificio
+  if (scene && scene.fog) {
+    scene.fog.near = camGoal.dist + 4;
+    scene.fog.far = camGoal.dist + 19;
+  }
 }
 
 function resetView() {
@@ -438,7 +477,42 @@ function resetView() {
   controls.autoRotate = !REDUCED;
 }
 
-const gltfLoader = () => new GLTFLoaderClass();
+const gltfLoader = () => {
+  const loader = new GLTFLoaderClass();
+  if (MeshoptDecoderLib) loader.setMeshoptDecoder(MeshoptDecoderLib);
+  return loader;
+};
+
+/** Copia web comprimida; si falla (decodificador o red), el GLB canónico. */
+function modelUrls(slug) {
+  const version = MODEL_VERSIONS[slug];
+  const web = `./models/web/${slug}.glb${version ? `?v=${version}` : ""}`;
+  const canonical = `./models/${slug}.glb${version ? `?v=${version}` : ""}`;
+  return MeshoptDecoderLib ? [web, canonical] : [canonical];
+}
+
+/**
+ * Franja libre a la derecha del panel narrativo (sólo escritorio). El modelo se
+ * centra en ella y la cámara se aleja lo necesario para que quepa sin pisar el texto.
+ */
+function freeArea() {
+  const w = window.innerWidth;
+  if (w <= 720) return null;
+  const left = $("panel").offsetLeft + $("panel").offsetWidth + 24;
+  const arrows = document.querySelector(".arrows");
+  const right = (arrows ? arrows.getBoundingClientRect().left : w) - 16;
+  if (right - left < w * 0.3) return { center: w * 0.62, width: w * 0.3 };
+  return { center: (left + right) / 2, width: right - left };
+}
+
+/** Desplaza el centro óptico hacia la franja libre cuando el panel ocupa la izquierda. */
+function updateViewOffset() {
+  if (!camera) return;
+  const w = window.innerWidth, h = window.innerHeight;
+  const area = freeArea();
+  if (area) camera.setViewOffset(w, h, w / 2 - area.center, 0, w, h);
+  else camera.clearViewOffset();
+}
 
 function initScene() {
   const canvas = $("stage");
@@ -454,14 +528,21 @@ function initScene() {
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   renderer.setSize(window.innerWidth, window.innerHeight);
   renderer.outputColorSpace = THREE.SRGBColorSpace;
-  renderer.toneMapping = THREE.ACESFilmicToneMapping;
-  renderer.toneMappingExposure = 1.02;
+  // Neutral conserva el tono de las fachadas (ACES las lavaba hacia el beige).
+  renderer.toneMapping = THREE.NeutralToneMapping;
+  renderer.toneMappingExposure = 0.95;
   renderer.shadowMap.enabled = true;
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 
   scene = new THREE.Scene();
   scene.background = new THREE.Color(BG);
   scene.fog = new THREE.Fog(BG, 11, 26);
+  if (RoomEnvironmentClass) {
+    const pmrem = new THREE.PMREMGenerator(renderer);
+    scene.environment = pmrem.fromScene(new RoomEnvironmentClass(), 0.04).texture;
+    scene.environmentIntensity = 0.32;
+    pmrem.dispose();
+  }
 
   camera = new THREE.PerspectiveCamera(
     38,
@@ -470,6 +551,7 @@ function initScene() {
     100
   );
   camera.position.set(5.4, 3.4, 7);
+  updateViewOffset();
 
   controls = new OrbitControlsClass(camera, canvas);
   controls.enableDamping = !REDUCED;
@@ -511,6 +593,7 @@ function initScene() {
   keyLight.shadow.camera.top = 6;
   keyLight.shadow.camera.bottom = -4;
   keyLight.shadow.bias = -0.0004;
+  keyLight.shadow.normalBias = 0.025; // evita el acné de sombra en cubiertas inclinadas
   scene.add(keyLight);
 
   const rim = new THREE.DirectionalLight(0xffb27a, 1.1);
@@ -550,6 +633,7 @@ function initScene() {
 
   window.addEventListener("resize", () => {
     camera.aspect = window.innerWidth / window.innerHeight;
+    updateViewOffset();
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
     applyFraming(); // reencuadrar al girar el teléfono
@@ -615,16 +699,19 @@ function prepare(gltfScene) {
 
 function loadModel(slug) {
   if (loadPromises.has(slug)) return loadPromises.get(slug);
-  const p = new Promise((resolve, reject) => {
-    const version = MODEL_VERSIONS[slug];
-    const modelUrl = `./models/${slug}.glb${version ? `?v=${version}` : ""}`;
-    gltfLoader().load(
-      modelUrl,
-      (gltf) => resolve(prepare(gltf.scene)),
-      undefined,
-      (err) => reject(err)
-    );
-  });
+  const p = (async () => {
+    let lastError;
+    for (const url of modelUrls(slug)) {
+      try {
+        const gltf = await gltfLoader().loadAsync(url);
+        return prepare(gltf.scene);
+      } catch (err) {
+        lastError = err;
+        console.warn("Fallo al cargar", url, err);
+      }
+    }
+    throw lastError;
+  })();
   loadPromises.set(slug, p);
   p.catch(() => {
     if (loadPromises.get(slug) === p) loadPromises.delete(slug);
@@ -821,12 +908,27 @@ function animate() {
 (async function bootstrap() {
   try {
     THREE = await import("three");
-    ({ OrbitControls: OrbitControlsClass } = await import(
-      "three/addons/controls/OrbitControls.js"
-    ));
-    ({ GLTFLoader: GLTFLoaderClass } = await import(
-      "three/addons/loaders/GLTFLoader.js"
-    ));
+    const [orbit, gltf, ...optional] = await Promise.allSettled([
+      import("three/addons/controls/OrbitControls.js"),
+      import("three/addons/loaders/GLTFLoader.js"),
+      import("three/addons/libs/meshopt_decoder.module.js"),
+      import("three/addons/environments/RoomEnvironment.js"),
+    ]);
+    if (orbit.status === "rejected") throw orbit.reason;
+    if (gltf.status === "rejected") throw gltf.reason;
+    OrbitControlsClass = orbit.value.OrbitControls;
+    GLTFLoaderClass = gltf.value.GLTFLoader;
+    // Opcionales: sin ellos se usan los GLB canónicos y la luz directa.
+    const [meshopt, room] = optional;
+    if (meshopt.status === "fulfilled") {
+      try {
+        await meshopt.value.MeshoptDecoder.ready;
+        MeshoptDecoderLib = meshopt.value.MeshoptDecoder;
+      } catch (err) {
+        console.warn("Decodificador meshopt no disponible:", err);
+      }
+    }
+    if (room.status === "fulfilled") RoomEnvironmentClass = room.value.RoomEnvironment;
     initScene();
   } catch (err) {
     webglOK = false;

@@ -6,7 +6,7 @@
     {
       "type": "box",
       "name": "Cuerpo largo de dos plantas",
-      "material": "#d6a63d",
+      "material": "#e6b52c",
       "role": "building",
       "evidence": "documented",
       "p": [
@@ -290,7 +290,7 @@
     {
       "type": "box",
       "name": "Pórtico central",
-      "material": "#d6a63d",
+      "material": "#e6b52c",
       "role": "building",
       "evidence": "documented",
       "p": [
@@ -501,7 +501,7 @@
     {
       "type": "box",
       "name": "Pabellón de esquina",
-      "material": "#d6a63d",
+      "material": "#e6b52c",
       "role": "building",
       "evidence": "documented",
       "p": [
@@ -5184,7 +5184,7 @@
         1.05,
         0.18
       ],
-      "material": "#d6a63d",
+      "material": "#e6b52c",
       "role": "building",
       "evidence": "inferred"
     },
@@ -5201,7 +5201,7 @@
         1.05,
         12.2
       ],
-      "material": "#d6a63d",
+      "material": "#e6b52c",
       "role": "building",
       "evidence": "inferred"
     },
@@ -5218,7 +5218,7 @@
         1.05,
         0.18
       ],
-      "material": "#d6a63d",
+      "material": "#e6b52c",
       "role": "building",
       "evidence": "inferred"
     },
@@ -5235,7 +5235,7 @@
         1.05,
         12.2
       ],
-      "material": "#d6a63d",
+      "material": "#e6b52c",
       "role": "building",
       "evidence": "inferred"
     },
@@ -5311,31 +5311,14 @@
       "type": "box",
       "name": "Pilastrilla del ala",
       "p": [
-        -19.75,
+        -21.6,
         4.5,
         6.14
       ],
       "s": [
-        0.2,
+        0.24,
         8.3,
         0.23
-      ],
-      "material": "#eee7d6",
-      "role": "building",
-      "evidence": "inferred"
-    },
-    {
-      "type": "box",
-      "name": "Guardapolvo de ventana",
-      "p": [
-        -21.2,
-        8.22,
-        6.45
-      ],
-      "s": [
-        2.25,
-        0.18,
-        0.55
       ],
       "material": "#eee7d6",
       "role": "building",
@@ -5345,31 +5328,14 @@
       "type": "box",
       "name": "Pilastrilla del ala",
       "p": [
-        -16.55,
+        -18.4,
         4.5,
         6.14
       ],
       "s": [
-        0.2,
+        0.24,
         8.3,
         0.23
-      ],
-      "material": "#eee7d6",
-      "role": "building",
-      "evidence": "inferred"
-    },
-    {
-      "type": "box",
-      "name": "Guardapolvo de ventana",
-      "p": [
-        -18,
-        8.22,
-        6.45
-      ],
-      "s": [
-        2.25,
-        0.18,
-        0.55
       ],
       "material": "#eee7d6",
       "role": "building",
@@ -5379,31 +5345,14 @@
       "type": "box",
       "name": "Pilastrilla del ala",
       "p": [
-        -13.350000000000001,
+        -15.2,
         4.5,
         6.14
       ],
       "s": [
-        0.2,
+        0.24,
         8.3,
         0.23
-      ],
-      "material": "#eee7d6",
-      "role": "building",
-      "evidence": "inferred"
-    },
-    {
-      "type": "box",
-      "name": "Guardapolvo de ventana",
-      "p": [
-        -14.8,
-        8.22,
-        6.45
-      ],
-      "s": [
-        2.25,
-        0.18,
-        0.55
       ],
       "material": "#eee7d6",
       "role": "building",
@@ -5413,31 +5362,14 @@
       "type": "box",
       "name": "Pilastrilla del ala",
       "p": [
-        -10.15,
+        -12,
         4.5,
         6.14
       ],
       "s": [
-        0.2,
+        0.24,
         8.3,
         0.23
-      ],
-      "material": "#eee7d6",
-      "role": "building",
-      "evidence": "inferred"
-    },
-    {
-      "type": "box",
-      "name": "Guardapolvo de ventana",
-      "p": [
-        -11.6,
-        8.22,
-        6.45
-      ],
-      "s": [
-        2.25,
-        0.18,
-        0.55
       ],
       "material": "#eee7d6",
       "role": "building",
@@ -5447,31 +5379,14 @@
       "type": "box",
       "name": "Pilastrilla del ala",
       "p": [
-        13.049999999999999,
+        -8.8,
         4.5,
         6.14
       ],
       "s": [
-        0.2,
+        0.24,
         8.3,
         0.23
-      ],
-      "material": "#eee7d6",
-      "role": "building",
-      "evidence": "inferred"
-    },
-    {
-      "type": "box",
-      "name": "Guardapolvo de ventana",
-      "p": [
-        11.6,
-        8.22,
-        6.45
-      ],
-      "s": [
-        2.25,
-        0.18,
-        0.55
       ],
       "material": "#eee7d6",
       "role": "building",
@@ -5481,31 +5396,14 @@
       "type": "box",
       "name": "Pilastrilla del ala",
       "p": [
-        16.25,
+        8.8,
         4.5,
         6.14
       ],
       "s": [
-        0.2,
+        0.24,
         8.3,
         0.23
-      ],
-      "material": "#eee7d6",
-      "role": "building",
-      "evidence": "inferred"
-    },
-    {
-      "type": "box",
-      "name": "Guardapolvo de ventana",
-      "p": [
-        14.8,
-        8.22,
-        6.45
-      ],
-      "s": [
-        2.25,
-        0.18,
-        0.55
       ],
       "material": "#eee7d6",
       "role": "building",
@@ -5515,31 +5413,14 @@
       "type": "box",
       "name": "Pilastrilla del ala",
       "p": [
-        19.45,
+        12,
         4.5,
         6.14
       ],
       "s": [
-        0.2,
+        0.24,
         8.3,
         0.23
-      ],
-      "material": "#eee7d6",
-      "role": "building",
-      "evidence": "inferred"
-    },
-    {
-      "type": "box",
-      "name": "Guardapolvo de ventana",
-      "p": [
-        18,
-        8.22,
-        6.45
-      ],
-      "s": [
-        2.25,
-        0.18,
-        0.55
       ],
       "material": "#eee7d6",
       "role": "building",
@@ -5549,12 +5430,29 @@
       "type": "box",
       "name": "Pilastrilla del ala",
       "p": [
-        22.65,
+        15.2,
         4.5,
         6.14
       ],
       "s": [
-        0.2,
+        0.24,
+        8.3,
+        0.23
+      ],
+      "material": "#eee7d6",
+      "role": "building",
+      "evidence": "inferred"
+    },
+    {
+      "type": "box",
+      "name": "Pilastrilla del ala",
+      "p": [
+        18.4,
+        4.5,
+        6.14
+      ],
+      "s": [
+        0.24,
         8.3,
         0.23
       ],
@@ -5566,18 +5464,529 @@
       "type": "box",
       "name": "Guardapolvo de ventana",
       "p": [
-        21.2,
-        8.22,
-        6.45
+        -20,
+        8.15,
+        6.55
       ],
       "s": [
-        2.25,
-        0.18,
-        0.55
+        2.2,
+        0.08,
+        0.95
       ],
-      "material": "#eee7d6",
+      "material": "#3a2e27",
       "role": "building",
-      "evidence": "inferred"
+      "evidence": "inferred",
+      "r": [
+        0.38,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        -20.95,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        -19.05,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        -16.8,
+        8.15,
+        6.55
+      ],
+      "s": [
+        2.2,
+        0.08,
+        0.95
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.38,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        -17.75,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        -15.850000000000001,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        -13.6,
+        8.15,
+        6.55
+      ],
+      "s": [
+        2.2,
+        0.08,
+        0.95
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.38,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        -14.549999999999999,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        -12.65,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        -10.4,
+        8.15,
+        6.55
+      ],
+      "s": [
+        2.2,
+        0.08,
+        0.95
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.38,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        -11.35,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        -9.450000000000001,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        10.4,
+        8.15,
+        6.55
+      ],
+      "s": [
+        2.2,
+        0.08,
+        0.95
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.38,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        9.450000000000001,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        11.35,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        13.6,
+        8.15,
+        6.55
+      ],
+      "s": [
+        2.2,
+        0.08,
+        0.95
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.38,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        12.65,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        14.549999999999999,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        16.8,
+        8.15,
+        6.55
+      ],
+      "s": [
+        2.2,
+        0.08,
+        0.95
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.38,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        15.850000000000001,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        17.75,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Guardapolvo de ventana",
+      "p": [
+        20,
+        8.15,
+        6.55
+      ],
+      "s": [
+        2.2,
+        0.08,
+        0.95
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.38,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        19.05,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "box",
+      "name": "Tornapuntas del guardapolvo",
+      "p": [
+        20.95,
+        7.82,
+        6.5
+      ],
+      "s": [
+        0.05,
+        0.6,
+        0.05
+      ],
+      "material": "#3a2e27",
+      "role": "building",
+      "evidence": "inferred",
+      "r": [
+        0.6,
+        0,
+        0
+      ]
     },
     {
       "type": "box",

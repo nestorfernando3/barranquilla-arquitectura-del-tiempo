@@ -3,6 +3,29 @@
    Diseño: noche caribeña, tipografía serif editorial, UI mínima
    ============================================================ */
 
+/* Fuentes alojadas con el sitio (OFL; licencias en vendor/fonts/). */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("./vendor/fonts/fraunces-latin-opsz-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Fraunces";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("./vendor/fonts/fraunces-latin-opsz-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("./vendor/fonts/space-grotesk-latin-wght-normal.woff2") format("woff2");
+}
+
 :root {
   --bg: #0e1319;
   --ink: #ece4d4;
@@ -295,8 +318,43 @@ button { font-family: inherit; color: inherit; cursor: pointer; }
   opacity: 0;
   transition: opacity .3s;
 }
-.tl-dot:hover .tl-year,
 .tl-dot.active .tl-year { opacity: 1; }
+
+/* Nombre del edificio al pasar o enfocar un punto */
+.tl-dot .tl-tip {
+  position: absolute;
+  bottom: calc(100% + 0.45rem);
+  left: 50%;
+  transform: translate(-50%, 4px);
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: rgba(14, 19, 25, 0.94);
+  font-family: var(--serif);
+  font-size: 0.82rem;
+  color: var(--ink);
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s, transform .2s;
+  z-index: 2;
+}
+.tl-dot .tl-tip b { font-family: var(--sans); font-weight: 500; font-size: 0.66rem; letter-spacing: 0.1em; color: var(--accent); margin-right: 0.3rem; }
+.tl-dot:hover .tl-tip,
+.tl-dot:focus-visible .tl-tip { opacity: 1; transform: translate(-50%, 0); }
+.tl-dot:hover .tl-year,
+.tl-dot:focus-visible .tl-year { opacity: 0; }
+.tl-dot:first-child .tl-tip { left: 0; transform: translate(0, 4px); }
+.tl-dot:first-child:hover .tl-tip, .tl-dot:first-child:focus-visible .tl-tip { transform: none; }
+.tl-dot:last-child .tl-tip { left: auto; right: 0; transform: translate(0, 4px); }
+.tl-dot:last-child:hover .tl-tip, .tl-dot:last-child:focus-visible .tl-tip { transform: none; }
+.tl-dot:focus-visible { outline: none; }
+.tl-dot:focus-visible::before { box-shadow: 0 0 0 3px rgba(217, 164, 65, 0.55); }
+
+/* Cambio de acto: una marca vertical en la línea */
+.tl-dot.act-start {
+  background: linear-gradient(var(--ink-faint), var(--ink-faint)) left 50% / 1px 11px no-repeat;
+}
 
 .tl-dot.active::before {
   background: var(--accent);
@@ -469,7 +527,7 @@ dialog#about button.primary {
     flex-direction: row;
     right: 0;
     left: 0;
-    top: 31%;
+    top: 19%;
     bottom: auto;
     transform: none;
     justify-content: space-between;
@@ -488,6 +546,10 @@ dialog#about button.primary {
     flex-wrap: wrap;
   }
   .mobile-mode-btn { display: inline-block; }
+  .tl-dot .tl-tip { display: none; }
+  /* En modo relato el modelo queda de fondo: el texto manda. */
+  #stage { transition: opacity .45s ease; }
+  body[data-mobile-mode="story"] #stage { opacity: 0.3; }
   .hint { display: none; }
   .brand-text em { display: none; }
 

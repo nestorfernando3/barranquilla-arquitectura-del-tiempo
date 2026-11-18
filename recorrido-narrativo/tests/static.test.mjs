@@ -165,3 +165,73 @@ test("resetView flushes OrbitControls before restoring deterministic behavior", 
   assert.ok(secondUpdate < restoreDamping && secondUpdate < restoreAuto);
   assert.equal(source.indexOf("controls.update();", secondUpdate + 1), -1);
 });
+
+/* ---------- Entrega web: modelos comprimidos, dependencias locales ---------- */
+
+import { createHash } from "node:crypto";
+import { existsSync, readdirSync } from "node:fs";
+
+const stopSlugs = [...js.matchAll(/^\s{4}slug:\s*"([^"]+)"/gm)].map((m) => m[1]);
+const versionsBody = objectBodyAfter("const MODEL_VERSIONS = Object.freeze(", js);
+
+test("every stop has a canonical and a web model", () => {
+  assert.equal(stopSlugs.length, 13);
+  for (const slug of stopSlugs) {
+    assert.ok(existsSync(new URL(`../models/${slug}.glb`, import.meta.url)), `models/${slug}.glb`);
+    assert.ok(existsSync(new URL(`../models/web/${slug}.glb`, import.meta.url)), `models/web/${slug}.glb`);
+  }
+});
+
+test("MODEL_VERSIONS matches the content hash of each web model", () => {
+  const webFiles = readdirSync(new URL("../models/web/", import.meta.url)).filter((f) => f.endsWith(".glb"));
+  assert.equal(webFiles.length, stopSlugs.length);
+  for (const file of webFiles) {
+    const slug = file.replace(/\.glb$/, "");
+    const hash = createHash("sha256")
+      .update(readFileSync(new URL(`../models/web/${file}`, import.meta.url)))
+      .digest("hex")
+      .slice(0, 8);
+    assert.match(versionsBody, new RegExp(`"${slug}":\\s*"${hash}"`), `${slug} debe versionarse como ${hash}`);
+  }
+});
+
+test("model loading prefers the web copy and falls back to the canonical GLB", () => {
+  const source = functionSource("modelUrls");
+  assert.match(source, /`\.\/models\/web\/\$\{slug\}\.glb/);
+  assert.match(source, /`\.\/models\/\$\{slug\}\.glb/);
+  assert.match(source, /MeshoptDecoderLib \? \[web, canonical\] : \[canonical\]/);
+});
+
+test("the page loads no third-party scripts, styles or fonts", () => {
+  for (const page of ["index.html", "modelos.html", "edificio-garcia.html"]) {
+    const source = readFileSync(new URL(`../${page}`, import.meta.url), "utf8");
+    assert.doesNotMatch(source, /<(script|link)\b[^>]*(src|href)="https?:\/\//, page);
+    assert.doesNotMatch(source, /"three[^"]*":\s*"https?:/, page);
+  }
+  assert.doesNotMatch(css, /url\(["']?https?:/);
+  for (const file of [
+    "vendor/three/build/three.module.min.js",
+    "vendor/three/examples/jsm/loaders/GLTFLoader.js",
+    "vendor/three/examples/jsm/libs/meshopt_decoder.module.js",
+    "vendor/fonts/fraunces-latin-opsz-normal.woff2",
+  ]) {
+    assert.ok(existsSync(new URL(`../${file}`, import.meta.url)), file);
+  }
+});
+
+test("share card is declared and shipped", () => {
+  assert.match(html, /<meta property="og:image" content="https:\/\/[^"]+\/og\.jpg">/);
+  assert.match(html, /<meta name="twitter:card" content="summary_large_image">/);
+  assert.ok(existsSync(new URL("../og.jpg", import.meta.url)));
+});
+
+test("timeline names each stop on hover/focus and marks act changes", () => {
+  const source = functionSource("buildTimeline");
+  assert.match(source, /tl-tip/);
+  assert.match(source, /act-start/);
+  assert.match(css, /\.tl-dot:focus-visible \.tl-tip/);
+});
+
+test("mobile story mode keeps the model as a dimmed background", () => {
+  assert.match(css, /body\[data-mobile-mode="story"\] #stage\s*\{\s*opacity:\s*0\.\d+;/);
+});

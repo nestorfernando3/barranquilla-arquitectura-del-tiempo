@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Revisión de modelos</title>
+<style>
+  body{margin:0;background:#e9e6de;color:#203440;font:13px system-ui}
+  #grid{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:4px}
+  .cell{position:relative;background:#f4f2ec;height:340px}
+  .cell span{position:absolute;left:8px;top:6px;font-weight:600}
+  #photos{display:flex;gap:4px;padding:0 4px 4px;overflow-x:auto}
+  #photos img{height:300px}
+  #info{padding:6px 8px;font-family:ui-monospace,monospace;white-space:pre-wrap}
+  canvas{position:fixed;inset:0;width:100%;height:100%;pointer-events:none}
+</style>
+</head>
+<body>
+<div id="info">Cargando…</div>
+<div id="grid"></div>
+<div id="photos"></div>
+<canvas id="c"></canvas>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+const q = new URLSearchParams(location.search);
+const slug = q.get('modelo') || 'estacion-montoya';
+const src = q.get('src') || `../../recorrido-narrativo/models/${slug}.glb`;
+const views = [['Frente (+z)', 90, 8], ['Isométrica', 35, 24], ['Lateral', 0, 10], ['Posterior iso', 215, 26]];
+if (q.get('views') === 'top') views.splice(0, 4, ['Planta', 90, 89], ['Iso', 35, 24], ['Frente', 90, 8], ['Iso opuesta', 145, 24]);
+if (q.get('v') === '2') { views.splice(2); document.styleSheets[0].insertRule('.cell{height:540px}'); }
+const grid = document.getElementById('grid');
+const cells = views.map(([n]) => { const d = document.createElement('div'); d.className = 'cell'; d.innerHTML = `<span>${n}</span>`; grid.append(d); return d; });
+fetch(`../../assets/reference-images/${slug}/credits.json`).then(r => r.json()).then(c => {
+  for (const f of c.files) { const i = new Image(); i.src = `../../assets/reference-images/${slug}/${f.file}`; i.title = f.file; document.getElementById('photos').append(i); }
+}).catch(() => {});
+const renderer = new THREE.WebGLRenderer({canvas: document.getElementById('c'), antialias: true, alpha: true});
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = q.get('tm') === 'aces' ? THREE.ACESFilmicToneMapping : THREE.NeutralToneMapping;
+renderer.setScissorTest(true);
+const scene = new THREE.Scene();
+scene.add(new THREE.HemisphereLight(0xdfe8ef, 0x5a5046, 1.4));
+const key = new THREE.DirectionalLight(0xfff0da, 2.4); key.position.set(5, 9, 6); scene.add(key);
+const fill = new THREE.DirectionalLight(0x9fb4c8, .7); fill.position.set(-6, 3, -4); scene.add(fill);
+const gltf = await new GLTFLoader().loadAsync(src);
+const obj = gltf.scene; scene.add(obj);
+// Diagnóstico: triángulos cuya normal geométrica contradice la normal almacenada.
+let tris = 0, flipped = 0, degenerate = 0, meshes = 0; const mats = new Set(); const bad = [];
+const a = new THREE.Vector3(), b = new THREE.Vector3(), c = new THREE.Vector3(), n = new THREE.Vector3(), sn = new THREE.Vector3();
+obj.updateMatrixWorld(true);
+obj.traverse(o => {
+  if (!o.isMesh) return; meshes++; mats.add(o.material.color.getHexString());
+  const g = o.geometry, pos = g.attributes.position, nor = g.attributes.normal, idx = g.index;
+  const count = idx ? idx.count : pos.count; let localFlip = 0;
+  for (let i = 0; i < count; i += 3) {
+    const i0 = idx ? idx.getX(i) : i, i1 = idx ? idx.getX(i + 1) : i + 1, i2 = idx ? idx.getX(i + 2) : i + 2;
+    a.fromBufferAttribute(pos, i0); b.fromBufferAttribute(pos, i1); c.fromBufferAttribute(pos, i2);
+    n.subVectors(c, b).cross(a.clone().sub(b)); const area = n.length(); tris++;
+    if (area < 1e-9) { degenerate++; continue; }
+    n.normalize(); sn.fromBufferAttribute(nor, i0).add(new THREE.Vector3().fromBufferAttribute(nor, i1)).add(new THREE.Vector3().fromBufferAttribute(nor, i2)).normalize();
+    if (n.dot(sn) < -0.2) { flipped++; localFlip++; }
+  }
+  if (localFlip) bad.push(`${o.name}: ${localFlip}`);
+  if (q.get('debug') === 'flip' && localFlip) o.material = new THREE.MeshBasicMaterial({color: 0xff00ff});
+});
+const box = new THREE.Box3().setFromObject(obj), size = box.getSize(new THREE.Vector3()), ctr = box.getCenter(new THREE.Vector3());
+document.getElementById('info').textContent = `${slug} · mallas ${meshes} · triángulos ${tris} · colores ${mats.size} · degenerados ${degenerate} · normales invertidas ${flipped}\n` +
+  `tamaño ${size.toArray().map(v => v.toFixed(1)).join(' × ')} m` + (bad.length ? `\ninvertidas en: ${bad.slice(0, 12).join(' · ')}` : '');
+const R = Math.max(size.x, size.y, size.z);
+const cams = views.map(([, az, el]) => {
+  const cam = new THREE.PerspectiveCamera(30, 1, .1, 1000);
+  const azr = THREE.MathUtils.degToRad(az), elr = THREE.MathUtils.degToRad(el), d = R * 2.1;
+  cam.position.set(ctr.x + d * Math.cos(elr) * Math.cos(azr), ctr.y + d * Math.sin(elr), ctr.z + d * Math.cos(elr) * Math.sin(azr));
+  cam.lookAt(ctr); return cam;
+});
+function draw() {
+  renderer.setSize(innerWidth, innerHeight, false);
+  cells.forEach((cell, i) => {
+    const r = cell.getBoundingClientRect(); if (r.bottom < 0 || r.top > innerHeight) return;
+    const y = innerHeight - r.bottom; renderer.setViewport(r.left, y, r.width, r.height); renderer.setScissor(r.left, y, r.width, r.height);
+    cams[i].aspect = r.width / r.height; cams[i].updateProjectionMatrix(); renderer.render(scene, cams[i]);
+  });
+  requestAnimationFrame(draw);
+}
+draw();
+window.__review = {meshes, tris, flipped, degenerate, colors: mats.size, bad};
+</script>
+</body>
+</html>

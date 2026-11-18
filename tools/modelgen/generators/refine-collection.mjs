@@ -1,4 +1,5 @@
 import {teatroRex} from './teatro-rex.mjs';
+import {estacionMontoya} from './estacion-montoya.mjs';
 /** Idempotent refinements; baseline scenes are immutable inputs. */
 import {readFileSync,writeFileSync,readdirSync} from 'node:fs';
 const base=new URL('../baselines/2026-09-09/',import.meta.url),out=new URL('../scenes/',import.meta.url);
@@ -21,6 +22,11 @@ function gridCells(q,fn){const [w,h,d]=q.cell,[nx,ny]=q.count,[gx,gy]=q.gap??[0,
 function edging(q){const [x,y,z]=q.p,[w,h,d]=q.s;for(let side of [-1,1]){box(q.name+' · perfil frontal',[x,y+h/2+.045,z+side*d/2],[w+.08,.09,.1],cream);box(q.name+' · perfil lateral',[x+side*w/2,y+h/2+.045,z],[.1,.09,d],cream);}}
 function openParapet(q){const [x,y,z]=q.p,[w,h,d]=q.s;q.s=[w,.12,d];q.p[1]=y-h/2+.06;q.material='#a79f8e';for(let side of [-1,1]){box('Muro de '+q.name,[x,y,z+side*(d/2-.09)],[w,h,.18],q._oldMaterial??cream);box('Muro de '+q.name,[x+side*(w/2-.09),y,z],[.18,h,d],q._oldMaterial??cream);}}
 function arches(n,x,y,z,count,step,w,h,a=0){for(let i=0;i<count;i++){let u=(i-(count-1)/2)*step;add('arch',n,[x+u*Math.cos(a),y,z-u*Math.sin(a)],[w,h,.1],glass,{r:[0,a,0],arch:'round',seg:24});const f=face(n,x+u*Math.cos(a),y,z-u*Math.sin(a),w,h,a);f('montante',0,-h*.12,.08,.06,h*.68,.06);f('división',0,-h*.05,.08,w,.06,.06);}}
+function tileHipRoof(q){const [x,y,z]=q.p,[w,h,d]=q.s,az=q.axis==='z';const len=(az?d:w)*(q.ridge??0),cross=az?w:d;
+ box('Cumbrera de '+q.name,[x,y+h/2+.055,z],az?[.18,.13,len]:[len,.13,.18],'#984d3a');
+ // Terracotta courses follow the long slopes of each hipped roof.
+ for(let k=1;k<=9;k++){const t=k/10,span=(az?d:w)*(1-t)+len*t;for(const sign of [-1,1]){const off=sign*cross/2*(1-t);box('Hilada de teja',[x+(az?off:0),y-h/2+h*t+.035,z+(az?0:off)],az?[.075,.055,span]:[span,.055,.075],k%2?'#b66449':'#a25640');}}
+}
 const report=[];
 for(const file of readdirSync(base).filter(x=>x.endsWith('.json')).sort()){
  scene=JSON.parse(readFileSync(new URL(file,base),'utf8'));parts=scene.parts;const originalCount=parts.length;
@@ -34,26 +40,20 @@ for(const file of readdirSync(base).filter(x=>x.endsWith('.json')).sort()){
    if(/persianas/.test(n))gridCells(q,(x,y,z,w,h,a)=>{const f=face(q.name,x,y,z,w,h,a,metal);for(let v=-h/2+.12;v<h/2;v+=.16)f('lama horizontal',0,v,.025,w,.026,.035);});
    if(/balcon/.test(n))gridCells(q,(x,y,z,w,h,a)=>rail('Baranda de '+q.name,x,y+h/2+.38,z+.17,w,a));
   }
-  if(q.type==='hipRoof'&&q.s[1]>1){const [x,y,z]=q.p,[w,h,d]=q.s,az=q.axis==='z';const len=(az?d:w)*(q.ridge??0),cross=az?w:d;
-   box('Cumbrera de '+q.name,[x,y+h/2+.055,z],az?[.18,.13,len]:[len,.13,.18],'#984d3a');
-   // Terracotta courses follow the long slopes of each hipped roof.
-   for(let k=1;k<=9;k++){const t=k/10,span=(az?d:w)*(1-t)+len*t;for(const sign of [-1,1]){const off=sign*cross/2*(1-t);box('Hilada de teja',[x+(az?off:0),y-h/2+h*t+.035,z+(az?0:off)],az?[.075,.055,span]:[span,.055,.075],k%2?'#b66449':'#a25640');}}
-  }
+  if(q.type==='hipRoof'&&q.s[1]>1)tileHipRoof(q);
  }
  switch(scene.slug){
- case 'estacion-montoya':{
-  parts=parts.filter(q=>q.name!=='Hastial principal');scene.parts=parts;
-  for(const x of [-6.85,3.7])for(let y=.35;y<7.5;y+=.48)box('Sillar de esquina',[x,y,4.13],[.5,.28,.24],'#e6d6b0');
-  box('Faja de entrepiso',[0,3.92,4.06],[14,.15,.2],'#d8c49e');
-  for(let y=.24;y<7.6;y+=.28)box('Junta horizontal de ladrillo',[0,y,4.014],[14,.012,.012],'#a77f62');
-  for(let k=0;k<3;k++){let a=k*Math.PI/4;for(const y of [2.1,5.7])frame('Carpintería del mirador',5.8+2.07*Math.sin(a),y,3.05+2.07*Math.cos(a),1.05,2.18,a,'#72ad95',true);}
-  rail('Baranda de azotea',0,9.55,-.1,4.5,0,metal,.38);
-  for(const x of [-5.2,-1.55,1.8]){rail('Retorno de balcón',x-1.15,5.6,4.62,.72,Math.PI/2);rail('Retorno de balcón',x+1.15,5.6,4.62,.72,Math.PI/2);}
-  break;}
+ case 'estacion-montoya':{parts=estacionMontoya();break;}
  case 'antigua-aduana':{
   const parapet=parts.find(q=>q.name==='Parapeto continuo');parapet._oldMaterial=parapet.material;openParapet(parapet);delete parapet._oldMaterial;
   const top=parts.find(q=>q.name==='Remate claro del parapeto');parts.splice(parts.indexOf(top),1);for(const sign of [-1,1]){box('Albardilla longitudinal',[0,10.58,sign*6.1],[48.8,.2,.35]);box('Albardilla transversal',[sign*24.1,10.58,0],[.35,.2,12.2]);}
-  for(const x of [-21.2,-18,-14.8,-11.6,11.6,14.8,18,21.2]){box('Pilastrilla del ala',[x+1.45,4.5,6.14],[.2,8.3,.23]);box('Guardapolvo de ventana',[x,8.22,6.45],[2.25,.18,.55]);}
+  // Window axes come from the baseline grids: x = ±15.2 + (i-1.5)·3.2.
+  const axes=[-20,-16.8,-13.6,-10.4,10.4,13.6,16.8,20];
+  // Photos 1-4: saturated ochre-yellow walls with white trim.
+  for(const q of parts)if(q.material==='#d6a63d')q.material='#e6b52c';
+  for(const x of [-21.6,-18.4,-15.2,-12,-8.8,8.8,12,15.2,18.4])box('Pilastrilla del ala',[x,4.5,6.14],[.24,8.3,.23]);
+  // Dark sloping hoods over every upper window (photos 1-4).
+  for(const x of axes){box('Guardapolvo de ventana',[x,8.15,6.55],[2.2,.08,.95],'#3a2e27',[.38,0,0]);for(const dx of [-.95,.95])box('Tornapuntas del guardapolvo',[x+dx,7.82,6.5],[.05,.6,.05],'#3a2e27',[.6,0,0]);}
   box('Imposta continua de entrepiso',[0,4.7,6.25],[48,.21,.3]);
   for(let x=-23;x<24;x+=.68)box('Dentículo de cornisa',[x,8.92,6.34],[.26,.24,.28]);
   const med=parts.find(q=>q.name.includes('Medallones'));parts.splice(parts.indexOf(med),1);gridCells(med,(x,y,z)=>add('cyl','Medallón circular',[x,y,z],[1,.14,1],cream,{rad:[.24,.24],seg:24,r:[Math.PI/2,0,0]}));
@@ -72,6 +72,7 @@ for(const file of readdirSync(base).filter(x=>x.endsWith('.json')).sort()){
  case 'intendencia-fluvial':{
   const q=parts.find(q=>q.name==='Parapeto continuo bajo');q._oldMaterial=q.material;openParapet(q);delete q._oldMaterial;
   const top=parts.find(q=>q.name==='Remate blanco del parapeto continuo');parts.splice(parts.indexOf(top),1);for(const sign of [-1,1]){box('Albardilla longitudinal',[0,10.07,sign*6.6],[20.7,.16,.3]);box('Albardilla transversal',[sign*10.1,10.07,0],[.3,.16,13.2]);}
+  const roof=parts.find(q=>q.name==='Cubierta oculta a cuatro aguas');roof.name='Cubierta de teja a cuatro aguas';roof.p=[0,10.25,-.1];roof.s=[18.6,2.5,11.6];roof.ridge=.5;roof.material='#a24a3a';tileHipRoof(roof);
   rail('Balaustrada del pórtico',0,5.73,7.57,4.5,0,cream,.77);for(const x of [-2.22,2.22])rail('Retorno balaustrada',x,5.73,6.96,1.2,Math.PI/2,cream,.77);
   rail('Balaustrada del costado',10.66,6.15,2.8,3,Math.PI/2,cream,.7);
   box('Cinturón blanco de entrepiso',[0,4.6,6.6],[20.3,.2,.28]);box('Cinturón lateral de entrepiso',[10.1,4.6,0],[.28,.2,13]);
@@ -138,6 +139,16 @@ for(const file of readdirSync(base).filter(x=>x.endsWith('.json')).sort()){
   for(const x of [-5.5,5.5])for(let z=-6.3;z<2;z+=2.2){box('Contrafuerte lateral',[x,3.8,z],[.38,7.6,.48],cream);add('arch','Vano apuntado lateral',[x+(x<0?-.02:.02),4.2,z+1.02],[1.02,3.7,.14],glass,{arch:'pointed',seg:24,r:[0,x<0?-Math.PI/2:Math.PI/2,0]});}
   for(const q of parts.filter(q=>q.type==='arch'&&q.name.includes('exterior'))){const f=face(q.name,...q.p,q.s[0],q.s[1]);for(const dx of [-.38,0,.38])f('tracería vertical',dx,-.35,.12,.045,4.4,.045,cream);}
   box('Cruz del hastial',[0,12.75,2.8],[.085,1,.085],metal);box('Brazo de cruz del hastial',[0,12.95,2.8],[.55,.085,.085],metal);
+  // Photo-2: below the main cornice the towers belong to the white façade; only pilasters are salmon.
+  const salmon='#d98274',white='#f0e7d7';
+  for(const t of parts.filter(q=>/^Torre (izquierda|derecha)$/.test(q.name))){const [x,,z]=t.p;t.p=[x,4.45,z];t.s=[t.s[0],8.9,t.s[2]];t.material=white;box(t.name+' · cuerpo alto',[x,11.65,z],[t.s[0],5.5,t.s[2]],salmon);}
+  for(const q of parts.filter(q=>/Contrafuertes frontales|Pináculos de fachada/.test(q.name)))q.material=salmon;
+  // Slender lanterns: the photographed cupolines are small, not full-width domes.
+  for(const q of parts.filter(q=>/^Cupulín/.test(q.name))){q.s=[1.55,1.05,1.55];add('cyl','Tambor octogonal del cupulín',[q.p[0],q.p[1]-.35,q.p[2]],[1,.7,1],salmon,{rad:[.82,.95],seg:8});}
+  // Corner pinnacles on each tower stage (photo-2).
+  for(const x of [-4.45,4.45])for(const [dx,dz] of [[-1.38,-1.58],[1.38,-1.58],[-1.38,1.58],[1.38,1.58]]){
+   add('cyl','Pináculo de esquina de torre',[x+dx,15.0,2.8+dz],[1,1.1,1],salmon,{rad:[.015,.15],seg:8});
+   add('cyl','Pináculo de esquina de torre',[x+dx,9.65,2.8+dz],[1,1.3,1],salmon,{rad:[.015,.15],seg:8});}
   break;}
  }
  scene.parts=parts;writeFileSync(new URL(file,out),JSON.stringify(scene,null,2)+'\n');report.push({slug:scene.slug,before:originalCount,after:parts.length});

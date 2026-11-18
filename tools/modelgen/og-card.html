@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Tarjeta para compartir</title>
+<!-- Fuente de recorrido-narrativo/og.jpg. Captura a 1200×630:
+     Chrome --headless --window-size=1200,630 --screenshot (ver README de modelgen). -->
+<style>
+  @font-face { font-family: "Fraunces"; font-style: normal; font-weight: 100 900; src: url("../../recorrido-narrativo/vendor/fonts/fraunces-latin-opsz-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Fraunces"; font-style: italic; font-weight: 100 900; src: url("../../recorrido-narrativo/vendor/fonts/fraunces-latin-opsz-italic.woff2") format("woff2"); }
+  @font-face { font-family: "Space Grotesk"; font-weight: 300 700; src: url("../../recorrido-narrativo/vendor/fonts/space-grotesk-latin-wght-normal.woff2") format("woff2"); }
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; background: #10151c; color: #ece4d4; }
+  canvas { position: absolute; inset: 0; }
+  .text { position: absolute; left: 72px; top: 0; bottom: 0; width: 560px; display: flex; flex-direction: column; justify-content: center; }
+  .kicker { font: 500 15px "Space Grotesk"; letter-spacing: .24em; text-transform: uppercase; color: #d9a441; margin-bottom: 26px; }
+  h1 { font: 300 96px/1 "Fraunces"; margin: 0; }
+  h2 { font: italic 500 50px/1.1 "Fraunces"; color: #c96f43; margin: 14px 0 30px; }
+  p { font: 300 22px/1.5 "Fraunces"; color: #b3a893; margin: 0; max-width: 470px; }
+  .shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,14,19,.95) 0%, rgba(10,14,19,.7) 42%, transparent 62%); }
+</style>
+</head>
+<body>
+<canvas id="c" width="1200" height="630"></canvas>
+<div class="shade"></div>
+<div class="text">
+  <div class="kicker">Trece edificios · cuatro actos</div>
+  <h1>Barranquilla</h1>
+  <h2>Arquitectura del tiempo</h2>
+  <p>Un recorrido narrativo y 3D por la memoria arquitectónica de la ciudad.</p>
+</div>
+<script type="importmap">{"imports":{"three":"../../recorrido-narrativo/vendor/three/build/three.module.min.js","three/addons/":"../../recorrido-narrativo/vendor/three/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {MeshoptDecoder} from 'three/addons/libs/meshopt_decoder.module.js';
+import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
+const slug = new URLSearchParams(location.search).get('modelo') || 'iglesia-san-nicolas';
+const renderer = new THREE.WebGLRenderer({canvas: document.getElementById('c'), antialias: true, preserveDrawingBuffer: true});
+renderer.setSize(1200, 630, false);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.NeutralToneMapping;
+renderer.toneMappingExposure = 0.95;
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x10151c);
+const pmrem = new THREE.PMREMGenerator(renderer);
+scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+scene.environmentIntensity = 0.32;
+scene.add(new THREE.HemisphereLight(0xbfd0dd, 0x2a2320, 0.65));
+const key = new THREE.DirectionalLight(0xfff0da, 2.6); key.position.set(5, 9, 4); key.castShadow = true;
+key.shadow.mapSize.set(2048, 2048); Object.assign(key.shadow.camera, {left: -5, right: 5, top: 6, bottom: -4});
+key.shadow.normalBias = 0.025; scene.add(key);
+const rim = new THREE.DirectionalLight(0xffb27a, 1.1); rim.position.set(-6, 4, -6); scene.add(rim);
+const ground = new THREE.Mesh(new THREE.CircleGeometry(18, 64), new THREE.MeshStandardMaterial({color: 0x161d26, roughness: .96}));
+ground.rotation.x = -Math.PI / 2; ground.receiveShadow = true; scene.add(ground);
+const ring = new THREE.Mesh(new THREE.RingGeometry(2.42, 2.47, 128), new THREE.MeshBasicMaterial({color: 0x334052}));
+ring.rotation.x = -Math.PI / 2; ring.position.y = .005; scene.add(ring);
+const loader = new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);
+const gltf = await loader.loadAsync(`../../recorrido-narrativo/models/web/${slug}.glb`);
+const obj = gltf.scene;
+obj.traverse(n => { if (n.isMesh) { n.castShadow = n.receiveShadow = true; } });
+const box = new THREE.Box3().setFromObject(obj), size = box.getSize(new THREE.Vector3());
+obj.scale.setScalar(3.2 / Math.max(size.x, size.y, size.z));
+const b2 = new THREE.Box3().setFromObject(obj), c = b2.getCenter(new THREE.Vector3());
+obj.position.set(-c.x, -b2.min.y, -c.z);
+scene.add(obj);
+const camera = new THREE.PerspectiveCamera(30, 1200 / 630, .1, 100);
+camera.setViewOffset(1200, 630, -250, 0, 1200, 630);
+camera.position.set(5.2, 2.6, 7.6); camera.lookAt(0, 1.45, 0);
+renderer.render(scene, camera);
+document.body.dataset.ready = '1';
+</script>
+</body>
+</html>

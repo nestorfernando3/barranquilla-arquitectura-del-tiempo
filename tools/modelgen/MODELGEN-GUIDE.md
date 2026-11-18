@@ -37,6 +37,24 @@ dos juegos completos, byte-idénticos, y valida ambos. La fachada declarada mira
 hacia `+z`; por la convención orbital de `preview.mjs`, la vista frontal correcta
 es `--az 90`, no `--az 0`.
 
+## Generadores dedicados y copias web
+
+- `generators/refine-collection.mjs` parte de `baselines/2026-09-09/` y escribe
+  `scenes/`. Teatro Rex (`teatro-rex.mjs`) y Estación Montoya
+  (`estacion-montoya.mjs`) se generan completos desde su propio módulo; García,
+  desde `edificio-garcia.mjs`.
+- `npm run build:all` termina con `optimize-web.mjs`, que escribe
+  `recorrido-narrativo/models/web/<slug>.glb`: partes fusionadas por rol y
+  material, vértices soldados, cuantización y `EXT_meshopt_compression`. Los GLB
+  canónicos no cambian; el recorrido carga la copia web y, si falla, el canónico.
+  Tras regenerar, actualizar `MODEL_VERSIONS` en `recorrido-narrativo/main.js`
+  (la prueba estática compara cada valor con el SHA-256 de la copia web).
+- `review.html?modelo=<slug>` (servido desde la raíz del repositorio) muestra
+  frente, isométrica, lateral y posterior junto a las fotos de referencia, y
+  cuenta triángulos degenerados y normales invertidas. `&src=<ruta.glb>` revisa
+  un GLB de prueba; `&v=2` agranda dos vistas.
+- `og-card.html` compone la imagen para compartir (`recorrido-narrativo/og.jpg`).
+
 ## Convenciones
 
 - Metros, eje Y arriba y suelo en `y = 0`.
